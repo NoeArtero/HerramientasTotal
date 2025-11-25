@@ -47,11 +47,6 @@ namespace HerramientasTotal
             OcultarPaneles();
             ShowView<InicioUC>();
             BotonSeleccionado(btnInicio);
-
-
-
-            
-            
         }
 
         private Guna2GradientButton _actBtn;

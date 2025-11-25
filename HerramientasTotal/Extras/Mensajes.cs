@@ -23,10 +23,7 @@ namespace HerramientasTotal.Extras
             return MessageBox.Show(mensaje, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
         }
 
-        public void Ejemplo()
-        {
-
-        }
+       
 
     }
 }

@@ -228,7 +228,7 @@ pagos (pendientes, atrasados, cuotas, cancelado, pagado)
 
 productos (id, nombre, tipo, fechaIngreso, precio)
 
-ventas (id, listaProductos, total, fechaVenta, metodoPago)
+ventas (id, listaProductos, total, fechaVenta, metodoPago).
 
 )
 

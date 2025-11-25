@@ -201,3 +201,46 @@ INICIO ORGANIZACION DE MENÚ DESPLEGABLE
 
 
 FIN ORGANIZACION DE MENÚ DESPLEGABLE
+
+
+
+---------------------------------------------------------------------------------------------------------
+TAREAS PENDIENTES / FUTURAS IMPLEMENTACIONES
+
+NOE
+
+INVENTARIO
+CLIENTES Y CUOTAS
+PEDIDOD Y ENVIOS
+
+
+
+
+
+DAVID
+
+integrar modelos
+(
+
+personas (id, nombre, apellido, telefono, correo, contactoEmergencia, direccion)
+
+pagos (pendientes, atrasados, cuotas, cancelado, pagado)
+
+productos (id, nombre, tipo, fechaIngreso, precio)
+
+ventas (id, listaProductos, total, fechaVenta, metodoPago).
+
+)
+
+FINANZAS
+REPORTES
+
+
+
+
+
+ENTRE LOS 2
+
+PERSONAL
+NOTIFICACIONES
+CONFIGURACION

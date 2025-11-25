@@ -9,6 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HerramientasTotal.Extras;
 
 namespace HerramientasTotal.Views
 {
@@ -19,7 +20,7 @@ namespace HerramientasTotal.Views
             InitializeComponent();
 
 
-            //// Dataset de línea con valores dummy
+            //// Dataset de línea de ventas diarias
             var ds = new GunaLineDataset
             {
                 Label = "Ventas ($)",
@@ -65,6 +66,10 @@ namespace HerramientasTotal.Views
             ChartCreAlDia.Datasets.Clear();
             ChartCreAlDia.Datasets.Add(dsCat);
             ChartCreAlDia.Update();
+
         }
+
+
+       
     }
 }

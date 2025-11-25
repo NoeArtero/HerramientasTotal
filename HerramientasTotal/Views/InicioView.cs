@@ -3,6 +3,7 @@ using Guna.UI2.WinForms;
 using Guna.Charts.WinForms;
 using HerramientasTotal.Views;
 using HerramientasTotal.Views.Productos;
+using HerramientasTotal.Extras;
 
 namespace HerramientasTotal
 {
@@ -49,7 +50,7 @@ namespace HerramientasTotal
 
 
 
-
+            
             
         }
 

@@ -1,0 +1,203 @@
+﻿ZONA DE MENÚ PRINCIPAL
+
+
+Inicio
+
+Dashboard
+KPIs del día (Ventas, Total gastos, Ingreso neto, Ganancias, Stock bajo, Pagos vencidos). (Ideal para Guna.Charts más adelante).
+----------------------------------------------
+Inventario
+
+Productos
+
+Listado/Buscar
+
+Nuevo / Editar
+
+Importar/Exportar (CSV)
+
+Movimientos
+
+Entradas (tu “Ingreso de productos”: fecha, descripción, valor/costo, precio de venta)
+
+Salidas (ventas manuales, ajustes por pérdida/daño)
+
+Alertas
+
+Stock bajo (umbral por producto)
+
+Próximos a agotar
+
+Categorías (opcional, para ordenar el catálogo)
+
+Proveedores (básico: nombre, contacto)
+
+Inventario general (tu tabla: descripción, cantidad, precio individual, monto invertido, precio de venta)
+----------------------------------------------
+Ventas (POS)
+
+Punto de Venta (rápida)
+
+Carrito, descuentos, impuestos
+
+Métodos de pago (efectivo, transferencia, crédito/cuotas)
+
+Devoluciones (nota de crédito / reintegro)
+
+Facturas/Comprobantes (historial y reimpresión)
+----------------------------------------------
+Clientes & Créditos
+
+Clientes
+
+Listado / Nuevo / Editar (Nombre, Teléfono, Dirección, Email opcional)
+
+Historial de compras
+
+Créditos y cuotas
+
+Planes de pago por venta
+
+Calendario de cuotas (pendientes, pagadas, vencidas)
+
+Cobranzas (gestión de pagos atrasados y promesas de pago)
+
+Notificaciones a clientes (acceso rápido a envíos por cliente)
+----------------------------------------------
+Pedidos & Envíos
+
+Pedidos de clientes (si aceptan encargos): estados pendiente/preparación/entregado/cancelado
+
+Envíos
+
+Guías de envío (transportista, costo)
+
+Estado de entrega
+
+Órdenes de compra a proveedores (opcional)
+
+Recepciones (ingreso a inventario desde proveedor)
+----------------------------------------------
+Finanzas
+
+Ingresos
+
+Registro de cobros (vinculados a ventas o manuales)
+
+Gastos (alineado a tu hoja)
+
+Pago de guías
+
+Gastos varios
+
+Pago de 40% (si es una regla del negocio, queda como categoría)
+
+Internet
+
+Publicidad
+
+Pedidos (si esta partida se maneja como costo fijo/variable)
+
+Otros (configurable)
+
+Cierres y resultados
+
+Total gastos (por período)
+
+Ingreso & Ingreso neto
+
+Ganancias (ingreso – costo – gastos)
+
+Total (resumen)
+
+Caja (apertura/cierre diario, arqueo) (opcional pero recomendable)
+----------------------------------------------
+Reportes
+
+Ventas (por día/mes/producto/cliente/vendedor)
+
+Facturación (documentos emitidos)
+
+Ganancias y márgenes (por categoría/producto)
+
+Gastos (por categoría, tendencia)
+
+Inventario (valorizado, rotación, stock bajo)
+
+Créditos y cobranzas (cuotas vencidas, próximos vencimientos)
+
+Empleados (ventas por usuario, si aplica)
+----------------------------------------------
+Personal (futuro-proof)
+
+Empleados (datos básicos)
+
+Roles y permisos (Admin, Vendedor, Bodega, Contable)
+
+Bitácora (quién hizo qué y cuándo)
+----------------------------------------------
+Notificaciones
+
+Canales
+
+Escritorio (toast de Windows)
+
+Email (SMTP configurable)
+
+WhatsApp (requiere cuenta/ API compatible, p.ej. WhatsApp Business Platform / proveedor externo; plantillas aprobadas)
+
+Plantillas
+
+Pago pendiente / Pago vencido
+
+Gracias por su compra
+
+Pedido listo / Enviado
+
+Alerta de stock bajo (interno)
+
+Audiencias & reglas
+
+Por cliente, por segmento, por evento
+
+Frecuencia (inmediata, diaria, semanal)
+
+Historial de envíos (log y estado)
+----------------------------------------------
+Configuración
+
+Empresa (nombre, logo, IVA)
+
+Impuestos & métodos de pago
+
+Parámetros de inventario (umbral stock, redondeos)
+
+Parámetros de finanzas (categorías de gastos)
+
+Notificaciones (credenciales email/WhatsApp, horarios silencio)
+
+Respaldos (exportar BD)
+----------------------------------------------
+Ayuda
+
+Manual / Acerca de
+
+Tu lista inicial integrada
+
+Inversiones/Ingresos/Gastos/Total → Finanzas > Ingresos / Gastos / Cierres y resultados
+
+Ingreso de productos → Inventario > Movimientos > Entradas
+
+Inventario general → Inventario > Inventario general
+
+Clientes (nombre, teléfono, dirección, email) → Clientes & Créditos > Clientes
+
+---------------------------------------------------------------------------------------------------------
+FIN ZONA DE MENÚ PRINCIPAL
+
+INICIO ORGANIZACION DE MENÚ DESPLEGABLE
+
+
+
+
+FIN ORGANIZACION DE MENÚ DESPLEGABLE

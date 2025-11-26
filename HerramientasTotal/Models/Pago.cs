@@ -8,6 +8,6 @@ namespace HerramientasTotal.Models
 {
     public class Pago
     {
-        .
+        
     }
 }

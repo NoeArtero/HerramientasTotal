@@ -28,23 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
@@ -60,8 +62,8 @@
             Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
@@ -77,8 +79,8 @@
             Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.Charts.WinForms.ChartFont chartFont17 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont18 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont19 = new Guna.Charts.WinForms.ChartFont();
@@ -94,13 +96,16 @@
             Guna.Charts.WinForms.ChartFont chartFont23 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.Tick tick9 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont24 = new Guna.Charts.WinForms.ChartFont();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panelHeader = new Guna.UI2.WinForms.Guna2Panel();
+            PanelClock = new Guna.UI2.WinForms.Guna2Panel();
+            lblFecha = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblHora = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panelBody = new Guna.UI2.WinForms.Guna2Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -131,6 +136,7 @@
             CardInventario = new Guna.UI2.WinForms.Guna2GradientPanel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panelHeader.SuspendLayout();
+            PanelClock.SuspendLayout();
             panelBody.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvResumen).BeginInit();
@@ -149,8 +155,9 @@
             // panelHeader
             // 
             panelHeader.AutoScroll = true;
+            panelHeader.Controls.Add(PanelClock);
             panelHeader.Controls.Add(lblTitulo);
-            panelHeader.CustomizableEdges = customizableEdges1;
+            panelHeader.CustomizableEdges = customizableEdges3;
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
@@ -158,10 +165,49 @@
             panelHeader.Padding = new Padding(16, 12, 16, 12);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
-            panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges4;
             panelHeader.ShadowDecoration.Depth = 5;
             panelHeader.Size = new Size(907, 70);
             panelHeader.TabIndex = 0;
+            // 
+            // PanelClock
+            // 
+            PanelClock.BackColor = Color.Transparent;
+            PanelClock.Controls.Add(lblFecha);
+            PanelClock.Controls.Add(lblHora);
+            PanelClock.CustomizableEdges = customizableEdges1;
+            PanelClock.Dock = DockStyle.Right;
+            PanelClock.Location = new Point(500, 12);
+            PanelClock.Name = "PanelClock";
+            PanelClock.Padding = new Padding(0, 8, 8, 8);
+            PanelClock.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            PanelClock.Size = new Size(391, 46);
+            PanelClock.TabIndex = 1;
+            PanelClock.UseTransparentBackground = true;
+            // 
+            // lblFecha
+            // 
+            lblFecha.BackColor = Color.Transparent;
+            lblFecha.Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFecha.ForeColor = Color.Gainsboro;
+            lblFecha.Location = new Point(3, 6);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(79, 31);
+            lblFecha.TabIndex = 2;
+            lblFecha.Text = "--/--/--";
+            lblFecha.TextAlignment = ContentAlignment.MiddleRight;
+            // 
+            // lblHora
+            // 
+            lblHora.BackColor = Color.Transparent;
+            lblHora.Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHora.ForeColor = Color.Gainsboro;
+            lblHora.Location = new Point(307, 6);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(73, 31);
+            lblHora.TabIndex = 1;
+            lblHora.Text = "--:--:--";
+            lblHora.TextAlignment = ContentAlignment.MiddleRight;
             // 
             // lblTitulo
             // 
@@ -181,12 +227,12 @@
             panelBody.Controls.Add(tableLayoutPanel1);
             panelBody.Controls.Add(ChartGrid);
             panelBody.Controls.Add(kpiGrid);
-            panelBody.CustomizableEdges = customizableEdges23;
+            panelBody.CustomizableEdges = customizableEdges25;
             panelBody.Dock = DockStyle.Fill;
             panelBody.Location = new Point(0, 70);
             panelBody.Name = "panelBody";
             panelBody.Padding = new Padding(16);
-            panelBody.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            panelBody.ShadowDecoration.CustomizableEdges = customizableEdges26;
             panelBody.Size = new Size(907, 601);
             panelBody.TabIndex = 1;
             // 
@@ -211,10 +257,11 @@
             dgvResumen.AllowUserToAddRows = false;
             dgvResumen.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Bahnschrift", 10F);
             dgvResumen.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.Font = new Font("Bahnschrift", 12.25F, FontStyle.Bold);
             dataGridViewCellStyle2.ForeColor = Color.White;
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
@@ -301,18 +348,18 @@
             // 
             guna2Panel1.Controls.Add(btnNuevaVenta);
             guna2Panel1.Controls.Add(guna2Button1);
-            guna2Panel1.CustomizableEdges = customizableEdges7;
+            guna2Panel1.CustomizableEdges = customizableEdges9;
             guna2Panel1.Dock = DockStyle.Fill;
             guna2Panel1.Location = new Point(703, 3);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Panel1.Size = new Size(169, 163);
             guna2Panel1.TabIndex = 3;
             // 
             // btnNuevaVenta
             // 
             btnNuevaVenta.Cursor = Cursors.Hand;
-            btnNuevaVenta.CustomizableEdges = customizableEdges3;
+            btnNuevaVenta.CustomizableEdges = customizableEdges5;
             btnNuevaVenta.DisabledState.BorderColor = Color.DarkGray;
             btnNuevaVenta.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNuevaVenta.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -324,7 +371,7 @@
             btnNuevaVenta.Location = new Point(3, 68);
             btnNuevaVenta.Name = "btnNuevaVenta";
             btnNuevaVenta.Padding = new Padding(10);
-            btnNuevaVenta.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnNuevaVenta.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnNuevaVenta.Size = new Size(169, 59);
             btnNuevaVenta.TabIndex = 5;
             btnNuevaVenta.Text = "Nueva venta";
@@ -332,7 +379,7 @@
             // guna2Button1
             // 
             guna2Button1.Cursor = Cursors.Hand;
-            guna2Button1.CustomizableEdges = customizableEdges5;
+            guna2Button1.CustomizableEdges = customizableEdges7;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -344,7 +391,7 @@
             guna2Button1.Location = new Point(3, 3);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.Padding = new Padding(10);
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button1.Size = new Size(169, 59);
             guna2Button1.TabIndex = 4;
             guna2Button1.Text = "Actualizar";
@@ -373,13 +420,13 @@
             guna2GradientPanel2.BorderRadius = 15;
             guna2GradientPanel2.Controls.Add(guna2HtmlLabel4);
             guna2GradientPanel2.Cursor = Cursors.Hand;
-            guna2GradientPanel2.CustomizableEdges = customizableEdges9;
+            guna2GradientPanel2.CustomizableEdges = customizableEdges11;
             guna2GradientPanel2.Dock = DockStyle.Fill;
             guna2GradientPanel2.FillColor = Color.FromArgb(37, 40, 96);
             guna2GradientPanel2.FillColor2 = Color.FromArgb(28, 30, 68);
             guna2GradientPanel2.Location = new Point(3, 233);
             guna2GradientPanel2.Name = "guna2GradientPanel2";
-            guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2GradientPanel2.Size = new Size(284, 54);
             guna2GradientPanel2.TabIndex = 4;
             // 
@@ -399,14 +446,14 @@
             // 
             guna2GradientPanel1.BorderRadius = 15;
             guna2GradientPanel1.Controls.Add(ChartCreAlDia);
-            guna2GradientPanel1.CustomizableEdges = customizableEdges11;
+            guna2GradientPanel1.CustomizableEdges = customizableEdges13;
             guna2GradientPanel1.Dock = DockStyle.Fill;
             guna2GradientPanel1.FillColor = Color.FromArgb(37, 40, 96);
             guna2GradientPanel1.FillColor2 = Color.FromArgb(28, 30, 68);
             guna2GradientPanel1.Location = new Point(586, 8);
             guna2GradientPanel1.Margin = new Padding(8);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
-            guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2GradientPanel1.Size = new Size(281, 214);
             guna2GradientPanel1.TabIndex = 3;
             // 
@@ -430,10 +477,12 @@
             chartFont4.Size = 9;
             chartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
             ChartCreAlDia.Tooltips.TitleFont = chartFont4;
+            ChartCreAlDia.XAxes.Display = false;
             ChartCreAlDia.XAxes.GridLines = grid1;
             chartFont5.FontName = "Arial";
             tick1.Font = chartFont5;
             ChartCreAlDia.XAxes.Ticks = tick1;
+            ChartCreAlDia.YAxes.Display = false;
             ChartCreAlDia.YAxes.GridLines = grid2;
             chartFont6.FontName = "Arial";
             tick2.Font = chartFont6;
@@ -450,14 +499,14 @@
             // 
             PanelTop.BorderRadius = 15;
             PanelTop.Controls.Add(ChartInvDia);
-            PanelTop.CustomizableEdges = customizableEdges13;
+            PanelTop.CustomizableEdges = customizableEdges15;
             PanelTop.Dock = DockStyle.Fill;
             PanelTop.FillColor = Color.FromArgb(37, 40, 96);
             PanelTop.FillColor2 = Color.FromArgb(28, 30, 68);
             PanelTop.Location = new Point(298, 8);
             PanelTop.Margin = new Padding(8);
             PanelTop.Name = "PanelTop";
-            PanelTop.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            PanelTop.ShadowDecoration.CustomizableEdges = customizableEdges16;
             PanelTop.Size = new Size(272, 214);
             PanelTop.TabIndex = 1;
             // 
@@ -501,14 +550,14 @@
             // 
             PanelPedidosEstado.BorderRadius = 15;
             PanelPedidosEstado.Controls.Add(ChartVentasDia);
-            PanelPedidosEstado.CustomizableEdges = customizableEdges15;
+            PanelPedidosEstado.CustomizableEdges = customizableEdges17;
             PanelPedidosEstado.Dock = DockStyle.Fill;
             PanelPedidosEstado.FillColor = Color.FromArgb(37, 40, 96);
             PanelPedidosEstado.FillColor2 = Color.FromArgb(28, 30, 68);
             PanelPedidosEstado.Location = new Point(8, 8);
             PanelPedidosEstado.Margin = new Padding(8);
             PanelPedidosEstado.Name = "PanelPedidosEstado";
-            PanelPedidosEstado.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            PanelPedidosEstado.ShadowDecoration.CustomizableEdges = customizableEdges18;
             PanelPedidosEstado.Size = new Size(274, 214);
             PanelPedidosEstado.TabIndex = 0;
             // 
@@ -571,13 +620,13 @@
             CardCreditosAlertas.BorderRadius = 15;
             CardCreditosAlertas.Controls.Add(guna2HtmlLabel3);
             CardCreditosAlertas.Cursor = Cursors.Hand;
-            CardCreditosAlertas.CustomizableEdges = customizableEdges17;
+            CardCreditosAlertas.CustomizableEdges = customizableEdges19;
             CardCreditosAlertas.Dock = DockStyle.Fill;
             CardCreditosAlertas.FillColor = Color.FromArgb(37, 40, 96);
             CardCreditosAlertas.FillColor2 = Color.FromArgb(28, 30, 68);
             CardCreditosAlertas.Location = new Point(585, 3);
             CardCreditosAlertas.Name = "CardCreditosAlertas";
-            CardCreditosAlertas.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            CardCreditosAlertas.ShadowDecoration.CustomizableEdges = customizableEdges20;
             CardCreditosAlertas.Size = new Size(287, 104);
             CardCreditosAlertas.TabIndex = 2;
             // 
@@ -598,13 +647,13 @@
             CardVentasDia.BorderRadius = 15;
             CardVentasDia.Controls.Add(guna2HtmlLabel1);
             CardVentasDia.Cursor = Cursors.Hand;
-            CardVentasDia.CustomizableEdges = customizableEdges19;
+            CardVentasDia.CustomizableEdges = customizableEdges21;
             CardVentasDia.Dock = DockStyle.Fill;
             CardVentasDia.FillColor = Color.FromArgb(37, 40, 96);
             CardVentasDia.FillColor2 = Color.FromArgb(28, 30, 68);
             CardVentasDia.Location = new Point(294, 3);
             CardVentasDia.Name = "CardVentasDia";
-            CardVentasDia.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            CardVentasDia.ShadowDecoration.CustomizableEdges = customizableEdges22;
             CardVentasDia.Size = new Size(285, 104);
             CardVentasDia.TabIndex = 1;
             // 
@@ -625,13 +674,13 @@
             CardInventario.BorderRadius = 15;
             CardInventario.Controls.Add(guna2HtmlLabel2);
             CardInventario.Cursor = Cursors.Hand;
-            CardInventario.CustomizableEdges = customizableEdges21;
+            CardInventario.CustomizableEdges = customizableEdges23;
             CardInventario.Dock = DockStyle.Fill;
             CardInventario.FillColor = Color.FromArgb(37, 40, 96);
             CardInventario.FillColor2 = Color.FromArgb(28, 30, 68);
             CardInventario.Location = new Point(3, 3);
             CardInventario.Name = "CardInventario";
-            CardInventario.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            CardInventario.ShadowDecoration.CustomizableEdges = customizableEdges24;
             CardInventario.Size = new Size(285, 104);
             CardInventario.TabIndex = 0;
             // 
@@ -658,6 +707,8 @@
             Size = new Size(907, 671);
             panelHeader.ResumeLayout(false);
             panelHeader.PerformLayout();
+            PanelClock.ResumeLayout(false);
+            PanelClock.PerformLayout();
             panelBody.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvResumen).EndInit();
@@ -710,5 +761,8 @@
         private Guna.UI2.WinForms.Guna2Button btnNuevaVenta;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2Panel PanelClock;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblFecha;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblHora;
     }
 }

@@ -41,9 +41,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlDark;
+            BackColor = Color.White;
             Name = "ProductosUC";
-            Size = new Size(656, 492);
+            Size = new Size(907, 671);
             ((System.ComponentModel.ISupportInitialize)errorInicio).EndInit();
             ResumeLayout(false);
         }

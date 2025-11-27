@@ -1,4 +1,5 @@
 ﻿using Guna.Charts.WinForms;
+using System.Globalization;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,9 +16,19 @@ namespace HerramientasTotal.Views
 {
     public partial class InicioUC : UserControl
     {
+        private readonly System.Windows.Forms.Timer clockTimer;
         public InicioUC()
         {
             InitializeComponent();
+
+            clockTimer = new System.Windows.Forms.Timer(); 
+            clockTimer.Interval = 1000;
+            clockTimer.Tick += (_, __) => UpdateClock();
+            clockTimer.Start();
+
+            components?.Add(clockTimer);
+
+
 
             //SOLO SIGNIFICATIVO (AÚN NO ES OFICIAL QUE ESTE ES EL CÓDIGO)
             //// Dataset de línea de ventas diarias
@@ -59,10 +70,10 @@ namespace HerramientasTotal.Views
                 Label = "Estado de pagos",
 
             };
-            dsCat.DataPoints.Add("Pagados", 40);
-            dsCat.DataPoints.Add("Pendientes", 4);
-            dsCat.DataPoints.Add("Cancelados", 10);
-            dsCat.DataPoints.Add("Parciales", 30);
+            dsCat.DataPoints.Add("Pagados: 40", 40);
+            dsCat.DataPoints.Add("Pendientes: 4", 4);
+            dsCat.DataPoints.Add("Cancelados: 10", 10);
+            dsCat.DataPoints.Add("Parciales: 30", 30);
 
             ChartCreAlDia.Datasets.Clear();
             ChartCreAlDia.Datasets.Add(dsCat);
@@ -82,6 +93,17 @@ namespace HerramientasTotal.Views
             /////////////////////SOLO SIGNIFICATIVO ///////////////////////
         }
 
-     
+        //////////////////////METODOS Y EVENTOS ///////////////////////
+
+        private void UpdateClock()
+        {
+            var now = DateTime.Now;
+
+            lblFecha.Text = now.ToString("dddd dd 'de' MMMM yyyy", new CultureInfo("es-ES"));
+            lblHora.Text = now.ToString("HH:mm:ss");
+        }
+
+
+        ////////////////////////FIN METODOS Y EVENTOS ///////////////////////
     }
 }

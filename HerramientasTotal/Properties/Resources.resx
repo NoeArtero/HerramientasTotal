@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logoCircular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\logoCircular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="agregarNEGRO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\BotonesCRUD\agregarNEGRO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empleados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\empleados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoPrincipal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\logoPrincipal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,14 +136,17 @@
   <data name="Reporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\Reporte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="empleados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\Buttons\empleados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cerrar-sesion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\cerrar-sesion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="inicioBlanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\inicioBlanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoCircular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\logoCircular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\Buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="venta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\venta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,17 +154,26 @@
   <data name="inventario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="agregarNEGRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\BotonesCRUD\agregarNEGRO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PagarContado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\Buttons\PagarContado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="configuracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\configuracion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoCircularSinFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\logoCircularSinFondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\Buttons\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="editarNEGRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\BotonesCRUD\editarNEGRO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoCircular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\logoCircular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliente_rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\cliente_rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="usuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\usuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,13 +187,16 @@
   <data name="inventario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logoCircular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\logoCircular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="informe-de-venta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sources\Images\Buttons\informe-de-venta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cerrar-sesion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\Buttons\cerrar-sesion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PagarContado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\PagarContado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="configuracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Sources\Images\Buttons\configuracion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eliminarNEGRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sources\Images\Buttons\BotonesCRUD\eliminarNEGRO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

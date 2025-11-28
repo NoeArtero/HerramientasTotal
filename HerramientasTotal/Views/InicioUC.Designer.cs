@@ -637,9 +637,9 @@
             guna2HtmlLabel3.ForeColor = Color.Gainsboro;
             guna2HtmlLabel3.Location = new Point(50, 35);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(204, 35);
+            guna2HtmlLabel3.Size = new Size(223, 35);
             guna2HtmlLabel3.TabIndex = 1;
-            guna2HtmlLabel3.Text = "Creditos/Alertas";
+            guna2HtmlLabel3.Text = "Registro de pagos";
             guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // CardVentasDia

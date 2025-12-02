@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoFinalProgramacionII.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace HerramientasTotal.Extras
 {
     public class Mensajes
     {
+        
         public static void MostrarMensaje(string mensaje, string titulo)
         {
             MessageBox.Show(mensaje, titulo, MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -23,7 +25,6 @@ namespace HerramientasTotal.Extras
             return MessageBox.Show(mensaje, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
         }
 
-       
 
     }
 }

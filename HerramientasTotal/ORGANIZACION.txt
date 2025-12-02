@@ -1,6 +1,5 @@
 ﻿ZONA DE MENÚ PRINCIPAL
 
-.
 Inicio
 
 Dashboard
@@ -15,6 +14,10 @@ Listado/Buscar
 Nuevo / Editar
 
 Importar/Exportar (CSV)
+
+
+
+
 
 Movimientos
 

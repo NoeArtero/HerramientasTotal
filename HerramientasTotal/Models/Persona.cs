@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HerramientasTotal.Models
+public class Persona
 {
-    public class Persona
-    {
-        public string id {  get; set; }
-        public string nombre {  get; set; }
-    }
+    public int IdPersona { get; set; }
+    public string Nombre { get; set; } = "";
+    public string Apellido { get; set; } = "";
+    public string Telefono { get; set; } = "";
+    public string Correo { get; set; } = "";
+    public string Direccion { get; set; } = "";
 }

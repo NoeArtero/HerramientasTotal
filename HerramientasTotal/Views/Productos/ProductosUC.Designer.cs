@@ -372,6 +372,7 @@
             btnAgregarProducto.TabIndex = 0;
             btnAgregarProducto.Text = "Agregar";
             btnAgregarProducto.TextOffset = new Point(-13, 22);
+            btnAgregarProducto.Click += btnAgregarProducto_Click;
             // 
             // PanelDGVProd
             // 

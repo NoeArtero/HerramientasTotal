@@ -23,7 +23,7 @@ namespace HerramientasTotal.Views.Productos
         {
             InitializeComponent();
             dgvProductos.AutoGenerateColumns = false;
-            dgvProductos.RowTemplate.Height = 60; 
+            dgvProductos.RowTemplate.Height = 60;
             CargarDatosProvisionales();
 
 
@@ -57,15 +57,15 @@ namespace HerramientasTotal.Views.Productos
 
         private void CargarDatosProvisionales()
         {
-           string[] categorias = {"Herramientas Manuales", "Herramientas Eléctricas", "Accesorios", "Equipos de Seguridad"};
-           string[] proveedores = {"Proveedor A", "Proveedor B", "Proveedor C", "Proveedor D"};
+            string[] categorias = { "Herramientas Manuales", "Herramientas Eléctricas", "Accesorios", "Equipos de Seguridad" };
+            string[] proveedores = { "Proveedor A", "Proveedor B", "Proveedor C", "Proveedor D" };
 
             var placeholder = new Bitmap(60, 60);
             using (var g = Graphics.FromImage(placeholder)) { g.Clear(Color.LightBlue); }
 
             var faker = new Faker<ProductoRow>()
                 .RuleFor(p => p.Foto, f => placeholder)
-                .RuleFor(p => p.Codigo, f => f.Random.Int(1,100))
+                .RuleFor(p => p.Codigo, f => f.Random.Int(1, 100))
                 .RuleFor(p => p.Nombre, f => f.Commerce.ProductName())
                 .RuleFor(p => p.Categoria, f => f.PickRandom(categorias))
                 .RuleFor(p => p.Stock, f => f.Random.Int(0, 100))
@@ -82,8 +82,21 @@ namespace HerramientasTotal.Views.Productos
 
             lblTotalProductos.Text = $"Total de Productos: {_data.Count}";
         }
-        
+
+
 
         // fin valores provisionales para la tabla usando Bogus
+
+        private void btnAgregarProducto_Click(object sender, EventArgs e)
+        {
+            agregarProductoUC agregarProductoUCv = new agregarProductoUC();
+            agregarProductoUCv.Show();
+            this.Controls.Add(agregarProductoUCv);
+            agregarProductoUCv.BringToFront();
+            agregarProductoUCv.Location = new Point((this.Width - agregarProductoUCv.Width) / 2
+                                                    , (this.Height - agregarProductoUCv.Height) / 2);
+
+
+        }
     }
 }

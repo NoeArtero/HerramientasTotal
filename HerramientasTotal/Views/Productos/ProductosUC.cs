@@ -65,7 +65,7 @@ namespace HerramientasTotal.Views.Productos
 
             var faker = new Faker<ProductoRow>()
                 .RuleFor(p => p.Foto, f => placeholder)
-                .RuleFor(p => p.Codigo, f => f.Commerce.Ean13())
+                .RuleFor(p => p.Codigo, f => f.Random.Int(1,100))
                 .RuleFor(p => p.Nombre, f => f.Commerce.ProductName())
                 .RuleFor(p => p.Categoria, f => f.PickRandom(categorias))
                 .RuleFor(p => p.Stock, f => f.Random.Int(0, 100))

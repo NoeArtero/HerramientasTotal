@@ -69,8 +69,8 @@
             lblHora = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblFecha = new Guna.UI2.WinForms.Guna2HtmlLabel();
             PanelBotonesAccion = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnEliminarProducto = new Guna.UI2.WinForms.Guna2Button();
+            btnEditarProducto = new Guna.UI2.WinForms.Guna2Button();
             btnAgregarProducto = new Guna.UI2.WinForms.Guna2Button();
             PanelDGVProd = new Guna.UI2.WinForms.Guna2Panel();
             dgvProductos = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -296,8 +296,8 @@
             // 
             // PanelBotonesAccion
             // 
-            PanelBotonesAccion.Controls.Add(guna2Button2);
-            PanelBotonesAccion.Controls.Add(guna2Button1);
+            PanelBotonesAccion.Controls.Add(btnEliminarProducto);
+            PanelBotonesAccion.Controls.Add(btnEditarProducto);
             PanelBotonesAccion.Controls.Add(btnAgregarProducto);
             PanelBotonesAccion.CustomizableEdges = customizableEdges9;
             PanelBotonesAccion.Dock = DockStyle.Top;
@@ -307,49 +307,49 @@
             PanelBotonesAccion.Size = new Size(1145, 73);
             PanelBotonesAccion.TabIndex = 2;
             // 
-            // guna2Button2
+            // btnEliminarProducto
             // 
-            guna2Button2.Cursor = Cursors.Hand;
-            guna2Button2.CustomizableEdges = customizableEdges3;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.Transparent;
-            guna2Button2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.Black;
-            guna2Button2.Image = Properties.Resources.eliminarNEGRO;
-            guna2Button2.ImageOffset = new Point(12, -8);
-            guna2Button2.ImageSize = new Size(47, 47);
-            guna2Button2.Location = new Point(672, 4);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button2.Size = new Size(74, 64);
-            guna2Button2.TabIndex = 2;
-            guna2Button2.Text = "Eliminar";
-            guna2Button2.TextOffset = new Point(-13, 22);
+            btnEliminarProducto.Cursor = Cursors.Hand;
+            btnEliminarProducto.CustomizableEdges = customizableEdges3;
+            btnEliminarProducto.DisabledState.BorderColor = Color.DarkGray;
+            btnEliminarProducto.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnEliminarProducto.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnEliminarProducto.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnEliminarProducto.FillColor = Color.Transparent;
+            btnEliminarProducto.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEliminarProducto.ForeColor = Color.Black;
+            btnEliminarProducto.Image = Properties.Resources.eliminarNEGRO;
+            btnEliminarProducto.ImageOffset = new Point(12, -8);
+            btnEliminarProducto.ImageSize = new Size(47, 47);
+            btnEliminarProducto.Location = new Point(672, 4);
+            btnEliminarProducto.Name = "btnEliminarProducto";
+            btnEliminarProducto.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnEliminarProducto.Size = new Size(74, 64);
+            btnEliminarProducto.TabIndex = 2;
+            btnEliminarProducto.Text = "Eliminar";
+            btnEliminarProducto.TextOffset = new Point(-13, 22);
             // 
-            // guna2Button1
+            // btnEditarProducto
             // 
-            guna2Button1.Cursor = Cursors.Hand;
-            guna2Button1.CustomizableEdges = customizableEdges5;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Transparent;
-            guna2Button1.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.Black;
-            guna2Button1.Image = Properties.Resources.editarNEGRO;
-            guna2Button1.ImageOffset = new Point(10, -8);
-            guna2Button1.ImageSize = new Size(47, 47);
-            guna2Button1.Location = new Point(572, 4);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button1.Size = new Size(73, 64);
-            guna2Button1.TabIndex = 1;
-            guna2Button1.Text = "Editar";
-            guna2Button1.TextOffset = new Point(-13, 22);
+            btnEditarProducto.Cursor = Cursors.Hand;
+            btnEditarProducto.CustomizableEdges = customizableEdges5;
+            btnEditarProducto.DisabledState.BorderColor = Color.DarkGray;
+            btnEditarProducto.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnEditarProducto.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnEditarProducto.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnEditarProducto.FillColor = Color.Transparent;
+            btnEditarProducto.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEditarProducto.ForeColor = Color.Black;
+            btnEditarProducto.Image = Properties.Resources.editarNEGRO;
+            btnEditarProducto.ImageOffset = new Point(10, -8);
+            btnEditarProducto.ImageSize = new Size(47, 47);
+            btnEditarProducto.Location = new Point(572, 4);
+            btnEditarProducto.Name = "btnEditarProducto";
+            btnEditarProducto.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnEditarProducto.Size = new Size(73, 64);
+            btnEditarProducto.TabIndex = 1;
+            btnEditarProducto.Text = "Editar";
+            btnEditarProducto.TextOffset = new Point(-13, 22);
             // 
             // btnAgregarProducto
             // 
@@ -577,8 +577,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Panel PanelBotonesAccion;
         private Guna.UI2.WinForms.Guna2Button btnAgregarProducto;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnEditarProducto;
+        private Guna.UI2.WinForms.Guna2Button btnEliminarProducto;
         private Guna.UI2.WinForms.Guna2Panel PanelDGVProd;
         private Guna.UI2.WinForms.Guna2DataGridView dgvProductos;
         private DataGridViewImageColumn FotoProducto;

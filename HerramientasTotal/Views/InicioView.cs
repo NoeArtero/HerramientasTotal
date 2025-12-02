@@ -93,7 +93,7 @@ namespace HerramientasTotal
 
         private void btnInventario_Click(object sender, EventArgs e)
         {
-            AbrircerrarPanel(PanelInventario);
+                AbrircerrarPanel(PanelInventario);
         }
 
         private void btnVentas_Click(object sender, EventArgs e)

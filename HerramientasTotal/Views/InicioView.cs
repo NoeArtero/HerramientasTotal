@@ -54,7 +54,7 @@ namespace HerramientasTotal
         {
             if (_actBtn != null)
             {
-                _actBtn.FillColor = Color.FromArgb(29, 27, 52); 
+                _actBtn.FillColor = Color.FromArgb(29, 27, 52);
                 _actBtn.FillColor2 = Color.FromArgb(26, 18, 39);
             }
 
@@ -93,7 +93,7 @@ namespace HerramientasTotal
 
         private void btnInventario_Click(object sender, EventArgs e)
         {
-                AbrircerrarPanel(PanelInventario);
+            AbrircerrarPanel(PanelInventario);
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
@@ -145,7 +145,7 @@ namespace HerramientasTotal
         {
             OcultarPaneles();
             ShowView<InicioUC>();
-            BotonSeleccionado( btnInicio);
+            BotonSeleccionado(btnInicio);
 
         }
 
@@ -155,6 +155,12 @@ namespace HerramientasTotal
         {
             ShowView<ProductosUC>();
             BotonSeleccionado(btnProductos);
+        }
+
+        private void btnMovimientos_Click(object sender, EventArgs e)
+        {
+            ShowView<MovimientosProductosUC>();
+            BotonSeleccionado(btnMovimientos);
         }
     }
 }

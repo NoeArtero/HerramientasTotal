@@ -1327,6 +1327,7 @@
             btnMovimientos.Size = new Size(173, 30);
             btnMovimientos.TabIndex = 24;
             btnMovimientos.Text = "Movimientos";
+            btnMovimientos.Click += btnMovimientos_Click;
             // 
             // btnProductos
             // 
@@ -1456,7 +1457,7 @@
             btnSalirProductos.HoverState.FillColor2 = SystemColors.Control;
             btnSalirProductos.HoverState.ForeColor = Color.FromArgb(225, 94, 64);
             btnSalirProductos.ImageSize = new Size(32, 32);
-            btnSalirProductos.Location = new Point(57, 15911);
+            btnSalirProductos.Location = new Point(57, 16608);
             btnSalirProductos.Margin = new Padding(3, 2, 3, 2);
             btnSalirProductos.Name = "btnSalirProductos";
             btnSalirProductos.PressedColor = Color.FromArgb(225, 94, 64);

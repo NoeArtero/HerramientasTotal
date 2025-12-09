@@ -4,6 +4,8 @@ using Guna.Charts.WinForms;
 using HerramientasTotal.Views;
 using HerramientasTotal.Views.Productos;
 using HerramientasTotal.Extras;
+using HerramientasTotal.Views.Ingresos;
+
 
 namespace HerramientasTotal
 {
@@ -162,5 +164,18 @@ namespace HerramientasTotal
             ShowView<MovimientosProductosUC>();
             BotonSeleccionado(btnMovimientos);
         }
+
+        private void ViewHost_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnIngresos_Click(object sender, EventArgs e)
+        {
+            ShowView<IngresosUC>();
+            BotonSeleccionado(btnIngresos);
+        }
+
+
     }
 }

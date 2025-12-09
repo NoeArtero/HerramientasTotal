@@ -242,10 +242,9 @@
             guna2GradientPanel2.FillColor2 = Color.FromArgb(16, 15, 38);
             guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             guna2GradientPanel2.Location = new Point(0, 0);
-            guna2GradientPanel2.Margin = new Padding(3, 2, 3, 2);
             guna2GradientPanel2.Name = "guna2GradientPanel2";
             guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges108;
-            guna2GradientPanel2.Size = new Size(177, 788);
+            guna2GradientPanel2.Size = new Size(202, 1051);
             guna2GradientPanel2.TabIndex = 17;
             // 
             // PanelConfiguraciones
@@ -259,10 +258,11 @@
             PanelConfiguraciones.Cursor = Cursors.Hand;
             PanelConfiguraciones.CustomizableEdges = customizableEdges13;
             PanelConfiguraciones.Dock = DockStyle.Top;
-            PanelConfiguraciones.Location = new Point(0, 1251);
+            PanelConfiguraciones.Location = new Point(0, 1665);
+            PanelConfiguraciones.Margin = new Padding(3, 4, 3, 4);
             PanelConfiguraciones.Name = "PanelConfiguraciones";
             PanelConfiguraciones.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            PanelConfiguraciones.Size = new Size(160, 163);
+            PanelConfiguraciones.Size = new Size(181, 217);
             PanelConfiguraciones.TabIndex = 44;
             PanelConfiguraciones.UseTransparentBackground = true;
             // 
@@ -281,11 +281,11 @@
             btnCnotificaciones.ForeColor = Color.WhiteSmoke;
             btnCnotificaciones.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCnotificaciones.ImageSize = new Size(25, 25);
-            btnCnotificaciones.Location = new Point(0, 125);
-            btnCnotificaciones.Margin = new Padding(55);
+            btnCnotificaciones.Location = new Point(0, 167);
+            btnCnotificaciones.Margin = new Padding(63, 73, 63, 73);
             btnCnotificaciones.Name = "btnCnotificaciones";
             btnCnotificaciones.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnCnotificaciones.Size = new Size(173, 29);
+            btnCnotificaciones.Size = new Size(198, 39);
             btnCnotificaciones.TabIndex = 28;
             btnCnotificaciones.Text = "Notificaciones";
             // 
@@ -304,11 +304,11 @@
             btnCFinanzas.ForeColor = Color.WhiteSmoke;
             btnCFinanzas.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCFinanzas.ImageSize = new Size(25, 25);
-            btnCFinanzas.Location = new Point(0, 94);
-            btnCFinanzas.Margin = new Padding(55);
+            btnCFinanzas.Location = new Point(0, 125);
+            btnCFinanzas.Margin = new Padding(63, 73, 63, 73);
             btnCFinanzas.Name = "btnCFinanzas";
             btnCFinanzas.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnCFinanzas.Size = new Size(173, 29);
+            btnCFinanzas.Size = new Size(198, 39);
             btnCFinanzas.TabIndex = 26;
             btnCFinanzas.Text = "Finanzas";
             // 
@@ -327,11 +327,11 @@
             btnCInventario.ForeColor = Color.WhiteSmoke;
             btnCInventario.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCInventario.ImageSize = new Size(25, 25);
-            btnCInventario.Location = new Point(0, 62);
-            btnCInventario.Margin = new Padding(55);
+            btnCInventario.Location = new Point(0, 83);
+            btnCInventario.Margin = new Padding(63, 73, 63, 73);
             btnCInventario.Name = "btnCInventario";
             btnCInventario.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnCInventario.Size = new Size(173, 30);
+            btnCInventario.Size = new Size(198, 40);
             btnCInventario.TabIndex = 25;
             btnCInventario.Text = "Inventario";
             // 
@@ -350,11 +350,11 @@
             btnImpuestosPagos.ForeColor = Color.WhiteSmoke;
             btnImpuestosPagos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnImpuestosPagos.ImageSize = new Size(25, 25);
-            btnImpuestosPagos.Location = new Point(0, 31);
-            btnImpuestosPagos.Margin = new Padding(55);
+            btnImpuestosPagos.Location = new Point(0, 41);
+            btnImpuestosPagos.Margin = new Padding(63, 73, 63, 73);
             btnImpuestosPagos.Name = "btnImpuestosPagos";
             btnImpuestosPagos.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnImpuestosPagos.Size = new Size(173, 30);
+            btnImpuestosPagos.Size = new Size(198, 40);
             btnImpuestosPagos.TabIndex = 24;
             btnImpuestosPagos.Text = "Pagos y cuotas";
             // 
@@ -374,10 +374,10 @@
             btnEmpresa.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnEmpresa.ImageSize = new Size(25, 25);
             btnEmpresa.Location = new Point(0, 0);
-            btnEmpresa.Margin = new Padding(55);
+            btnEmpresa.Margin = new Padding(63, 73, 63, 73);
             btnEmpresa.Name = "btnEmpresa";
             btnEmpresa.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnEmpresa.Size = new Size(173, 30);
+            btnEmpresa.Size = new Size(198, 40);
             btnEmpresa.TabIndex = 23;
             btnEmpresa.Text = "Empresa";
             // 
@@ -402,11 +402,11 @@
             btnConfiguracion.Image = Properties.Resources.configuracion;
             btnConfiguracion.ImageAlign = HorizontalAlignment.Left;
             btnConfiguracion.ImageSize = new Size(25, 25);
-            btnConfiguracion.Location = new Point(0, 1211);
-            btnConfiguracion.Margin = new Padding(55);
+            btnConfiguracion.Location = new Point(0, 1612);
+            btnConfiguracion.Margin = new Padding(63, 73, 63, 73);
             btnConfiguracion.Name = "btnConfiguracion";
             btnConfiguracion.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnConfiguracion.Size = new Size(160, 40);
+            btnConfiguracion.Size = new Size(181, 53);
             btnConfiguracion.TabIndex = 43;
             btnConfiguracion.Text = "      Configuraciones";
             btnConfiguracion.Click += btnConfiguracion_Click;
@@ -420,10 +420,11 @@
             PanelNotificaciones.Cursor = Cursors.Hand;
             PanelNotificaciones.CustomizableEdges = customizableEdges23;
             PanelNotificaciones.Dock = DockStyle.Top;
-            PanelNotificaciones.Location = new Point(0, 1112);
+            PanelNotificaciones.Location = new Point(0, 1480);
+            PanelNotificaciones.Margin = new Padding(3, 4, 3, 4);
             PanelNotificaciones.Name = "PanelNotificaciones";
             PanelNotificaciones.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            PanelNotificaciones.Size = new Size(160, 99);
+            PanelNotificaciones.Size = new Size(181, 132);
             PanelNotificaciones.TabIndex = 42;
             PanelNotificaciones.UseTransparentBackground = true;
             // 
@@ -442,11 +443,11 @@
             btnConfigCanales.ForeColor = Color.WhiteSmoke;
             btnConfigCanales.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnConfigCanales.ImageSize = new Size(25, 25);
-            btnConfigCanales.Location = new Point(-3, 62);
-            btnConfigCanales.Margin = new Padding(55);
+            btnConfigCanales.Location = new Point(-3, 83);
+            btnConfigCanales.Margin = new Padding(63, 73, 63, 73);
             btnConfigCanales.Name = "btnConfigCanales";
             btnConfigCanales.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnConfigCanales.Size = new Size(176, 30);
+            btnConfigCanales.Size = new Size(201, 40);
             btnConfigCanales.TabIndex = 25;
             btnConfigCanales.Text = "Configuracion";
             // 
@@ -465,11 +466,11 @@
             btnHistorial.ForeColor = Color.WhiteSmoke;
             btnHistorial.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnHistorial.ImageSize = new Size(25, 25);
-            btnHistorial.Location = new Point(-3, 31);
-            btnHistorial.Margin = new Padding(55);
+            btnHistorial.Location = new Point(-3, 41);
+            btnHistorial.Margin = new Padding(63, 73, 63, 73);
             btnHistorial.Name = "btnHistorial";
             btnHistorial.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnHistorial.Size = new Size(176, 30);
+            btnHistorial.Size = new Size(201, 40);
             btnHistorial.TabIndex = 24;
             btnHistorial.Text = "Historial";
             // 
@@ -489,10 +490,10 @@
             btnEnviar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnEnviar.ImageSize = new Size(25, 25);
             btnEnviar.Location = new Point(-3, 0);
-            btnEnviar.Margin = new Padding(55);
+            btnEnviar.Margin = new Padding(63, 73, 63, 73);
             btnEnviar.Name = "btnEnviar";
             btnEnviar.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnEnviar.Size = new Size(176, 30);
+            btnEnviar.Size = new Size(201, 40);
             btnEnviar.TabIndex = 23;
             btnEnviar.Text = "Enviar ahora";
             // 
@@ -517,11 +518,11 @@
             btnNotificaciones.Image = Properties.Resources.notificacion;
             btnNotificaciones.ImageAlign = HorizontalAlignment.Left;
             btnNotificaciones.ImageSize = new Size(25, 25);
-            btnNotificaciones.Location = new Point(0, 1072);
-            btnNotificaciones.Margin = new Padding(55);
+            btnNotificaciones.Location = new Point(0, 1427);
+            btnNotificaciones.Margin = new Padding(63, 73, 63, 73);
             btnNotificaciones.Name = "btnNotificaciones";
             btnNotificaciones.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            btnNotificaciones.Size = new Size(160, 40);
+            btnNotificaciones.Size = new Size(181, 53);
             btnNotificaciones.TabIndex = 41;
             btnNotificaciones.Text = "    Notificaciones";
             btnNotificaciones.Click += btnNotificaciones_Click;
@@ -535,10 +536,11 @@
             PanelPersonal.Cursor = Cursors.Hand;
             PanelPersonal.CustomizableEdges = customizableEdges33;
             PanelPersonal.Dock = DockStyle.Top;
-            PanelPersonal.Location = new Point(0, 973);
+            PanelPersonal.Location = new Point(0, 1295);
+            PanelPersonal.Margin = new Padding(3, 4, 3, 4);
             PanelPersonal.Name = "PanelPersonal";
             PanelPersonal.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            PanelPersonal.Size = new Size(160, 99);
+            PanelPersonal.Size = new Size(181, 132);
             PanelPersonal.TabIndex = 40;
             PanelPersonal.UseTransparentBackground = true;
             // 
@@ -557,11 +559,11 @@
             btnBitacora.ForeColor = Color.WhiteSmoke;
             btnBitacora.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnBitacora.ImageSize = new Size(25, 25);
-            btnBitacora.Location = new Point(-3, 62);
-            btnBitacora.Margin = new Padding(55);
+            btnBitacora.Location = new Point(-3, 83);
+            btnBitacora.Margin = new Padding(63, 73, 63, 73);
             btnBitacora.Name = "btnBitacora";
             btnBitacora.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            btnBitacora.Size = new Size(176, 30);
+            btnBitacora.Size = new Size(201, 40);
             btnBitacora.TabIndex = 25;
             btnBitacora.Text = "Bitacora";
             // 
@@ -580,11 +582,11 @@
             btnRoles.ForeColor = Color.WhiteSmoke;
             btnRoles.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRoles.ImageSize = new Size(25, 25);
-            btnRoles.Location = new Point(-3, 31);
-            btnRoles.Margin = new Padding(55);
+            btnRoles.Location = new Point(-3, 41);
+            btnRoles.Margin = new Padding(63, 73, 63, 73);
             btnRoles.Name = "btnRoles";
             btnRoles.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            btnRoles.Size = new Size(176, 30);
+            btnRoles.Size = new Size(201, 40);
             btnRoles.TabIndex = 24;
             btnRoles.Text = "Roles";
             // 
@@ -604,10 +606,10 @@
             btnEmpleados.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnEmpleados.ImageSize = new Size(25, 25);
             btnEmpleados.Location = new Point(-3, 0);
-            btnEmpleados.Margin = new Padding(55);
+            btnEmpleados.Margin = new Padding(63, 73, 63, 73);
             btnEmpleados.Name = "btnEmpleados";
             btnEmpleados.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            btnEmpleados.Size = new Size(176, 30);
+            btnEmpleados.Size = new Size(201, 40);
             btnEmpleados.TabIndex = 23;
             btnEmpleados.Text = "Empleados";
             // 
@@ -632,11 +634,11 @@
             btnPersonal.Image = Properties.Resources.empleados;
             btnPersonal.ImageAlign = HorizontalAlignment.Left;
             btnPersonal.ImageSize = new Size(25, 25);
-            btnPersonal.Location = new Point(0, 933);
-            btnPersonal.Margin = new Padding(55);
+            btnPersonal.Location = new Point(0, 1242);
+            btnPersonal.Margin = new Padding(63, 73, 63, 73);
             btnPersonal.Name = "btnPersonal";
             btnPersonal.ShadowDecoration.CustomizableEdges = customizableEdges36;
-            btnPersonal.Size = new Size(160, 40);
+            btnPersonal.Size = new Size(181, 53);
             btnPersonal.TabIndex = 39;
             btnPersonal.Text = "Personal";
             btnPersonal.Click += btnPersonal_Click;
@@ -652,10 +654,11 @@
             PanelReportes.Cursor = Cursors.Hand;
             PanelReportes.CustomizableEdges = customizableEdges47;
             PanelReportes.Dock = DockStyle.Top;
-            PanelReportes.Location = new Point(0, 770);
+            PanelReportes.Location = new Point(0, 1025);
+            PanelReportes.Margin = new Padding(3, 4, 3, 4);
             PanelReportes.Name = "PanelReportes";
             PanelReportes.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            PanelReportes.Size = new Size(160, 163);
+            PanelReportes.Size = new Size(181, 217);
             PanelReportes.TabIndex = 38;
             PanelReportes.UseTransparentBackground = true;
             // 
@@ -674,11 +677,11 @@
             btnRcreditos.ForeColor = Color.WhiteSmoke;
             btnRcreditos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRcreditos.ImageSize = new Size(25, 25);
-            btnRcreditos.Location = new Point(0, 125);
-            btnRcreditos.Margin = new Padding(55);
+            btnRcreditos.Location = new Point(0, 167);
+            btnRcreditos.Margin = new Padding(63, 73, 63, 73);
             btnRcreditos.Name = "btnRcreditos";
             btnRcreditos.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            btnRcreditos.Size = new Size(173, 29);
+            btnRcreditos.Size = new Size(198, 39);
             btnRcreditos.TabIndex = 28;
             btnRcreditos.Text = "Creditos";
             // 
@@ -697,11 +700,11 @@
             btnRGanancias.ForeColor = Color.WhiteSmoke;
             btnRGanancias.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRGanancias.ImageSize = new Size(25, 25);
-            btnRGanancias.Location = new Point(0, 94);
-            btnRGanancias.Margin = new Padding(55);
+            btnRGanancias.Location = new Point(0, 125);
+            btnRGanancias.Margin = new Padding(63, 73, 63, 73);
             btnRGanancias.Name = "btnRGanancias";
             btnRGanancias.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            btnRGanancias.Size = new Size(173, 29);
+            btnRGanancias.Size = new Size(198, 39);
             btnRGanancias.TabIndex = 26;
             btnRGanancias.Text = "Ganancias";
             // 
@@ -720,11 +723,11 @@
             btnRgastos.ForeColor = Color.WhiteSmoke;
             btnRgastos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRgastos.ImageSize = new Size(25, 25);
-            btnRgastos.Location = new Point(0, 62);
-            btnRgastos.Margin = new Padding(55);
+            btnRgastos.Location = new Point(0, 83);
+            btnRgastos.Margin = new Padding(63, 73, 63, 73);
             btnRgastos.Name = "btnRgastos";
             btnRgastos.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            btnRgastos.Size = new Size(173, 30);
+            btnRgastos.Size = new Size(198, 40);
             btnRgastos.TabIndex = 25;
             btnRgastos.Text = "Gastos";
             // 
@@ -743,11 +746,11 @@
             btnRinventario.ForeColor = Color.WhiteSmoke;
             btnRinventario.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRinventario.ImageSize = new Size(25, 25);
-            btnRinventario.Location = new Point(0, 31);
-            btnRinventario.Margin = new Padding(55);
+            btnRinventario.Location = new Point(0, 41);
+            btnRinventario.Margin = new Padding(63, 73, 63, 73);
             btnRinventario.Name = "btnRinventario";
             btnRinventario.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            btnRinventario.Size = new Size(173, 30);
+            btnRinventario.Size = new Size(198, 40);
             btnRinventario.TabIndex = 24;
             btnRinventario.Text = "Inventario";
             // 
@@ -767,10 +770,10 @@
             btnRventas.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRventas.ImageSize = new Size(25, 25);
             btnRventas.Location = new Point(0, 0);
-            btnRventas.Margin = new Padding(55);
+            btnRventas.Margin = new Padding(63, 73, 63, 73);
             btnRventas.Name = "btnRventas";
             btnRventas.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            btnRventas.Size = new Size(173, 30);
+            btnRventas.Size = new Size(198, 40);
             btnRventas.TabIndex = 23;
             btnRventas.Text = "Ventas";
             // 
@@ -795,11 +798,11 @@
             btnReportes.Image = Properties.Resources.informe_de_venta;
             btnReportes.ImageAlign = HorizontalAlignment.Left;
             btnReportes.ImageSize = new Size(25, 25);
-            btnReportes.Location = new Point(0, 730);
-            btnReportes.Margin = new Padding(55);
+            btnReportes.Location = new Point(0, 972);
+            btnReportes.Margin = new Padding(63, 73, 63, 73);
             btnReportes.Name = "btnReportes";
             btnReportes.ShadowDecoration.CustomizableEdges = customizableEdges50;
-            btnReportes.Size = new Size(160, 40);
+            btnReportes.Size = new Size(181, 53);
             btnReportes.TabIndex = 37;
             btnReportes.Text = "Reportes";
             btnReportes.Click += btnReportes_Click_1;
@@ -813,10 +816,11 @@
             PanelFinanzas.Cursor = Cursors.Hand;
             PanelFinanzas.CustomizableEdges = customizableEdges57;
             PanelFinanzas.Dock = DockStyle.Top;
-            PanelFinanzas.Location = new Point(0, 631);
+            PanelFinanzas.Location = new Point(0, 840);
+            PanelFinanzas.Margin = new Padding(3, 4, 3, 4);
             PanelFinanzas.Name = "PanelFinanzas";
             PanelFinanzas.ShadowDecoration.CustomizableEdges = customizableEdges58;
-            PanelFinanzas.Size = new Size(160, 99);
+            PanelFinanzas.Size = new Size(181, 132);
             PanelFinanzas.TabIndex = 36;
             PanelFinanzas.UseTransparentBackground = true;
             // 
@@ -835,11 +839,11 @@
             Resultados.ForeColor = Color.WhiteSmoke;
             Resultados.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             Resultados.ImageSize = new Size(25, 25);
-            Resultados.Location = new Point(-3, 62);
-            Resultados.Margin = new Padding(55);
+            Resultados.Location = new Point(-3, 83);
+            Resultados.Margin = new Padding(63, 73, 63, 73);
             Resultados.Name = "Resultados";
             Resultados.ShadowDecoration.CustomizableEdges = customizableEdges52;
-            Resultados.Size = new Size(176, 30);
+            Resultados.Size = new Size(201, 40);
             Resultados.TabIndex = 25;
             Resultados.Text = "Cobros/Pagos";
             // 
@@ -858,11 +862,11 @@
             btnGastos.ForeColor = Color.WhiteSmoke;
             btnGastos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnGastos.ImageSize = new Size(25, 25);
-            btnGastos.Location = new Point(-3, 31);
-            btnGastos.Margin = new Padding(55);
+            btnGastos.Location = new Point(-3, 41);
+            btnGastos.Margin = new Padding(63, 73, 63, 73);
             btnGastos.Name = "btnGastos";
             btnGastos.ShadowDecoration.CustomizableEdges = customizableEdges54;
-            btnGastos.Size = new Size(176, 30);
+            btnGastos.Size = new Size(201, 40);
             btnGastos.TabIndex = 24;
             btnGastos.Text = "Gastos";
             // 
@@ -882,12 +886,13 @@
             btnIngresos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnIngresos.ImageSize = new Size(25, 25);
             btnIngresos.Location = new Point(-3, 0);
-            btnIngresos.Margin = new Padding(55);
+            btnIngresos.Margin = new Padding(63, 73, 63, 73);
             btnIngresos.Name = "btnIngresos";
             btnIngresos.ShadowDecoration.CustomizableEdges = customizableEdges56;
-            btnIngresos.Size = new Size(176, 30);
+            btnIngresos.Size = new Size(201, 40);
             btnIngresos.TabIndex = 23;
             btnIngresos.Text = "Ingresos";
+            btnIngresos.Click += btnIngresos_Click;
             // 
             // btnFinanzas
             // 
@@ -910,11 +915,11 @@
             btnFinanzas.Image = Properties.Resources.PagarContado;
             btnFinanzas.ImageAlign = HorizontalAlignment.Left;
             btnFinanzas.ImageSize = new Size(25, 25);
-            btnFinanzas.Location = new Point(0, 591);
-            btnFinanzas.Margin = new Padding(55);
+            btnFinanzas.Location = new Point(0, 787);
+            btnFinanzas.Margin = new Padding(63, 73, 63, 73);
             btnFinanzas.Name = "btnFinanzas";
             btnFinanzas.ShadowDecoration.CustomizableEdges = customizableEdges60;
-            btnFinanzas.Size = new Size(160, 40);
+            btnFinanzas.Size = new Size(181, 53);
             btnFinanzas.TabIndex = 35;
             btnFinanzas.Text = "Finanzas";
             btnFinanzas.Click += btnFinanzas_Click;
@@ -928,10 +933,11 @@
             PanelPedidosEnvios.Cursor = Cursors.Hand;
             PanelPedidosEnvios.CustomizableEdges = customizableEdges67;
             PanelPedidosEnvios.Dock = DockStyle.Top;
-            PanelPedidosEnvios.Location = new Point(0, 492);
+            PanelPedidosEnvios.Location = new Point(0, 655);
+            PanelPedidosEnvios.Margin = new Padding(3, 4, 3, 4);
             PanelPedidosEnvios.Name = "PanelPedidosEnvios";
             PanelPedidosEnvios.ShadowDecoration.CustomizableEdges = customizableEdges68;
-            PanelPedidosEnvios.Size = new Size(160, 99);
+            PanelPedidosEnvios.Size = new Size(181, 132);
             PanelPedidosEnvios.TabIndex = 34;
             PanelPedidosEnvios.UseTransparentBackground = true;
             // 
@@ -950,11 +956,11 @@
             guna2GradientButton1.ForeColor = Color.WhiteSmoke;
             guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton1.ImageSize = new Size(25, 25);
-            guna2GradientButton1.Location = new Point(-3, 62);
-            guna2GradientButton1.Margin = new Padding(55);
+            guna2GradientButton1.Location = new Point(-3, 83);
+            guna2GradientButton1.Margin = new Padding(63, 73, 63, 73);
             guna2GradientButton1.Name = "guna2GradientButton1";
             guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges62;
-            guna2GradientButton1.Size = new Size(176, 30);
+            guna2GradientButton1.Size = new Size(201, 40);
             guna2GradientButton1.TabIndex = 25;
             guna2GradientButton1.Text = "Cobros/Pagos";
             // 
@@ -973,11 +979,11 @@
             guna2GradientButton2.ForeColor = Color.WhiteSmoke;
             guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton2.ImageSize = new Size(25, 25);
-            guna2GradientButton2.Location = new Point(-3, 31);
-            guna2GradientButton2.Margin = new Padding(55);
+            guna2GradientButton2.Location = new Point(-3, 41);
+            guna2GradientButton2.Margin = new Padding(63, 73, 63, 73);
             guna2GradientButton2.Name = "guna2GradientButton2";
             guna2GradientButton2.ShadowDecoration.CustomizableEdges = customizableEdges64;
-            guna2GradientButton2.Size = new Size(176, 30);
+            guna2GradientButton2.Size = new Size(201, 40);
             guna2GradientButton2.TabIndex = 24;
             guna2GradientButton2.Text = "Cuotas";
             // 
@@ -997,10 +1003,10 @@
             guna2GradientButton6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton6.ImageSize = new Size(25, 25);
             guna2GradientButton6.Location = new Point(-3, 0);
-            guna2GradientButton6.Margin = new Padding(55);
+            guna2GradientButton6.Margin = new Padding(63, 73, 63, 73);
             guna2GradientButton6.Name = "guna2GradientButton6";
             guna2GradientButton6.ShadowDecoration.CustomizableEdges = customizableEdges66;
-            guna2GradientButton6.Size = new Size(176, 30);
+            guna2GradientButton6.Size = new Size(201, 40);
             guna2GradientButton6.TabIndex = 23;
             guna2GradientButton6.Text = "Clientes";
             // 
@@ -1025,11 +1031,11 @@
             btnPedidosEnvios.Image = Properties.Resources.PedidosyEnvios;
             btnPedidosEnvios.ImageAlign = HorizontalAlignment.Left;
             btnPedidosEnvios.ImageSize = new Size(25, 25);
-            btnPedidosEnvios.Location = new Point(0, 452);
-            btnPedidosEnvios.Margin = new Padding(55);
+            btnPedidosEnvios.Location = new Point(0, 602);
+            btnPedidosEnvios.Margin = new Padding(63, 73, 63, 73);
             btnPedidosEnvios.Name = "btnPedidosEnvios";
             btnPedidosEnvios.ShadowDecoration.CustomizableEdges = customizableEdges70;
-            btnPedidosEnvios.Size = new Size(160, 40);
+            btnPedidosEnvios.Size = new Size(181, 53);
             btnPedidosEnvios.TabIndex = 33;
             btnPedidosEnvios.Text = "Pedidos y envíos";
             btnPedidosEnvios.TextAlign = HorizontalAlignment.Right;
@@ -1044,10 +1050,11 @@
             PanelClientes.Cursor = Cursors.Hand;
             PanelClientes.CustomizableEdges = customizableEdges77;
             PanelClientes.Dock = DockStyle.Top;
-            PanelClientes.Location = new Point(0, 353);
+            PanelClientes.Location = new Point(0, 470);
+            PanelClientes.Margin = new Padding(3, 4, 3, 4);
             PanelClientes.Name = "PanelClientes";
             PanelClientes.ShadowDecoration.CustomizableEdges = customizableEdges78;
-            PanelClientes.Size = new Size(160, 99);
+            PanelClientes.Size = new Size(181, 132);
             PanelClientes.TabIndex = 32;
             PanelClientes.UseTransparentBackground = true;
             // 
@@ -1066,11 +1073,11 @@
             btnCobros.ForeColor = Color.WhiteSmoke;
             btnCobros.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCobros.ImageSize = new Size(25, 25);
-            btnCobros.Location = new Point(-3, 62);
-            btnCobros.Margin = new Padding(55);
+            btnCobros.Location = new Point(-3, 83);
+            btnCobros.Margin = new Padding(63, 73, 63, 73);
             btnCobros.Name = "btnCobros";
             btnCobros.ShadowDecoration.CustomizableEdges = customizableEdges72;
-            btnCobros.Size = new Size(176, 30);
+            btnCobros.Size = new Size(201, 40);
             btnCobros.TabIndex = 25;
             btnCobros.Text = "Cobros/Pagos";
             // 
@@ -1089,11 +1096,11 @@
             btnCreditosCuotas.ForeColor = Color.WhiteSmoke;
             btnCreditosCuotas.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCreditosCuotas.ImageSize = new Size(25, 25);
-            btnCreditosCuotas.Location = new Point(-3, 31);
-            btnCreditosCuotas.Margin = new Padding(55);
+            btnCreditosCuotas.Location = new Point(-3, 41);
+            btnCreditosCuotas.Margin = new Padding(63, 73, 63, 73);
             btnCreditosCuotas.Name = "btnCreditosCuotas";
             btnCreditosCuotas.ShadowDecoration.CustomizableEdges = customizableEdges74;
-            btnCreditosCuotas.Size = new Size(176, 30);
+            btnCreditosCuotas.Size = new Size(201, 40);
             btnCreditosCuotas.TabIndex = 24;
             btnCreditosCuotas.Text = "Cuotas";
             // 
@@ -1113,10 +1120,10 @@
             btnClientesLista.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnClientesLista.ImageSize = new Size(25, 25);
             btnClientesLista.Location = new Point(-3, 0);
-            btnClientesLista.Margin = new Padding(55);
+            btnClientesLista.Margin = new Padding(63, 73, 63, 73);
             btnClientesLista.Name = "btnClientesLista";
             btnClientesLista.ShadowDecoration.CustomizableEdges = customizableEdges76;
-            btnClientesLista.Size = new Size(176, 30);
+            btnClientesLista.Size = new Size(201, 40);
             btnClientesLista.TabIndex = 23;
             btnClientesLista.Text = "Clientes";
             // 
@@ -1141,11 +1148,11 @@
             btnClientes.Image = Properties.Resources.Clientes;
             btnClientes.ImageAlign = HorizontalAlignment.Left;
             btnClientes.ImageSize = new Size(25, 25);
-            btnClientes.Location = new Point(0, 313);
-            btnClientes.Margin = new Padding(55);
+            btnClientes.Location = new Point(0, 417);
+            btnClientes.Margin = new Padding(63, 73, 63, 73);
             btnClientes.Name = "btnClientes";
             btnClientes.ShadowDecoration.CustomizableEdges = customizableEdges80;
-            btnClientes.Size = new Size(160, 40);
+            btnClientes.Size = new Size(181, 53);
             btnClientes.TabIndex = 31;
             btnClientes.Text = " Clientes y cuotas";
             btnClientes.TextAlign = HorizontalAlignment.Right;
@@ -1159,10 +1166,11 @@
             PanelVentas.Cursor = Cursors.Hand;
             PanelVentas.CustomizableEdges = customizableEdges85;
             PanelVentas.Dock = DockStyle.Top;
-            PanelVentas.Location = new Point(0, 248);
+            PanelVentas.Location = new Point(0, 330);
+            PanelVentas.Margin = new Padding(3, 4, 3, 4);
             PanelVentas.Name = "PanelVentas";
             PanelVentas.ShadowDecoration.CustomizableEdges = customizableEdges86;
-            PanelVentas.Size = new Size(160, 65);
+            PanelVentas.Size = new Size(181, 87);
             PanelVentas.TabIndex = 30;
             PanelVentas.UseTransparentBackground = true;
             // 
@@ -1181,11 +1189,11 @@
             guna2GradientButton4.ForeColor = Color.WhiteSmoke;
             guna2GradientButton4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton4.ImageSize = new Size(25, 25);
-            guna2GradientButton4.Location = new Point(-3, 31);
-            guna2GradientButton4.Margin = new Padding(55);
+            guna2GradientButton4.Location = new Point(-3, 41);
+            guna2GradientButton4.Margin = new Padding(63, 73, 63, 73);
             guna2GradientButton4.Name = "guna2GradientButton4";
             guna2GradientButton4.ShadowDecoration.CustomizableEdges = customizableEdges82;
-            guna2GradientButton4.Size = new Size(176, 30);
+            guna2GradientButton4.Size = new Size(201, 40);
             guna2GradientButton4.TabIndex = 24;
             guna2GradientButton4.Text = "Movimientos";
             // 
@@ -1205,10 +1213,10 @@
             guna2GradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton5.ImageSize = new Size(25, 25);
             guna2GradientButton5.Location = new Point(-3, 0);
-            guna2GradientButton5.Margin = new Padding(55);
+            guna2GradientButton5.Margin = new Padding(63, 73, 63, 73);
             guna2GradientButton5.Name = "guna2GradientButton5";
             guna2GradientButton5.ShadowDecoration.CustomizableEdges = customizableEdges84;
-            guna2GradientButton5.Size = new Size(176, 30);
+            guna2GradientButton5.Size = new Size(201, 40);
             guna2GradientButton5.TabIndex = 23;
             guna2GradientButton5.Text = "Productos";
             // 
@@ -1233,11 +1241,11 @@
             btnVentas.Image = Properties.Resources.venta;
             btnVentas.ImageAlign = HorizontalAlignment.Left;
             btnVentas.ImageSize = new Size(25, 25);
-            btnVentas.Location = new Point(0, 208);
-            btnVentas.Margin = new Padding(55);
+            btnVentas.Location = new Point(0, 277);
+            btnVentas.Margin = new Padding(63, 73, 63, 73);
             btnVentas.Name = "btnVentas";
             btnVentas.ShadowDecoration.CustomizableEdges = customizableEdges88;
-            btnVentas.Size = new Size(160, 40);
+            btnVentas.Size = new Size(181, 53);
             btnVentas.TabIndex = 29;
             btnVentas.Text = "Ventas";
             btnVentas.Click += btnVentas_Click;
@@ -1252,10 +1260,11 @@
             PanelInventario.Cursor = Cursors.Hand;
             PanelInventario.CustomizableEdges = customizableEdges97;
             PanelInventario.Dock = DockStyle.Top;
-            PanelInventario.Location = new Point(0, 81);
+            PanelInventario.Location = new Point(0, 108);
+            PanelInventario.Margin = new Padding(3, 4, 3, 4);
             PanelInventario.Name = "PanelInventario";
             PanelInventario.ShadowDecoration.CustomizableEdges = customizableEdges98;
-            PanelInventario.Size = new Size(160, 127);
+            PanelInventario.Size = new Size(181, 169);
             PanelInventario.TabIndex = 22;
             PanelInventario.UseTransparentBackground = true;
             // 
@@ -1274,11 +1283,11 @@
             btnProveedores.ForeColor = Color.WhiteSmoke;
             btnProveedores.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnProveedores.ImageSize = new Size(25, 25);
-            btnProveedores.Location = new Point(0, 94);
-            btnProveedores.Margin = new Padding(55);
+            btnProveedores.Location = new Point(0, 125);
+            btnProveedores.Margin = new Padding(63, 73, 63, 73);
             btnProveedores.Name = "btnProveedores";
             btnProveedores.ShadowDecoration.CustomizableEdges = customizableEdges90;
-            btnProveedores.Size = new Size(173, 29);
+            btnProveedores.Size = new Size(198, 39);
             btnProveedores.TabIndex = 28;
             btnProveedores.Text = "Proveedores";
             // 
@@ -1297,11 +1306,11 @@
             btnAlertasStock.ForeColor = Color.WhiteSmoke;
             btnAlertasStock.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnAlertasStock.ImageSize = new Size(25, 25);
-            btnAlertasStock.Location = new Point(-3, 63);
-            btnAlertasStock.Margin = new Padding(55);
+            btnAlertasStock.Location = new Point(-3, 84);
+            btnAlertasStock.Margin = new Padding(63, 73, 63, 73);
             btnAlertasStock.Name = "btnAlertasStock";
             btnAlertasStock.ShadowDecoration.CustomizableEdges = customizableEdges92;
-            btnAlertasStock.Size = new Size(173, 29);
+            btnAlertasStock.Size = new Size(198, 39);
             btnAlertasStock.TabIndex = 26;
             btnAlertasStock.Text = "Alertas";
             // 
@@ -1320,11 +1329,11 @@
             btnMovimientos.ForeColor = Color.WhiteSmoke;
             btnMovimientos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnMovimientos.ImageSize = new Size(25, 25);
-            btnMovimientos.Location = new Point(0, 31);
-            btnMovimientos.Margin = new Padding(55);
+            btnMovimientos.Location = new Point(0, 41);
+            btnMovimientos.Margin = new Padding(63, 73, 63, 73);
             btnMovimientos.Name = "btnMovimientos";
             btnMovimientos.ShadowDecoration.CustomizableEdges = customizableEdges94;
-            btnMovimientos.Size = new Size(173, 30);
+            btnMovimientos.Size = new Size(198, 40);
             btnMovimientos.TabIndex = 24;
             btnMovimientos.Text = "Movimientos";
             btnMovimientos.Click += btnMovimientos_Click;
@@ -1345,10 +1354,10 @@
             btnProductos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnProductos.ImageSize = new Size(25, 25);
             btnProductos.Location = new Point(0, 0);
-            btnProductos.Margin = new Padding(55);
+            btnProductos.Margin = new Padding(63, 73, 63, 73);
             btnProductos.Name = "btnProductos";
             btnProductos.ShadowDecoration.CustomizableEdges = customizableEdges96;
-            btnProductos.Size = new Size(173, 30);
+            btnProductos.Size = new Size(198, 40);
             btnProductos.TabIndex = 23;
             btnProductos.Text = "Productos";
             btnProductos.Click += btnProductos_Click;
@@ -1374,11 +1383,11 @@
             btnInventario.Image = Properties.Resources.inventario1;
             btnInventario.ImageAlign = HorizontalAlignment.Left;
             btnInventario.ImageSize = new Size(25, 25);
-            btnInventario.Location = new Point(0, 41);
-            btnInventario.Margin = new Padding(55);
+            btnInventario.Location = new Point(0, 55);
+            btnInventario.Margin = new Padding(63, 73, 63, 73);
             btnInventario.Name = "btnInventario";
             btnInventario.ShadowDecoration.CustomizableEdges = customizableEdges100;
-            btnInventario.Size = new Size(160, 40);
+            btnInventario.Size = new Size(181, 53);
             btnInventario.TabIndex = 21;
             btnInventario.Text = "Inventario";
             btnInventario.Click += btnInventario_Click;
@@ -1403,10 +1412,10 @@
             btnInicio.ImageAlign = HorizontalAlignment.Left;
             btnInicio.ImageSize = new Size(25, 25);
             btnInicio.Location = new Point(0, 0);
-            btnInicio.Margin = new Padding(55);
+            btnInicio.Margin = new Padding(63, 73, 63, 73);
             btnInicio.Name = "btnInicio";
             btnInicio.ShadowDecoration.CustomizableEdges = customizableEdges102;
-            btnInicio.Size = new Size(160, 41);
+            btnInicio.Size = new Size(181, 55);
             btnInicio.TabIndex = 20;
             btnInicio.Text = "Inicio";
             btnInicio.Click += btnInicio_Click;
@@ -1426,11 +1435,11 @@
             btnSalir.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = Color.WhiteSmoke;
             btnSalir.Image = Properties.Resources.cerrar_sesion;
-            btnSalir.Location = new Point(0, 1414);
-            btnSalir.Margin = new Padding(55);
+            btnSalir.Location = new Point(0, 1882);
+            btnSalir.Margin = new Padding(63, 73, 63, 73);
             btnSalir.Name = "btnSalir";
             btnSalir.ShadowDecoration.CustomizableEdges = customizableEdges104;
-            btnSalir.Size = new Size(160, 71);
+            btnSalir.Size = new Size(181, 95);
             btnSalir.TabIndex = 19;
             btnSalir.Text = "Salir";
             btnSalir.Click += btnSalir_Click;
@@ -1457,12 +1466,11 @@
             btnSalirProductos.HoverState.FillColor2 = SystemColors.Control;
             btnSalirProductos.HoverState.ForeColor = Color.FromArgb(225, 94, 64);
             btnSalirProductos.ImageSize = new Size(32, 32);
-            btnSalirProductos.Location = new Point(57, 16608);
-            btnSalirProductos.Margin = new Padding(3, 2, 3, 2);
+            btnSalirProductos.Location = new Point(65, 25417);
             btnSalirProductos.Name = "btnSalirProductos";
             btnSalirProductos.PressedColor = Color.FromArgb(225, 94, 64);
             btnSalirProductos.ShadowDecoration.CustomizableEdges = customizableEdges106;
-            btnSalirProductos.Size = new Size(102, 55);
+            btnSalirProductos.Size = new Size(117, 73);
             btnSalirProductos.TabIndex = 15;
             btnSalirProductos.Text = "Salir";
             btnSalirProductos.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -1471,22 +1479,25 @@
             // 
             ViewHost.CustomizableEdges = customizableEdges1;
             ViewHost.Dock = DockStyle.Fill;
-            ViewHost.Location = new Point(177, 0);
+            ViewHost.Location = new Point(202, 0);
+            ViewHost.Margin = new Padding(3, 4, 3, 4);
             ViewHost.Name = "ViewHost";
             ViewHost.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            ViewHost.Size = new Size(807, 788);
+            ViewHost.Size = new Size(923, 1051);
             ViewHost.TabIndex = 21;
+            ViewHost.Paint += ViewHost_Paint;
             // 
             // InicioView
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(984, 788);
+            ClientSize = new Size(1125, 1051);
             Controls.Add(ViewHost);
             Controls.Add(guna2GradientPanel2);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "InicioView";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Inicio";

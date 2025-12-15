@@ -237,7 +237,7 @@ ventas (id, listaProductos, total, fechaVenta, metodoPago).
 )
 
 FINANZAS
-REPORTES
+REPORTES.
 
 
 

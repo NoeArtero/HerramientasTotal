@@ -41,18 +41,16 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
@@ -71,7 +69,6 @@
             lblBuscar = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblTituloIngresos = new Guna.UI2.WinForms.Guna2HtmlLabel();
             PanelBotonesAccion = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             btnEliminarProducto = new Guna.UI2.WinForms.Guna2Button();
             btnEditarProducto = new Guna.UI2.WinForms.Guna2Button();
             btnAgregarProducto = new Guna.UI2.WinForms.Guna2Button();
@@ -305,47 +302,23 @@
             // PanelBotonesAccion
             // 
             PanelBotonesAccion.BackColor = Color.White;
-            PanelBotonesAccion.Controls.Add(guna2Button1);
             PanelBotonesAccion.Controls.Add(btnEliminarProducto);
             PanelBotonesAccion.Controls.Add(btnEditarProducto);
             PanelBotonesAccion.Controls.Add(btnAgregarProducto);
-            PanelBotonesAccion.CustomizableEdges = customizableEdges22;
+            PanelBotonesAccion.CustomizableEdges = customizableEdges20;
             PanelBotonesAccion.Dock = DockStyle.Top;
             PanelBotonesAccion.Location = new Point(0, 80);
             PanelBotonesAccion.Margin = new Padding(3, 4, 3, 4);
             PanelBotonesAccion.Name = "PanelBotonesAccion";
-            PanelBotonesAccion.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            PanelBotonesAccion.ShadowDecoration.CustomizableEdges = customizableEdges21;
             PanelBotonesAccion.Size = new Size(1532, 115);
             PanelBotonesAccion.TabIndex = 3;
             PanelBotonesAccion.Paint += PanelBotonesAccion_Paint;
             // 
-            // guna2Button1
-            // 
-            guna2Button1.Cursor = Cursors.Hand;
-            guna2Button1.CustomizableEdges = customizableEdges14;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Transparent;
-            guna2Button1.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2Button1.ForeColor = Color.Black;
-            guna2Button1.Image = Properties.Resources.pngegg;
-            guna2Button1.ImageOffset = new Point(12, -8);
-            guna2Button1.ImageSize = new Size(47, 47);
-            guna2Button1.Location = new Point(997, 16);
-            guna2Button1.Margin = new Padding(3, 4, 3, 4);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            guna2Button1.Size = new Size(94, 88);
-            guna2Button1.TabIndex = 3;
-            guna2Button1.Text = "Exportar";
-            guna2Button1.TextOffset = new Point(-13, 22);
-            // 
             // btnEliminarProducto
             // 
             btnEliminarProducto.Cursor = Cursors.Hand;
-            btnEliminarProducto.CustomizableEdges = customizableEdges16;
+            btnEliminarProducto.CustomizableEdges = customizableEdges14;
             btnEliminarProducto.DisabledState.BorderColor = Color.DarkGray;
             btnEliminarProducto.DisabledState.CustomBorderColor = Color.DarkGray;
             btnEliminarProducto.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -359,7 +332,7 @@
             btnEliminarProducto.Location = new Point(812, 16);
             btnEliminarProducto.Margin = new Padding(3, 4, 3, 4);
             btnEliminarProducto.Name = "btnEliminarProducto";
-            btnEliminarProducto.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            btnEliminarProducto.ShadowDecoration.CustomizableEdges = customizableEdges15;
             btnEliminarProducto.Size = new Size(94, 88);
             btnEliminarProducto.TabIndex = 2;
             btnEliminarProducto.Text = "Eliminar";
@@ -369,7 +342,7 @@
             // btnEditarProducto
             // 
             btnEditarProducto.Cursor = Cursors.Hand;
-            btnEditarProducto.CustomizableEdges = customizableEdges18;
+            btnEditarProducto.CustomizableEdges = customizableEdges16;
             btnEditarProducto.DisabledState.BorderColor = Color.DarkGray;
             btnEditarProducto.DisabledState.CustomBorderColor = Color.DarkGray;
             btnEditarProducto.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -383,7 +356,7 @@
             btnEditarProducto.Location = new Point(648, 19);
             btnEditarProducto.Margin = new Padding(3, 4, 3, 4);
             btnEditarProducto.Name = "btnEditarProducto";
-            btnEditarProducto.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            btnEditarProducto.ShadowDecoration.CustomizableEdges = customizableEdges17;
             btnEditarProducto.Size = new Size(81, 85);
             btnEditarProducto.TabIndex = 1;
             btnEditarProducto.Text = "Editar";
@@ -392,7 +365,7 @@
             // btnAgregarProducto
             // 
             btnAgregarProducto.Cursor = Cursors.Hand;
-            btnAgregarProducto.CustomizableEdges = customizableEdges20;
+            btnAgregarProducto.CustomizableEdges = customizableEdges18;
             btnAgregarProducto.DisabledState.BorderColor = Color.DarkGray;
             btnAgregarProducto.DisabledState.CustomBorderColor = Color.DarkGray;
             btnAgregarProducto.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -406,7 +379,7 @@
             btnAgregarProducto.Location = new Point(454, 19);
             btnAgregarProducto.Margin = new Padding(3, 4, 3, 4);
             btnAgregarProducto.Name = "btnAgregarProducto";
-            btnAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges19;
             btnAgregarProducto.Size = new Size(83, 85);
             btnAgregarProducto.TabIndex = 0;
             btnAgregarProducto.Text = "Agregar";
@@ -415,11 +388,11 @@
             // guna2Panel2
             // 
             guna2Panel2.Controls.Add(dgvIngresos);
-            guna2Panel2.CustomizableEdges = customizableEdges24;
+            guna2Panel2.CustomizableEdges = customizableEdges22;
             guna2Panel2.Dock = DockStyle.Fill;
             guna2Panel2.Location = new Point(0, 195);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges23;
             guna2Panel2.Size = new Size(1532, 700);
             guna2Panel2.TabIndex = 4;
             // 
@@ -586,7 +559,6 @@
         private Guna.UI2.WinForms.Guna2Button btnEliminarProducto;
         private Guna.UI2.WinForms.Guna2Button btnEditarProducto;
         private Guna.UI2.WinForms.Guna2Button btnAgregarProducto;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2DataGridView dgvIngresos;
         private DataGridViewTextBoxColumn Fecha;

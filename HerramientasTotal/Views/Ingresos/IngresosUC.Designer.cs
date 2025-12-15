@@ -165,7 +165,7 @@
             guna2ComboBox2.Font = new Font("Segoe UI", 10F);
             guna2ComboBox2.ForeColor = Color.FromArgb(68, 88, 112);
             guna2ComboBox2.ItemHeight = 30;
-            guna2ComboBox2.Items.AddRange(new object[] { "Todos", "", "", "Registrado", "", "", "Pendiente", "", "", "Anulado" });
+            guna2ComboBox2.Items.AddRange(new object[] { "Todos", "", "Registrado", "", "Pendiente", "", "Anulado" });
             guna2ComboBox2.Location = new Point(1354, 30);
             guna2ComboBox2.Name = "guna2ComboBox2";
             guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges5;
@@ -197,12 +197,13 @@
             guna2ComboBox1.Font = new Font("Segoe UI", 10F);
             guna2ComboBox1.ForeColor = Color.FromArgb(68, 88, 112);
             guna2ComboBox1.ItemHeight = 30;
-            guna2ComboBox1.Items.AddRange(new object[] { "Todos", "", "", "Venta", "", "", "Cuota", "", "", "Pedido", "", "", "Otro" });
+            guna2ComboBox1.Items.AddRange(new object[] { "Todos", "", "Venta", "", "Cuota", "", "Pedido", "", "Otro" });
             guna2ComboBox1.Location = new Point(1097, 28);
             guna2ComboBox1.Name = "guna2ComboBox1";
             guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges7;
             guna2ComboBox1.Size = new Size(165, 36);
             guna2ComboBox1.TabIndex = 13;
+            guna2ComboBox1.SelectedIndexChanged += guna2ComboBox1_SelectedIndexChanged;
             // 
             // guna2HtmlLabel3
             // 

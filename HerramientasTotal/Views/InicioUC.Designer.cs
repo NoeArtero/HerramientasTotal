@@ -161,14 +161,13 @@
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
-            panelHeader.Margin = new Padding(3, 4, 3, 4);
             panelHeader.Name = "panelHeader";
-            panelHeader.Padding = new Padding(18, 16, 18, 16);
+            panelHeader.Padding = new Padding(16, 12, 16, 12);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
             panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges4;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(1355, 93);
+            panelHeader.Size = new Size(1186, 70);
             panelHeader.TabIndex = 0;
             // 
             // PanelClock
@@ -178,12 +177,11 @@
             PanelClock.Controls.Add(lblHora);
             PanelClock.CustomizableEdges = customizableEdges1;
             PanelClock.Dock = DockStyle.Right;
-            PanelClock.Location = new Point(890, 16);
-            PanelClock.Margin = new Padding(3, 4, 3, 4);
+            PanelClock.Location = new Point(779, 12);
             PanelClock.Name = "PanelClock";
-            PanelClock.Padding = new Padding(0, 11, 9, 11);
+            PanelClock.Padding = new Padding(0, 8, 8, 8);
             PanelClock.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            PanelClock.Size = new Size(447, 61);
+            PanelClock.Size = new Size(391, 46);
             PanelClock.TabIndex = 1;
             PanelClock.UseTransparentBackground = true;
             // 
@@ -192,10 +190,9 @@
             lblFecha.BackColor = Color.Transparent;
             lblFecha.Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblFecha.ForeColor = Color.Gainsboro;
-            lblFecha.Location = new Point(3, 8);
-            lblFecha.Margin = new Padding(3, 4, 3, 4);
+            lblFecha.Location = new Point(3, 6);
             lblFecha.Name = "lblFecha";
-            lblFecha.Size = new Size(101, 38);
+            lblFecha.Size = new Size(79, 31);
             lblFecha.TabIndex = 2;
             lblFecha.Text = "--/--/--";
             lblFecha.TextAlignment = ContentAlignment.MiddleRight;
@@ -205,10 +202,9 @@
             lblHora.BackColor = Color.Transparent;
             lblHora.Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblHora.ForeColor = Color.Gainsboro;
-            lblHora.Location = new Point(351, 8);
-            lblHora.Margin = new Padding(3, 4, 3, 4);
+            lblHora.Location = new Point(307, 6);
             lblHora.Name = "lblHora";
-            lblHora.Size = new Size(93, 38);
+            lblHora.Size = new Size(73, 31);
             lblHora.TabIndex = 1;
             lblHora.Text = "--:--:--";
             lblHora.TextAlignment = ContentAlignment.MiddleRight;
@@ -218,10 +214,9 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(22, 27);
-            lblTitulo.Margin = new Padding(3, 4, 3, 4);
+            lblTitulo.Location = new Point(19, 20);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(239, 43);
+            lblTitulo.Size = new Size(191, 35);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Resumen General";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
@@ -234,12 +229,11 @@
             panelBody.Controls.Add(kpiGrid);
             panelBody.CustomizableEdges = customizableEdges25;
             panelBody.Dock = DockStyle.Fill;
-            panelBody.Location = new Point(0, 93);
-            panelBody.Margin = new Padding(3, 4, 3, 4);
+            panelBody.Location = new Point(0, 70);
             panelBody.Name = "panelBody";
-            panelBody.Padding = new Padding(18, 21, 18, 21);
+            panelBody.Padding = new Padding(16, 16, 16, 16);
             panelBody.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            panelBody.Size = new Size(1355, 802);
+            panelBody.Size = new Size(1186, 601);
             panelBody.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -250,13 +244,12 @@
             tableLayoutPanel1.Controls.Add(dgvResumen, 0, 0);
             tableLayoutPanel1.Controls.Add(guna2Panel1, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(18, 555);
-            tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
+            tableLayoutPanel1.Location = new Point(16, 416);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 225F));
-            tableLayoutPanel1.Size = new Size(1319, 226);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 170F));
+            tableLayoutPanel1.Size = new Size(1154, 169);
             tableLayoutPanel1.TabIndex = 3;
             // 
             // dgvResumen
@@ -287,14 +280,12 @@
             dgvResumen.DefaultCellStyle = dataGridViewCellStyle3;
             dgvResumen.Dock = DockStyle.Fill;
             dgvResumen.GridColor = Color.FromArgb(231, 229, 255);
-            dgvResumen.Location = new Point(3, 4);
-            dgvResumen.Margin = new Padding(3, 4, 3, 4);
+            dgvResumen.Location = new Point(3, 3);
             dgvResumen.Name = "dgvResumen";
             dgvResumen.ReadOnly = true;
             dgvResumen.RowHeadersVisible = false;
             dgvResumen.RowHeadersWidth = 51;
-            dgvResumen.RowTemplate.Height = 25;
-            dgvResumen.Size = new Size(1049, 218);
+            dgvResumen.Size = new Size(917, 163);
             dgvResumen.TabIndex = 2;
             dgvResumen.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvResumen.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -366,11 +357,10 @@
             guna2Panel1.Controls.Add(guna2Button1);
             guna2Panel1.CustomizableEdges = customizableEdges9;
             guna2Panel1.Dock = DockStyle.Fill;
-            guna2Panel1.Location = new Point(1058, 4);
-            guna2Panel1.Margin = new Padding(3, 4, 3, 4);
+            guna2Panel1.Location = new Point(926, 3);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel1.Size = new Size(258, 218);
+            guna2Panel1.Size = new Size(225, 163);
             guna2Panel1.TabIndex = 3;
             // 
             // btnNuevaVenta
@@ -385,12 +375,11 @@
             btnNuevaVenta.Font = new Font("Bahnschrift SemiCondensed", 12F);
             btnNuevaVenta.ForeColor = Color.White;
             btnNuevaVenta.HoverState.FillColor = Color.FromArgb(60, 71, 136);
-            btnNuevaVenta.Location = new Point(3, 91);
-            btnNuevaVenta.Margin = new Padding(3, 4, 3, 4);
+            btnNuevaVenta.Location = new Point(3, 68);
             btnNuevaVenta.Name = "btnNuevaVenta";
-            btnNuevaVenta.Padding = new Padding(11, 13, 11, 13);
+            btnNuevaVenta.Padding = new Padding(10, 10, 10, 10);
             btnNuevaVenta.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnNuevaVenta.Size = new Size(193, 79);
+            btnNuevaVenta.Size = new Size(169, 59);
             btnNuevaVenta.TabIndex = 5;
             btnNuevaVenta.Text = "Nueva venta";
             // 
@@ -406,12 +395,11 @@
             guna2Button1.Font = new Font("Bahnschrift SemiCondensed", 12F);
             guna2Button1.ForeColor = Color.White;
             guna2Button1.HoverState.FillColor = Color.FromArgb(60, 71, 136);
-            guna2Button1.Location = new Point(3, 4);
-            guna2Button1.Margin = new Padding(3, 4, 3, 4);
+            guna2Button1.Location = new Point(3, 3);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.Padding = new Padding(11, 13, 11, 13);
+            guna2Button1.Padding = new Padding(10, 10, 10, 10);
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Button1.Size = new Size(193, 79);
+            guna2Button1.Size = new Size(169, 59);
             guna2Button1.TabIndex = 4;
             guna2Button1.Text = "Actualizar";
             // 
@@ -426,13 +414,12 @@
             ChartGrid.Controls.Add(PanelTop, 1, 0);
             ChartGrid.Controls.Add(PanelPedidosEstado, 0, 0);
             ChartGrid.Dock = DockStyle.Top;
-            ChartGrid.Location = new Point(18, 168);
-            ChartGrid.Margin = new Padding(3, 4, 3, 4);
+            ChartGrid.Location = new Point(16, 126);
             ChartGrid.Name = "ChartGrid";
             ChartGrid.RowCount = 2;
             ChartGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 79.31035F));
             ChartGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 20.6896553F));
-            ChartGrid.Size = new Size(1319, 387);
+            ChartGrid.Size = new Size(1154, 290);
             ChartGrid.TabIndex = 1;
             // 
             // guna2GradientPanel2
@@ -444,11 +431,10 @@
             guna2GradientPanel2.Dock = DockStyle.Fill;
             guna2GradientPanel2.FillColor = Color.FromArgb(37, 40, 96);
             guna2GradientPanel2.FillColor2 = Color.FromArgb(28, 30, 68);
-            guna2GradientPanel2.Location = new Point(3, 310);
-            guna2GradientPanel2.Margin = new Padding(3, 4, 3, 4);
+            guna2GradientPanel2.Location = new Point(3, 233);
             guna2GradientPanel2.Name = "guna2GradientPanel2";
             guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2GradientPanel2.Size = new Size(432, 73);
+            guna2GradientPanel2.Size = new Size(377, 54);
             guna2GradientPanel2.TabIndex = 4;
             // 
             // guna2HtmlLabel4
@@ -456,10 +442,9 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Bahnschrift", 20.25F, FontStyle.Bold);
             guna2HtmlLabel4.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel4.Location = new Point(55, 13);
-            guna2HtmlLabel4.Margin = new Padding(3, 4, 3, 4);
+            guna2HtmlLabel4.Location = new Point(48, 10);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(230, 43);
+            guna2HtmlLabel4.Size = new Size(183, 35);
             guna2HtmlLabel4.TabIndex = 1;
             guna2HtmlLabel4.Text = "Ultimas ventas";
             guna2HtmlLabel4.TextAlignment = ContentAlignment.MiddleCenter;
@@ -472,11 +457,11 @@
             guna2GradientPanel1.Dock = DockStyle.Fill;
             guna2GradientPanel1.FillColor = Color.FromArgb(37, 40, 96);
             guna2GradientPanel1.FillColor2 = Color.FromArgb(28, 30, 68);
-            guna2GradientPanel1.Location = new Point(882, 11);
-            guna2GradientPanel1.Margin = new Padding(9, 11, 9, 11);
+            guna2GradientPanel1.Location = new Point(771, 8);
+            guna2GradientPanel1.Margin = new Padding(8, 8, 8, 8);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
             guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2GradientPanel1.Size = new Size(428, 284);
+            guna2GradientPanel1.Size = new Size(375, 214);
             guna2GradientPanel1.TabIndex = 3;
             // 
             // ChartCreAlDia
@@ -486,9 +471,8 @@
             chartFont1.FontName = "Arial";
             ChartCreAlDia.Legend.LabelFont = chartFont1;
             ChartCreAlDia.Location = new Point(0, 0);
-            ChartCreAlDia.Margin = new Padding(3, 4, 3, 4);
             ChartCreAlDia.Name = "ChartCreAlDia";
-            ChartCreAlDia.Size = new Size(428, 284);
+            ChartCreAlDia.Size = new Size(375, 214);
             ChartCreAlDia.TabIndex = 0;
             chartFont2.FontName = "Arial";
             chartFont2.Size = 12;
@@ -526,11 +510,11 @@
             PanelTop.Dock = DockStyle.Fill;
             PanelTop.FillColor = Color.FromArgb(37, 40, 96);
             PanelTop.FillColor2 = Color.FromArgb(28, 30, 68);
-            PanelTop.Location = new Point(447, 11);
-            PanelTop.Margin = new Padding(9, 11, 9, 11);
+            PanelTop.Location = new Point(391, 8);
+            PanelTop.Margin = new Padding(8, 8, 8, 8);
             PanelTop.Name = "PanelTop";
             PanelTop.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            PanelTop.Size = new Size(417, 284);
+            PanelTop.Size = new Size(364, 214);
             PanelTop.TabIndex = 1;
             // 
             // ChartInvDia
@@ -540,9 +524,8 @@
             chartFont9.FontName = "Arial";
             ChartInvDia.Legend.LabelFont = chartFont9;
             ChartInvDia.Location = new Point(0, 0);
-            ChartInvDia.Margin = new Padding(3, 4, 3, 4);
             ChartInvDia.Name = "ChartInvDia";
-            ChartInvDia.Size = new Size(417, 284);
+            ChartInvDia.Size = new Size(364, 214);
             ChartInvDia.TabIndex = 0;
             chartFont10.FontName = "Arial";
             chartFont10.Size = 12;
@@ -578,11 +561,11 @@
             PanelPedidosEstado.Dock = DockStyle.Fill;
             PanelPedidosEstado.FillColor = Color.FromArgb(37, 40, 96);
             PanelPedidosEstado.FillColor2 = Color.FromArgb(28, 30, 68);
-            PanelPedidosEstado.Location = new Point(9, 11);
-            PanelPedidosEstado.Margin = new Padding(9, 11, 9, 11);
+            PanelPedidosEstado.Location = new Point(8, 8);
+            PanelPedidosEstado.Margin = new Padding(8, 8, 8, 8);
             PanelPedidosEstado.Name = "PanelPedidosEstado";
             PanelPedidosEstado.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            PanelPedidosEstado.Size = new Size(420, 284);
+            PanelPedidosEstado.Size = new Size(367, 214);
             PanelPedidosEstado.TabIndex = 0;
             // 
             // ChartVentasDia
@@ -592,9 +575,8 @@
             chartFont17.FontName = "Arial";
             ChartVentasDia.Legend.LabelFont = chartFont17;
             ChartVentasDia.Location = new Point(0, 0);
-            ChartVentasDia.Margin = new Padding(3, 4, 3, 4);
             ChartVentasDia.Name = "ChartVentasDia";
-            ChartVentasDia.Size = new Size(420, 284);
+            ChartVentasDia.Size = new Size(367, 214);
             ChartVentasDia.TabIndex = 0;
             chartFont18.FontName = "Arial";
             chartFont18.Size = 12;
@@ -632,13 +614,12 @@
             kpiGrid.Controls.Add(CardVentasDia, 1, 0);
             kpiGrid.Controls.Add(CardInventario, 0, 0);
             kpiGrid.Dock = DockStyle.Top;
-            kpiGrid.Location = new Point(18, 21);
-            kpiGrid.Margin = new Padding(3, 4, 3, 4);
+            kpiGrid.Location = new Point(16, 16);
             kpiGrid.Name = "kpiGrid";
             kpiGrid.RowCount = 1;
             kpiGrid.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            kpiGrid.RowStyles.Add(new RowStyle(SizeType.Absolute, 27F));
-            kpiGrid.Size = new Size(1319, 147);
+            kpiGrid.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            kpiGrid.Size = new Size(1154, 110);
             kpiGrid.TabIndex = 0;
             // 
             // CardCreditosAlertas
@@ -650,11 +631,10 @@
             CardCreditosAlertas.Dock = DockStyle.Fill;
             CardCreditosAlertas.FillColor = Color.FromArgb(37, 40, 96);
             CardCreditosAlertas.FillColor2 = Color.FromArgb(28, 30, 68);
-            CardCreditosAlertas.Location = new Point(881, 4);
-            CardCreditosAlertas.Margin = new Padding(3, 4, 3, 4);
+            CardCreditosAlertas.Location = new Point(771, 3);
             CardCreditosAlertas.Name = "CardCreditosAlertas";
             CardCreditosAlertas.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            CardCreditosAlertas.Size = new Size(435, 139);
+            CardCreditosAlertas.Size = new Size(380, 104);
             CardCreditosAlertas.TabIndex = 2;
             // 
             // guna2HtmlLabel3
@@ -662,10 +642,9 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Bahnschrift", 20.25F, FontStyle.Bold);
             guna2HtmlLabel3.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel3.Location = new Point(57, 47);
-            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
+            guna2HtmlLabel3.Location = new Point(50, 35);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(278, 43);
+            guna2HtmlLabel3.Size = new Size(223, 35);
             guna2HtmlLabel3.TabIndex = 1;
             guna2HtmlLabel3.Text = "Registro de pagos";
             guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
@@ -679,11 +658,10 @@
             CardVentasDia.Dock = DockStyle.Fill;
             CardVentasDia.FillColor = Color.FromArgb(37, 40, 96);
             CardVentasDia.FillColor2 = Color.FromArgb(28, 30, 68);
-            CardVentasDia.Location = new Point(442, 4);
-            CardVentasDia.Margin = new Padding(3, 4, 3, 4);
+            CardVentasDia.Location = new Point(387, 3);
             CardVentasDia.Name = "CardVentasDia";
             CardVentasDia.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            CardVentasDia.Size = new Size(433, 139);
+            CardVentasDia.Size = new Size(378, 104);
             CardVentasDia.TabIndex = 1;
             // 
             // guna2HtmlLabel1
@@ -691,10 +669,9 @@
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Bahnschrift", 20.25F, FontStyle.Bold);
             guna2HtmlLabel1.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel1.Location = new Point(88, 47);
-            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
+            guna2HtmlLabel1.Location = new Point(77, 35);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(157, 43);
+            guna2HtmlLabel1.Size = new Size(125, 35);
             guna2HtmlLabel1.TabIndex = 1;
             guna2HtmlLabel1.Text = "Inventario";
             guna2HtmlLabel1.TextAlignment = ContentAlignment.MiddleCenter;
@@ -708,11 +685,10 @@
             CardInventario.Dock = DockStyle.Fill;
             CardInventario.FillColor = Color.FromArgb(37, 40, 96);
             CardInventario.FillColor2 = Color.FromArgb(28, 30, 68);
-            CardInventario.Location = new Point(3, 4);
-            CardInventario.Margin = new Padding(3, 4, 3, 4);
+            CardInventario.Location = new Point(3, 3);
             CardInventario.Name = "CardInventario";
             CardInventario.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            CardInventario.Size = new Size(433, 139);
+            CardInventario.Size = new Size(378, 104);
             CardInventario.TabIndex = 0;
             // 
             // guna2HtmlLabel2
@@ -720,24 +696,22 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift", 20.25F, FontStyle.Bold);
             guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(67, 47);
-            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
+            guna2HtmlLabel2.Location = new Point(59, 35);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(216, 43);
+            guna2HtmlLabel2.Size = new Size(172, 35);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "Ventas del día";
             guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // InicioUC
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(panelBody);
             Controls.Add(panelHeader);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "InicioUC";
-            Size = new Size(1355, 895);
+            Size = new Size(1186, 671);
             panelHeader.ResumeLayout(false);
             panelHeader.PerformLayout();
             PanelClock.ResumeLayout(false);

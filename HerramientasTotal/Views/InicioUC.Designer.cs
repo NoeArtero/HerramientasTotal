@@ -231,7 +231,7 @@
             panelBody.Dock = DockStyle.Fill;
             panelBody.Location = new Point(0, 70);
             panelBody.Name = "panelBody";
-            panelBody.Padding = new Padding(16, 16, 16, 16);
+            panelBody.Padding = new Padding(16);
             panelBody.ShadowDecoration.CustomizableEdges = customizableEdges26;
             panelBody.Size = new Size(1186, 601);
             panelBody.TabIndex = 1;
@@ -377,7 +377,7 @@
             btnNuevaVenta.HoverState.FillColor = Color.FromArgb(60, 71, 136);
             btnNuevaVenta.Location = new Point(3, 68);
             btnNuevaVenta.Name = "btnNuevaVenta";
-            btnNuevaVenta.Padding = new Padding(10, 10, 10, 10);
+            btnNuevaVenta.Padding = new Padding(10);
             btnNuevaVenta.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnNuevaVenta.Size = new Size(169, 59);
             btnNuevaVenta.TabIndex = 5;
@@ -397,7 +397,7 @@
             guna2Button1.HoverState.FillColor = Color.FromArgb(60, 71, 136);
             guna2Button1.Location = new Point(3, 3);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.Padding = new Padding(10, 10, 10, 10);
+            guna2Button1.Padding = new Padding(10);
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button1.Size = new Size(169, 59);
             guna2Button1.TabIndex = 4;
@@ -458,7 +458,7 @@
             guna2GradientPanel1.FillColor = Color.FromArgb(37, 40, 96);
             guna2GradientPanel1.FillColor2 = Color.FromArgb(28, 30, 68);
             guna2GradientPanel1.Location = new Point(771, 8);
-            guna2GradientPanel1.Margin = new Padding(8, 8, 8, 8);
+            guna2GradientPanel1.Margin = new Padding(8);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
             guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2GradientPanel1.Size = new Size(375, 214);
@@ -511,7 +511,7 @@
             PanelTop.FillColor = Color.FromArgb(37, 40, 96);
             PanelTop.FillColor2 = Color.FromArgb(28, 30, 68);
             PanelTop.Location = new Point(391, 8);
-            PanelTop.Margin = new Padding(8, 8, 8, 8);
+            PanelTop.Margin = new Padding(8);
             PanelTop.Name = "PanelTop";
             PanelTop.ShadowDecoration.CustomizableEdges = customizableEdges16;
             PanelTop.Size = new Size(364, 214);
@@ -562,7 +562,7 @@
             PanelPedidosEstado.FillColor = Color.FromArgb(37, 40, 96);
             PanelPedidosEstado.FillColor2 = Color.FromArgb(28, 30, 68);
             PanelPedidosEstado.Location = new Point(8, 8);
-            PanelPedidosEstado.Margin = new Padding(8, 8, 8, 8);
+            PanelPedidosEstado.Margin = new Padding(8);
             PanelPedidosEstado.Name = "PanelPedidosEstado";
             PanelPedidosEstado.ShadowDecoration.CustomizableEdges = customizableEdges18;
             PanelPedidosEstado.Size = new Size(367, 214);

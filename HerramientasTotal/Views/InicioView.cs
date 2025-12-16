@@ -165,17 +165,16 @@ namespace HerramientasTotal
             BotonSeleccionado(btnMovimientos);
         }
 
-        private void ViewHost_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btnIngresos_Click(object sender, EventArgs e)
         {
             ShowView<IngresosUC>();
             BotonSeleccionado(btnIngresos);
         }
 
-
+        private void btnAlertasStock_Click(object sender, EventArgs e)
+        {
+            ShowView<AlertasUC>();
+            BotonSeleccionado(btnAlertasStock);
+        }
     }
 }

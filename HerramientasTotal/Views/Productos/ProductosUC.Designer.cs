@@ -394,7 +394,6 @@
             dataGridViewCellStyle1.BackColor = Color.White;
             dataGridViewCellStyle1.Font = new Font("Bahnschrift Condensed", 10F);
             dgvProductos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dgvProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -453,7 +452,6 @@
             FotoProducto.MinimumWidth = 100;
             FotoProducto.Name = "FotoProducto";
             FotoProducto.ReadOnly = true;
-            FotoProducto.Width = 130;
             // 
             // codigo
             // 
@@ -463,7 +461,6 @@
             codigo.ReadOnly = true;
             codigo.Resizable = DataGridViewTriState.True;
             codigo.SortMode = DataGridViewColumnSortMode.NotSortable;
-            codigo.Width = 103;
             // 
             // nProducto
             // 
@@ -473,7 +470,6 @@
             nProducto.ReadOnly = true;
             nProducto.Resizable = DataGridViewTriState.True;
             nProducto.SortMode = DataGridViewColumnSortMode.NotSortable;
-            nProducto.Width = 103;
             // 
             // catProd
             // 
@@ -481,7 +477,6 @@
             catProd.HeaderText = "Categoría";
             catProd.Name = "catProd";
             catProd.ReadOnly = true;
-            catProd.Width = 103;
             // 
             // stockProducto
             // 
@@ -489,7 +484,6 @@
             stockProducto.HeaderText = "Stock";
             stockProducto.Name = "stockProducto";
             stockProducto.ReadOnly = true;
-            stockProducto.Width = 103;
             // 
             // precioVentaProducto
             // 
@@ -497,7 +491,6 @@
             precioVentaProducto.HeaderText = "Precio de venta";
             precioVentaProducto.Name = "precioVentaProducto";
             precioVentaProducto.ReadOnly = true;
-            precioVentaProducto.Width = 103;
             // 
             // costoProducto
             // 
@@ -505,7 +498,6 @@
             costoProducto.HeaderText = "Costo";
             costoProducto.Name = "costoProducto";
             costoProducto.ReadOnly = true;
-            costoProducto.Width = 103;
             // 
             // gananciaProd
             // 
@@ -513,7 +505,6 @@
             gananciaProd.HeaderText = "Ganancia";
             gananciaProd.Name = "gananciaProd";
             gananciaProd.ReadOnly = true;
-            gananciaProd.Width = 103;
             // 
             // proveedorProducto
             // 
@@ -521,7 +512,6 @@
             proveedorProducto.HeaderText = "Proveedor";
             proveedorProducto.Name = "proveedorProducto";
             proveedorProducto.ReadOnly = true;
-            proveedorProducto.Width = 103;
             // 
             // fechaIngreso
             // 
@@ -529,7 +519,6 @@
             fechaIngreso.HeaderText = "F. de ingreso";
             fechaIngreso.Name = "fechaIngreso";
             fechaIngreso.ReadOnly = true;
-            fechaIngreso.Width = 103;
             // 
             // estadoProd
             // 
@@ -537,7 +526,6 @@
             estadoProd.HeaderText = "Estado";
             estadoProd.Name = "estadoProd";
             estadoProd.ReadOnly = true;
-            estadoProd.Width = 50;
             // 
             // ProductosUC
             // 

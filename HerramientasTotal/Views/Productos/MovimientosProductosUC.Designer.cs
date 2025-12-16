@@ -30,37 +30,37 @@
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             PanelBotonesAccion = new Guna.UI2.WinForms.Guna2Panel();
+            guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             panelHeader = new Guna.UI2.WinForms.Guna2Panel();
+            cmbBuscarProveedorMovimiento = new Guna.UI2.WinForms.Guna2ComboBox();
+            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             cmbCategoriaProductoMovimientos = new Guna.UI2.WinForms.Guna2ComboBox();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtBuscarProdMovimientos = new Guna.UI2.WinForms.Guna2TextBox();
             lblBuscar = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            cmbBuscarProveedorMovimiento = new Guna.UI2.WinForms.Guna2ComboBox();
             dgvProductosMovimientos = new Guna.UI2.WinForms.Guna2DataGridView();
             FotoProducto = new DataGridViewImageColumn();
             codigo = new DataGridViewTextBoxColumn();
@@ -91,6 +91,60 @@
             PanelBotonesAccion.Size = new Size(948, 73);
             PanelBotonesAccion.TabIndex = 4;
             // 
+            // guna2DateTimePicker2
+            // 
+            guna2DateTimePicker2.Checked = true;
+            guna2DateTimePicker2.CustomizableEdges = customizableEdges1;
+            guna2DateTimePicker2.FillColor = Color.FromArgb(26, 26, 45);
+            guna2DateTimePicker2.Font = new Font("Bahnschrift SemiCondensed", 10F);
+            guna2DateTimePicker2.ForeColor = Color.WhiteSmoke;
+            guna2DateTimePicker2.Format = DateTimePickerFormat.Long;
+            guna2DateTimePicker2.Location = new Point(523, 20);
+            guna2DateTimePicker2.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            guna2DateTimePicker2.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            guna2DateTimePicker2.Name = "guna2DateTimePicker2";
+            guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2DateTimePicker2.Size = new Size(225, 36);
+            guna2DateTimePicker2.TabIndex = 50;
+            guna2DateTimePicker2.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
+            // 
+            // guna2HtmlLabel4
+            // 
+            guna2HtmlLabel4.BackColor = Color.Transparent;
+            guna2HtmlLabel4.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel4.Location = new Point(474, 27);
+            guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            guna2HtmlLabel4.Size = new Size(43, 21);
+            guna2HtmlLabel4.TabIndex = 49;
+            guna2HtmlLabel4.Text = "Hasta:";
+            // 
+            // guna2DateTimePicker1
+            // 
+            guna2DateTimePicker1.Checked = true;
+            guna2DateTimePicker1.CustomizableEdges = customizableEdges3;
+            guna2DateTimePicker1.FillColor = Color.FromArgb(26, 26, 45);
+            guna2DateTimePicker1.Font = new Font("Bahnschrift SemiCondensed", 10F);
+            guna2DateTimePicker1.ForeColor = Color.WhiteSmoke;
+            guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
+            guna2DateTimePicker1.Location = new Point(215, 20);
+            guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2DateTimePicker1.Size = new Size(225, 36);
+            guna2DateTimePicker1.TabIndex = 48;
+            guna2DateTimePicker1.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
+            // 
+            // guna2HtmlLabel9
+            // 
+            guna2HtmlLabel9.BackColor = Color.Transparent;
+            guna2HtmlLabel9.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel9.Location = new Point(165, 27);
+            guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            guna2HtmlLabel9.Size = new Size(44, 21);
+            guna2HtmlLabel9.TabIndex = 47;
+            guna2HtmlLabel9.Text = "Desde:";
+            // 
             // panelHeader
             // 
             panelHeader.AutoScroll = true;
@@ -114,6 +168,36 @@
             panelHeader.ShadowDecoration.Depth = 5;
             panelHeader.Size = new Size(948, 70);
             panelHeader.TabIndex = 3;
+            // 
+            // cmbBuscarProveedorMovimiento
+            // 
+            cmbBuscarProveedorMovimiento.BackColor = Color.Transparent;
+            cmbBuscarProveedorMovimiento.CustomizableEdges = customizableEdges7;
+            cmbBuscarProveedorMovimiento.DrawMode = DrawMode.OwnerDrawFixed;
+            cmbBuscarProveedorMovimiento.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbBuscarProveedorMovimiento.FocusedColor = Color.FromArgb(94, 148, 255);
+            cmbBuscarProveedorMovimiento.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cmbBuscarProveedorMovimiento.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbBuscarProveedorMovimiento.ForeColor = Color.DimGray;
+            cmbBuscarProveedorMovimiento.ItemHeight = 30;
+            cmbBuscarProveedorMovimiento.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
+            cmbBuscarProveedorMovimiento.Location = new Point(740, 20);
+            cmbBuscarProveedorMovimiento.Name = "cmbBuscarProveedorMovimiento";
+            cmbBuscarProveedorMovimiento.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            cmbBuscarProveedorMovimiento.Size = new Size(183, 36);
+            cmbBuscarProveedorMovimiento.TabIndex = 8;
+            // 
+            // guna2HtmlLabel3
+            // 
+            guna2HtmlLabel3.BackColor = Color.Transparent;
+            guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel3.ForeColor = Color.Gainsboro;
+            guna2HtmlLabel3.Location = new Point(651, 26);
+            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            guna2HtmlLabel3.Size = new Size(86, 26);
+            guna2HtmlLabel3.TabIndex = 7;
+            guna2HtmlLabel3.Text = "Proveedor:";
+            guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // cmbCategoriaProductoMovimientos
             // 
@@ -206,90 +290,6 @@
             lblTitulo.Text = "Movimientos";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
             // 
-            // guna2DateTimePicker1
-            // 
-            guna2DateTimePicker1.Checked = true;
-            guna2DateTimePicker1.CustomizableEdges = customizableEdges3;
-            guna2DateTimePicker1.FillColor = Color.FromArgb(26, 26, 45);
-            guna2DateTimePicker1.Font = new Font("Bahnschrift SemiCondensed", 10F);
-            guna2DateTimePicker1.ForeColor = Color.WhiteSmoke;
-            guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(215, 20);
-            guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2DateTimePicker1.Size = new Size(225, 36);
-            guna2DateTimePicker1.TabIndex = 48;
-            guna2DateTimePicker1.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
-            // 
-            // guna2HtmlLabel9
-            // 
-            guna2HtmlLabel9.BackColor = Color.Transparent;
-            guna2HtmlLabel9.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel9.Location = new Point(165, 27);
-            guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            guna2HtmlLabel9.Size = new Size(44, 21);
-            guna2HtmlLabel9.TabIndex = 47;
-            guna2HtmlLabel9.Text = "Desde:";
-            // 
-            // guna2DateTimePicker2
-            // 
-            guna2DateTimePicker2.Checked = true;
-            guna2DateTimePicker2.CustomizableEdges = customizableEdges1;
-            guna2DateTimePicker2.FillColor = Color.FromArgb(26, 26, 45);
-            guna2DateTimePicker2.Font = new Font("Bahnschrift SemiCondensed", 10F);
-            guna2DateTimePicker2.ForeColor = Color.WhiteSmoke;
-            guna2DateTimePicker2.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker2.Location = new Point(523, 20);
-            guna2DateTimePicker2.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker2.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2DateTimePicker2.Size = new Size(225, 36);
-            guna2DateTimePicker2.TabIndex = 50;
-            guna2DateTimePicker2.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
-            // 
-            // guna2HtmlLabel4
-            // 
-            guna2HtmlLabel4.BackColor = Color.Transparent;
-            guna2HtmlLabel4.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel4.Location = new Point(474, 27);
-            guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(43, 21);
-            guna2HtmlLabel4.TabIndex = 49;
-            guna2HtmlLabel4.Text = "Hasta:";
-            // 
-            // guna2HtmlLabel3
-            // 
-            guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel3.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel3.Location = new Point(651, 26);
-            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(86, 26);
-            guna2HtmlLabel3.TabIndex = 7;
-            guna2HtmlLabel3.Text = "Proveedor:";
-            guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
-            // 
-            // cmbBuscarProveedorMovimiento
-            // 
-            cmbBuscarProveedorMovimiento.BackColor = Color.Transparent;
-            cmbBuscarProveedorMovimiento.CustomizableEdges = customizableEdges7;
-            cmbBuscarProveedorMovimiento.DrawMode = DrawMode.OwnerDrawFixed;
-            cmbBuscarProveedorMovimiento.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbBuscarProveedorMovimiento.FocusedColor = Color.FromArgb(94, 148, 255);
-            cmbBuscarProveedorMovimiento.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            cmbBuscarProveedorMovimiento.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cmbBuscarProveedorMovimiento.ForeColor = Color.DimGray;
-            cmbBuscarProveedorMovimiento.ItemHeight = 30;
-            cmbBuscarProveedorMovimiento.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbBuscarProveedorMovimiento.Location = new Point(740, 20);
-            cmbBuscarProveedorMovimiento.Name = "cmbBuscarProveedorMovimiento";
-            cmbBuscarProveedorMovimiento.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            cmbBuscarProveedorMovimiento.Size = new Size(183, 36);
-            cmbBuscarProveedorMovimiento.TabIndex = 8;
-            // 
             // dgvProductosMovimientos
             // 
             dgvProductosMovimientos.AllowUserToAddRows = false;
@@ -297,7 +297,6 @@
             dataGridViewCellStyle1.BackColor = Color.White;
             dataGridViewCellStyle1.Font = new Font("Bahnschrift Condensed", 10F);
             dgvProductosMovimientos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dgvProductosMovimientos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -356,7 +355,6 @@
             FotoProducto.MinimumWidth = 100;
             FotoProducto.Name = "FotoProducto";
             FotoProducto.ReadOnly = true;
-            FotoProducto.Width = 130;
             // 
             // codigo
             // 
@@ -366,7 +364,6 @@
             codigo.ReadOnly = true;
             codigo.Resizable = DataGridViewTriState.True;
             codigo.SortMode = DataGridViewColumnSortMode.NotSortable;
-            codigo.Width = 103;
             // 
             // nProducto
             // 
@@ -376,7 +373,6 @@
             nProducto.ReadOnly = true;
             nProducto.Resizable = DataGridViewTriState.True;
             nProducto.SortMode = DataGridViewColumnSortMode.NotSortable;
-            nProducto.Width = 103;
             // 
             // catProd
             // 
@@ -384,7 +380,6 @@
             catProd.HeaderText = "Categoría";
             catProd.Name = "catProd";
             catProd.ReadOnly = true;
-            catProd.Width = 103;
             // 
             // cantidadProducto
             // 
@@ -392,7 +387,6 @@
             cantidadProducto.HeaderText = "Cantidad";
             cantidadProducto.Name = "cantidadProducto";
             cantidadProducto.ReadOnly = true;
-            cantidadProducto.Width = 103;
             // 
             // costoProducto
             // 
@@ -400,7 +394,6 @@
             costoProducto.HeaderText = "Costo";
             costoProducto.Name = "costoProducto";
             costoProducto.ReadOnly = true;
-            costoProducto.Width = 103;
             // 
             // gananciaProd
             // 
@@ -408,7 +401,6 @@
             gananciaProd.HeaderText = "Ganancia";
             gananciaProd.Name = "gananciaProd";
             gananciaProd.ReadOnly = true;
-            gananciaProd.Width = 103;
             // 
             // proveedorProducto
             // 
@@ -416,7 +408,6 @@
             proveedorProducto.HeaderText = "Proveedor";
             proveedorProducto.Name = "proveedorProducto";
             proveedorProducto.ReadOnly = true;
-            proveedorProducto.Width = 103;
             // 
             // fechaIngreso
             // 
@@ -424,7 +415,6 @@
             fechaIngreso.HeaderText = "F. de ingreso";
             fechaIngreso.Name = "fechaIngreso";
             fechaIngreso.ReadOnly = true;
-            fechaIngreso.Width = 103;
             // 
             // FechaSalidaProd
             // 

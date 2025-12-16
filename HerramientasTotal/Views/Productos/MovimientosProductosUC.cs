@@ -19,7 +19,10 @@ namespace HerramientasTotal.Views.Productos
         public MovimientosProductosUC()
         {
             InitializeComponent();
+            dgvProductosMovimientos.AutoGenerateColumns = false;
+            dgvProductosMovimientos.RowTemplate.Height = 60;
             CargarDatosProvisionales();
+
 
             cmbCategoriaProductoMovimientos.DataSource = new List<string>
             {

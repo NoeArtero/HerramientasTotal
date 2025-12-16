@@ -275,59 +275,64 @@
             // lblTotal
             // 
             lblTotal.BackColor = Color.FromArgb(28, 30, 68);
+            lblTotal.BorderStyle = BorderStyle.FixedSingle;
             lblTotal.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTotal.ForeColor = Color.Gainsboro;
             lblTotal.Location = new Point(799, 25);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(44, 26);
+            lblTotal.Size = new Size(46, 28);
             lblTotal.TabIndex = 11;
             lblTotal.Text = "Total:";
             lblTotal.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // lblSuficiente
             // 
-            lblSuficiente.BackColor = Color.FromArgb(43, 121, 43);
+            lblSuficiente.BackColor = Color.FromArgb(208, 255, 211);
+            lblSuficiente.BorderStyle = BorderStyle.FixedSingle;
             lblSuficiente.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSuficiente.ForeColor = Color.Gainsboro;
+            lblSuficiente.ForeColor = SystemColors.ControlDarkDark;
             lblSuficiente.Location = new Point(166, 25);
             lblSuficiente.Name = "lblSuficiente";
-            lblSuficiente.Size = new Size(92, 26);
+            lblSuficiente.Size = new Size(94, 28);
             lblSuficiente.TabIndex = 12;
             lblSuficiente.Text = "Suficientes:";
             lblSuficiente.TextAlignment = ContentAlignment.TopCenter;
             // 
             // lblBajos
             // 
-            lblBajos.BackColor = Color.FromArgb(252, 122, 27);
+            lblBajos.BackColor = Color.FromArgb(251, 236, 93);
+            lblBajos.BorderStyle = BorderStyle.FixedSingle;
             lblBajos.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblBajos.ForeColor = Color.Gainsboro;
+            lblBajos.ForeColor = SystemColors.ControlDarkDark;
             lblBajos.Location = new Point(355, 25);
             lblBajos.Name = "lblBajos";
-            lblBajos.Size = new Size(49, 26);
+            lblBajos.Size = new Size(51, 28);
             lblBajos.TabIndex = 11;
             lblBajos.Text = "Bajos:";
             lblBajos.TextAlignment = ContentAlignment.TopCenter;
             // 
             // lblAgotados
             // 
-            lblAgotados.BackColor = Color.FromArgb(136, 0, 0);
+            lblAgotados.BackColor = Color.FromArgb(255, 116, 108);
+            lblAgotados.BorderStyle = BorderStyle.FixedSingle;
             lblAgotados.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAgotados.ForeColor = Color.Gainsboro;
+            lblAgotados.ForeColor = SystemColors.ControlDarkDark;
             lblAgotados.Location = new Point(640, 25);
             lblAgotados.Name = "lblAgotados";
-            lblAgotados.Size = new Size(77, 26);
+            lblAgotados.Size = new Size(79, 28);
             lblAgotados.TabIndex = 9;
             lblAgotados.Text = "Agotados:";
             lblAgotados.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // lblCriticos
             // 
-            lblCriticos.BackColor = Color.FromArgb(255, 6, 6);
+            lblCriticos.BackColor = Color.FromArgb(242, 185, 73);
+            lblCriticos.BorderStyle = BorderStyle.FixedSingle;
             lblCriticos.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblCriticos.ForeColor = Color.Gainsboro;
+            lblCriticos.ForeColor = SystemColors.ControlDarkDark;
             lblCriticos.Location = new Point(487, 25);
             lblCriticos.Name = "lblCriticos";
-            lblCriticos.Size = new Size(64, 26);
+            lblCriticos.Size = new Size(66, 28);
             lblCriticos.TabIndex = 10;
             lblCriticos.Text = "Criticos:";
             lblCriticos.TextAlignment = ContentAlignment.TopCenter;

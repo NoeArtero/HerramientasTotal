@@ -94,6 +94,7 @@ namespace HerramientasTotal.Views.Productos
 
            lista = lista
                 .OrderBy(p => prioridad[p.EstadoStock])
+                .ThenBy(p => p.Stock)
                 .ThenBy(p => p.Nombre)
                 .ToList();
 

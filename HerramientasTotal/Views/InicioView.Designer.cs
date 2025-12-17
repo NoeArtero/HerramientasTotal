@@ -282,7 +282,7 @@
             btnCnotificaciones.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCnotificaciones.ImageSize = new Size(25, 25);
             btnCnotificaciones.Location = new Point(0, 125);
-            btnCnotificaciones.Margin = new Padding(55, 55, 55, 55);
+            btnCnotificaciones.Margin = new Padding(55);
             btnCnotificaciones.Name = "btnCnotificaciones";
             btnCnotificaciones.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnCnotificaciones.Size = new Size(173, 29);
@@ -305,7 +305,7 @@
             btnCFinanzas.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCFinanzas.ImageSize = new Size(25, 25);
             btnCFinanzas.Location = new Point(0, 94);
-            btnCFinanzas.Margin = new Padding(55, 55, 55, 55);
+            btnCFinanzas.Margin = new Padding(55);
             btnCFinanzas.Name = "btnCFinanzas";
             btnCFinanzas.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnCFinanzas.Size = new Size(173, 29);
@@ -328,7 +328,7 @@
             btnCInventario.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCInventario.ImageSize = new Size(25, 25);
             btnCInventario.Location = new Point(0, 62);
-            btnCInventario.Margin = new Padding(55, 55, 55, 55);
+            btnCInventario.Margin = new Padding(55);
             btnCInventario.Name = "btnCInventario";
             btnCInventario.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnCInventario.Size = new Size(173, 30);
@@ -351,7 +351,7 @@
             btnImpuestosPagos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnImpuestosPagos.ImageSize = new Size(25, 25);
             btnImpuestosPagos.Location = new Point(0, 31);
-            btnImpuestosPagos.Margin = new Padding(55, 55, 55, 55);
+            btnImpuestosPagos.Margin = new Padding(55);
             btnImpuestosPagos.Name = "btnImpuestosPagos";
             btnImpuestosPagos.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnImpuestosPagos.Size = new Size(173, 30);
@@ -374,7 +374,7 @@
             btnEmpresa.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnEmpresa.ImageSize = new Size(25, 25);
             btnEmpresa.Location = new Point(0, 0);
-            btnEmpresa.Margin = new Padding(55, 55, 55, 55);
+            btnEmpresa.Margin = new Padding(55);
             btnEmpresa.Name = "btnEmpresa";
             btnEmpresa.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnEmpresa.Size = new Size(173, 30);
@@ -403,7 +403,7 @@
             btnConfiguracion.ImageAlign = HorizontalAlignment.Left;
             btnConfiguracion.ImageSize = new Size(25, 25);
             btnConfiguracion.Location = new Point(0, 1211);
-            btnConfiguracion.Margin = new Padding(55, 55, 55, 55);
+            btnConfiguracion.Margin = new Padding(55);
             btnConfiguracion.Name = "btnConfiguracion";
             btnConfiguracion.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btnConfiguracion.Size = new Size(160, 40);
@@ -443,7 +443,7 @@
             btnConfigCanales.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnConfigCanales.ImageSize = new Size(25, 25);
             btnConfigCanales.Location = new Point(-3, 62);
-            btnConfigCanales.Margin = new Padding(55, 55, 55, 55);
+            btnConfigCanales.Margin = new Padding(55);
             btnConfigCanales.Name = "btnConfigCanales";
             btnConfigCanales.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnConfigCanales.Size = new Size(176, 30);
@@ -466,7 +466,7 @@
             btnHistorial.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnHistorial.ImageSize = new Size(25, 25);
             btnHistorial.Location = new Point(-3, 31);
-            btnHistorial.Margin = new Padding(55, 55, 55, 55);
+            btnHistorial.Margin = new Padding(55);
             btnHistorial.Name = "btnHistorial";
             btnHistorial.ShadowDecoration.CustomizableEdges = customizableEdges20;
             btnHistorial.Size = new Size(176, 30);
@@ -489,7 +489,7 @@
             btnEnviar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnEnviar.ImageSize = new Size(25, 25);
             btnEnviar.Location = new Point(-3, 0);
-            btnEnviar.Margin = new Padding(55, 55, 55, 55);
+            btnEnviar.Margin = new Padding(55);
             btnEnviar.Name = "btnEnviar";
             btnEnviar.ShadowDecoration.CustomizableEdges = customizableEdges22;
             btnEnviar.Size = new Size(176, 30);
@@ -518,7 +518,7 @@
             btnNotificaciones.ImageAlign = HorizontalAlignment.Left;
             btnNotificaciones.ImageSize = new Size(25, 25);
             btnNotificaciones.Location = new Point(0, 1072);
-            btnNotificaciones.Margin = new Padding(55, 55, 55, 55);
+            btnNotificaciones.Margin = new Padding(55);
             btnNotificaciones.Name = "btnNotificaciones";
             btnNotificaciones.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnNotificaciones.Size = new Size(160, 40);
@@ -558,7 +558,7 @@
             btnBitacora.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnBitacora.ImageSize = new Size(25, 25);
             btnBitacora.Location = new Point(-3, 62);
-            btnBitacora.Margin = new Padding(55, 55, 55, 55);
+            btnBitacora.Margin = new Padding(55);
             btnBitacora.Name = "btnBitacora";
             btnBitacora.ShadowDecoration.CustomizableEdges = customizableEdges28;
             btnBitacora.Size = new Size(176, 30);
@@ -581,7 +581,7 @@
             btnRoles.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRoles.ImageSize = new Size(25, 25);
             btnRoles.Location = new Point(-3, 31);
-            btnRoles.Margin = new Padding(55, 55, 55, 55);
+            btnRoles.Margin = new Padding(55);
             btnRoles.Name = "btnRoles";
             btnRoles.ShadowDecoration.CustomizableEdges = customizableEdges30;
             btnRoles.Size = new Size(176, 30);
@@ -604,7 +604,7 @@
             btnEmpleados.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnEmpleados.ImageSize = new Size(25, 25);
             btnEmpleados.Location = new Point(-3, 0);
-            btnEmpleados.Margin = new Padding(55, 55, 55, 55);
+            btnEmpleados.Margin = new Padding(55);
             btnEmpleados.Name = "btnEmpleados";
             btnEmpleados.ShadowDecoration.CustomizableEdges = customizableEdges32;
             btnEmpleados.Size = new Size(176, 30);
@@ -633,7 +633,7 @@
             btnPersonal.ImageAlign = HorizontalAlignment.Left;
             btnPersonal.ImageSize = new Size(25, 25);
             btnPersonal.Location = new Point(0, 933);
-            btnPersonal.Margin = new Padding(55, 55, 55, 55);
+            btnPersonal.Margin = new Padding(55);
             btnPersonal.Name = "btnPersonal";
             btnPersonal.ShadowDecoration.CustomizableEdges = customizableEdges36;
             btnPersonal.Size = new Size(160, 40);
@@ -675,7 +675,7 @@
             btnRcreditos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRcreditos.ImageSize = new Size(25, 25);
             btnRcreditos.Location = new Point(0, 125);
-            btnRcreditos.Margin = new Padding(55, 55, 55, 55);
+            btnRcreditos.Margin = new Padding(55);
             btnRcreditos.Name = "btnRcreditos";
             btnRcreditos.ShadowDecoration.CustomizableEdges = customizableEdges38;
             btnRcreditos.Size = new Size(173, 29);
@@ -698,7 +698,7 @@
             btnRGanancias.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRGanancias.ImageSize = new Size(25, 25);
             btnRGanancias.Location = new Point(0, 94);
-            btnRGanancias.Margin = new Padding(55, 55, 55, 55);
+            btnRGanancias.Margin = new Padding(55);
             btnRGanancias.Name = "btnRGanancias";
             btnRGanancias.ShadowDecoration.CustomizableEdges = customizableEdges40;
             btnRGanancias.Size = new Size(173, 29);
@@ -721,7 +721,7 @@
             btnRgastos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRgastos.ImageSize = new Size(25, 25);
             btnRgastos.Location = new Point(0, 62);
-            btnRgastos.Margin = new Padding(55, 55, 55, 55);
+            btnRgastos.Margin = new Padding(55);
             btnRgastos.Name = "btnRgastos";
             btnRgastos.ShadowDecoration.CustomizableEdges = customizableEdges42;
             btnRgastos.Size = new Size(173, 30);
@@ -744,7 +744,7 @@
             btnRinventario.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRinventario.ImageSize = new Size(25, 25);
             btnRinventario.Location = new Point(0, 31);
-            btnRinventario.Margin = new Padding(55, 55, 55, 55);
+            btnRinventario.Margin = new Padding(55);
             btnRinventario.Name = "btnRinventario";
             btnRinventario.ShadowDecoration.CustomizableEdges = customizableEdges44;
             btnRinventario.Size = new Size(173, 30);
@@ -767,7 +767,7 @@
             btnRventas.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnRventas.ImageSize = new Size(25, 25);
             btnRventas.Location = new Point(0, 0);
-            btnRventas.Margin = new Padding(55, 55, 55, 55);
+            btnRventas.Margin = new Padding(55);
             btnRventas.Name = "btnRventas";
             btnRventas.ShadowDecoration.CustomizableEdges = customizableEdges46;
             btnRventas.Size = new Size(173, 30);
@@ -796,7 +796,7 @@
             btnReportes.ImageAlign = HorizontalAlignment.Left;
             btnReportes.ImageSize = new Size(25, 25);
             btnReportes.Location = new Point(0, 730);
-            btnReportes.Margin = new Padding(55, 55, 55, 55);
+            btnReportes.Margin = new Padding(55);
             btnReportes.Name = "btnReportes";
             btnReportes.ShadowDecoration.CustomizableEdges = customizableEdges50;
             btnReportes.Size = new Size(160, 40);
@@ -836,7 +836,7 @@
             Resultados.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             Resultados.ImageSize = new Size(25, 25);
             Resultados.Location = new Point(-3, 62);
-            Resultados.Margin = new Padding(55, 55, 55, 55);
+            Resultados.Margin = new Padding(55);
             Resultados.Name = "Resultados";
             Resultados.ShadowDecoration.CustomizableEdges = customizableEdges52;
             Resultados.Size = new Size(176, 30);
@@ -859,7 +859,7 @@
             btnGastos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnGastos.ImageSize = new Size(25, 25);
             btnGastos.Location = new Point(-3, 31);
-            btnGastos.Margin = new Padding(55, 55, 55, 55);
+            btnGastos.Margin = new Padding(55);
             btnGastos.Name = "btnGastos";
             btnGastos.ShadowDecoration.CustomizableEdges = customizableEdges54;
             btnGastos.Size = new Size(176, 30);
@@ -882,7 +882,7 @@
             btnIngresos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnIngresos.ImageSize = new Size(25, 25);
             btnIngresos.Location = new Point(-3, 0);
-            btnIngresos.Margin = new Padding(55, 55, 55, 55);
+            btnIngresos.Margin = new Padding(55);
             btnIngresos.Name = "btnIngresos";
             btnIngresos.ShadowDecoration.CustomizableEdges = customizableEdges56;
             btnIngresos.Size = new Size(176, 30);
@@ -912,7 +912,7 @@
             btnFinanzas.ImageAlign = HorizontalAlignment.Left;
             btnFinanzas.ImageSize = new Size(25, 25);
             btnFinanzas.Location = new Point(0, 591);
-            btnFinanzas.Margin = new Padding(55, 55, 55, 55);
+            btnFinanzas.Margin = new Padding(55);
             btnFinanzas.Name = "btnFinanzas";
             btnFinanzas.ShadowDecoration.CustomizableEdges = customizableEdges60;
             btnFinanzas.Size = new Size(160, 40);
@@ -952,7 +952,7 @@
             guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton1.ImageSize = new Size(25, 25);
             guna2GradientButton1.Location = new Point(-3, 62);
-            guna2GradientButton1.Margin = new Padding(55, 55, 55, 55);
+            guna2GradientButton1.Margin = new Padding(55);
             guna2GradientButton1.Name = "guna2GradientButton1";
             guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges62;
             guna2GradientButton1.Size = new Size(176, 30);
@@ -975,7 +975,7 @@
             guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton2.ImageSize = new Size(25, 25);
             guna2GradientButton2.Location = new Point(-3, 31);
-            guna2GradientButton2.Margin = new Padding(55, 55, 55, 55);
+            guna2GradientButton2.Margin = new Padding(55);
             guna2GradientButton2.Name = "guna2GradientButton2";
             guna2GradientButton2.ShadowDecoration.CustomizableEdges = customizableEdges64;
             guna2GradientButton2.Size = new Size(176, 30);
@@ -998,7 +998,7 @@
             guna2GradientButton6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton6.ImageSize = new Size(25, 25);
             guna2GradientButton6.Location = new Point(-3, 0);
-            guna2GradientButton6.Margin = new Padding(55, 55, 55, 55);
+            guna2GradientButton6.Margin = new Padding(55);
             guna2GradientButton6.Name = "guna2GradientButton6";
             guna2GradientButton6.ShadowDecoration.CustomizableEdges = customizableEdges66;
             guna2GradientButton6.Size = new Size(176, 30);
@@ -1027,7 +1027,7 @@
             btnPedidosEnvios.ImageAlign = HorizontalAlignment.Left;
             btnPedidosEnvios.ImageSize = new Size(25, 25);
             btnPedidosEnvios.Location = new Point(0, 452);
-            btnPedidosEnvios.Margin = new Padding(55, 55, 55, 55);
+            btnPedidosEnvios.Margin = new Padding(55);
             btnPedidosEnvios.Name = "btnPedidosEnvios";
             btnPedidosEnvios.ShadowDecoration.CustomizableEdges = customizableEdges70;
             btnPedidosEnvios.Size = new Size(160, 40);
@@ -1068,7 +1068,7 @@
             btnCobros.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCobros.ImageSize = new Size(25, 25);
             btnCobros.Location = new Point(-3, 62);
-            btnCobros.Margin = new Padding(55, 55, 55, 55);
+            btnCobros.Margin = new Padding(55);
             btnCobros.Name = "btnCobros";
             btnCobros.ShadowDecoration.CustomizableEdges = customizableEdges72;
             btnCobros.Size = new Size(176, 30);
@@ -1091,7 +1091,7 @@
             btnCreditosCuotas.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCreditosCuotas.ImageSize = new Size(25, 25);
             btnCreditosCuotas.Location = new Point(-3, 31);
-            btnCreditosCuotas.Margin = new Padding(55, 55, 55, 55);
+            btnCreditosCuotas.Margin = new Padding(55);
             btnCreditosCuotas.Name = "btnCreditosCuotas";
             btnCreditosCuotas.ShadowDecoration.CustomizableEdges = customizableEdges74;
             btnCreditosCuotas.Size = new Size(176, 30);
@@ -1114,7 +1114,7 @@
             btnClientesLista.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnClientesLista.ImageSize = new Size(25, 25);
             btnClientesLista.Location = new Point(-3, 0);
-            btnClientesLista.Margin = new Padding(55, 55, 55, 55);
+            btnClientesLista.Margin = new Padding(55);
             btnClientesLista.Name = "btnClientesLista";
             btnClientesLista.ShadowDecoration.CustomizableEdges = customizableEdges76;
             btnClientesLista.Size = new Size(176, 30);
@@ -1143,7 +1143,7 @@
             btnClientes.ImageAlign = HorizontalAlignment.Left;
             btnClientes.ImageSize = new Size(25, 25);
             btnClientes.Location = new Point(0, 313);
-            btnClientes.Margin = new Padding(55, 55, 55, 55);
+            btnClientes.Margin = new Padding(55);
             btnClientes.Name = "btnClientes";
             btnClientes.ShadowDecoration.CustomizableEdges = customizableEdges80;
             btnClientes.Size = new Size(160, 40);
@@ -1183,7 +1183,7 @@
             guna2GradientButton4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton4.ImageSize = new Size(25, 25);
             guna2GradientButton4.Location = new Point(-3, 31);
-            guna2GradientButton4.Margin = new Padding(55, 55, 55, 55);
+            guna2GradientButton4.Margin = new Padding(55);
             guna2GradientButton4.Name = "guna2GradientButton4";
             guna2GradientButton4.ShadowDecoration.CustomizableEdges = customizableEdges82;
             guna2GradientButton4.Size = new Size(176, 30);
@@ -1206,7 +1206,7 @@
             guna2GradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             guna2GradientButton5.ImageSize = new Size(25, 25);
             guna2GradientButton5.Location = new Point(-3, 0);
-            guna2GradientButton5.Margin = new Padding(55, 55, 55, 55);
+            guna2GradientButton5.Margin = new Padding(55);
             guna2GradientButton5.Name = "guna2GradientButton5";
             guna2GradientButton5.ShadowDecoration.CustomizableEdges = customizableEdges84;
             guna2GradientButton5.Size = new Size(176, 30);
@@ -1235,7 +1235,7 @@
             btnVentas.ImageAlign = HorizontalAlignment.Left;
             btnVentas.ImageSize = new Size(25, 25);
             btnVentas.Location = new Point(0, 208);
-            btnVentas.Margin = new Padding(55, 55, 55, 55);
+            btnVentas.Margin = new Padding(55);
             btnVentas.Name = "btnVentas";
             btnVentas.ShadowDecoration.CustomizableEdges = customizableEdges88;
             btnVentas.Size = new Size(160, 40);
@@ -1276,12 +1276,13 @@
             btnProveedores.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnProveedores.ImageSize = new Size(25, 25);
             btnProveedores.Location = new Point(0, 94);
-            btnProveedores.Margin = new Padding(55, 55, 55, 55);
+            btnProveedores.Margin = new Padding(55);
             btnProveedores.Name = "btnProveedores";
             btnProveedores.ShadowDecoration.CustomizableEdges = customizableEdges90;
             btnProveedores.Size = new Size(173, 29);
             btnProveedores.TabIndex = 28;
             btnProveedores.Text = "Proveedores";
+            btnProveedores.Click += btnProveedores_Click;
             // 
             // btnAlertasStock
             // 
@@ -1299,7 +1300,7 @@
             btnAlertasStock.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnAlertasStock.ImageSize = new Size(25, 25);
             btnAlertasStock.Location = new Point(-3, 63);
-            btnAlertasStock.Margin = new Padding(55, 55, 55, 55);
+            btnAlertasStock.Margin = new Padding(55);
             btnAlertasStock.Name = "btnAlertasStock";
             btnAlertasStock.ShadowDecoration.CustomizableEdges = customizableEdges92;
             btnAlertasStock.Size = new Size(173, 29);
@@ -1323,7 +1324,7 @@
             btnMovimientos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnMovimientos.ImageSize = new Size(25, 25);
             btnMovimientos.Location = new Point(0, 31);
-            btnMovimientos.Margin = new Padding(55, 55, 55, 55);
+            btnMovimientos.Margin = new Padding(55);
             btnMovimientos.Name = "btnMovimientos";
             btnMovimientos.ShadowDecoration.CustomizableEdges = customizableEdges94;
             btnMovimientos.Size = new Size(173, 30);
@@ -1347,7 +1348,7 @@
             btnProductos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnProductos.ImageSize = new Size(25, 25);
             btnProductos.Location = new Point(0, 0);
-            btnProductos.Margin = new Padding(55, 55, 55, 55);
+            btnProductos.Margin = new Padding(55);
             btnProductos.Name = "btnProductos";
             btnProductos.ShadowDecoration.CustomizableEdges = customizableEdges96;
             btnProductos.Size = new Size(173, 30);
@@ -1377,7 +1378,7 @@
             btnInventario.ImageAlign = HorizontalAlignment.Left;
             btnInventario.ImageSize = new Size(25, 25);
             btnInventario.Location = new Point(0, 41);
-            btnInventario.Margin = new Padding(55, 55, 55, 55);
+            btnInventario.Margin = new Padding(55);
             btnInventario.Name = "btnInventario";
             btnInventario.ShadowDecoration.CustomizableEdges = customizableEdges100;
             btnInventario.Size = new Size(160, 40);
@@ -1405,7 +1406,7 @@
             btnInicio.ImageAlign = HorizontalAlignment.Left;
             btnInicio.ImageSize = new Size(25, 25);
             btnInicio.Location = new Point(0, 0);
-            btnInicio.Margin = new Padding(55, 55, 55, 55);
+            btnInicio.Margin = new Padding(55);
             btnInicio.Name = "btnInicio";
             btnInicio.ShadowDecoration.CustomizableEdges = customizableEdges102;
             btnInicio.Size = new Size(160, 41);
@@ -1429,7 +1430,7 @@
             btnSalir.ForeColor = Color.WhiteSmoke;
             btnSalir.Image = Properties.Resources.cerrar_sesion;
             btnSalir.Location = new Point(0, 1414);
-            btnSalir.Margin = new Padding(55, 55, 55, 55);
+            btnSalir.Margin = new Padding(55);
             btnSalir.Name = "btnSalir";
             btnSalir.ShadowDecoration.CustomizableEdges = customizableEdges104;
             btnSalir.Size = new Size(160, 71);
@@ -1459,7 +1460,7 @@
             btnSalirProductos.HoverState.FillColor2 = SystemColors.Control;
             btnSalirProductos.HoverState.ForeColor = Color.FromArgb(225, 94, 64);
             btnSalirProductos.ImageSize = new Size(32, 32);
-            btnSalirProductos.Location = new Point(57, 19265);
+            btnSalirProductos.Location = new Point(57, 20159);
             btnSalirProductos.Margin = new Padding(3, 2, 3, 2);
             btnSalirProductos.Name = "btnSalirProductos";
             btnSalirProductos.PressedColor = Color.FromArgb(225, 94, 64);

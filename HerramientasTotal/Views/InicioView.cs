@@ -176,5 +176,11 @@ namespace HerramientasTotal
             ShowView<AlertasUC>();
             BotonSeleccionado(btnAlertasStock);
         }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            ShowView<ProveedoresUC>();
+            BotonSeleccionado(btnProveedores);
+        }
     }
 }

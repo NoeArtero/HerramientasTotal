@@ -16,5 +16,16 @@ namespace HerramientasTotal.Views.Productos
         {
             InitializeComponent();
         }
+
+        private void btnAgregarProveedor_Click(object sender, EventArgs e)
+        {
+            agregarProveedorUC agregarProveedorUC = new agregarProveedorUC();
+            agregarProveedorUC.Show();
+            this.Controls.Add(agregarProveedorUC);
+            agregarProveedorUC.BringToFront();
+            agregarProveedorUC.Location = new Point((this.Width - agregarProveedorUC.Width) / 2
+                                                   , (this.Height - agregarProveedorUC.Height) / 2);
+
+        }
     }
 }

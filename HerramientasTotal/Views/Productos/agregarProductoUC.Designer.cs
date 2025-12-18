@@ -152,6 +152,7 @@
             btnProductos.Size = new Size(173, 30);
             btnProductos.TabIndex = 24;
             btnProductos.Text = "Elegir imagen";
+            btnProductos.Click += btnProductos_Click;
             // 
             // btnAgregarProducto
             // 

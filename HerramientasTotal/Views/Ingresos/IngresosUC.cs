@@ -120,5 +120,10 @@ namespace HerramientasTotal.Views.Ingresos
         {
 
         }
+
+        private void guna2DateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -171,6 +171,9 @@ namespace HerramientasTotal
             BotonSeleccionado(btnIngresos);
         }
 
+        private void guna2GradientButton6_Click(object sender, EventArgs e)
+        {
+
         private void btnAlertasStock_Click(object sender, EventArgs e)
         {
             ShowView<AlertasUC>();

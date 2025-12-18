@@ -1004,6 +1004,7 @@
             guna2GradientButton6.Size = new Size(176, 30);
             guna2GradientButton6.TabIndex = 23;
             guna2GradientButton6.Text = "Clientes";
+            guna2GradientButton6.Click += guna2GradientButton6_Click;
             // 
             // btnPedidosEnvios
             // 
@@ -1460,6 +1461,7 @@
             btnSalirProductos.HoverState.FillColor2 = SystemColors.Control;
             btnSalirProductos.HoverState.ForeColor = Color.FromArgb(225, 94, 64);
             btnSalirProductos.ImageSize = new Size(32, 32);
+            btnSalirProductos.Location = new Point(65, 26343);
             btnSalirProductos.Location = new Point(57, 20159);
             btnSalirProductos.Margin = new Padding(3, 2, 3, 2);
             btnSalirProductos.Name = "btnSalirProductos";

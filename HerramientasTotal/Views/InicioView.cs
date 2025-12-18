@@ -165,11 +165,6 @@ namespace HerramientasTotal
             BotonSeleccionado(btnMovimientos);
         }
 
-        private void ViewHost_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btnIngresos_Click(object sender, EventArgs e)
         {
             ShowView<IngresosUC>();
@@ -179,6 +174,16 @@ namespace HerramientasTotal
         private void guna2GradientButton6_Click(object sender, EventArgs e)
         {
 
+        private void btnAlertasStock_Click(object sender, EventArgs e)
+        {
+            ShowView<AlertasUC>();
+            BotonSeleccionado(btnAlertasStock);
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            ShowView<ProveedoresUC>();
+            BotonSeleccionado(btnProveedores);
         }
     }
 }

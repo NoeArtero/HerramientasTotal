@@ -19,6 +19,7 @@ namespace HerramientasTotal.Models
         public DateTime FechaIngreso { get; set; }
         public bool Estado { get; set; }
 
+        public string EstadoStock { get; set; } 
 
         public decimal Ganancia => Math.Max(0, PrecioVenta - Costo);
         

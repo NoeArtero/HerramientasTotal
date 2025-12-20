@@ -58,30 +58,19 @@
             lblBuscar = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             PanelProveedores = new Guna.UI2.WinForms.Guna2Panel();
-            lblTotalProveedores = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblTotalProveedor = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             PanelBotonesAccion = new Guna.UI2.WinForms.Guna2Panel();
             btnEliminarProveedor = new Guna.UI2.WinForms.Guna2Button();
             btnEditarProveedor = new Guna.UI2.WinForms.Guna2Button();
             btnAgregarProveedor = new Guna.UI2.WinForms.Guna2Button();
-            PanelDGVProveedores = new Guna.UI2.WinForms.Guna2Panel();
-            dgvProveedores = new Guna.UI2.WinForms.Guna2DataGridView();
-            FotoProducto = new DataGridViewImageColumn();
-            codigo = new DataGridViewTextBoxColumn();
-            nProducto = new DataGridViewTextBoxColumn();
-            catProd = new DataGridViewTextBoxColumn();
-            stockProducto = new DataGridViewTextBoxColumn();
-            precioVentaProducto = new DataGridViewTextBoxColumn();
-            costoProducto = new DataGridViewTextBoxColumn();
-            gananciaProd = new DataGridViewTextBoxColumn();
-            proveedorProducto = new DataGridViewTextBoxColumn();
-            fechaIngreso = new DataGridViewTextBoxColumn();
-            estadoProd = new DataGridViewCheckBoxColumn();
+            PanelDGVProveedor = new Guna.UI2.WinForms.Guna2Panel();
+            dgvProveedor = new Guna.UI2.WinForms.Guna2DataGridView();
             panelHeader.SuspendLayout();
             PanelProveedores.SuspendLayout();
             PanelBotonesAccion.SuspendLayout();
-            PanelDGVProveedores.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvProveedores).BeginInit();
+            PanelDGVProveedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvProveedor).BeginInit();
             SuspendLayout();
             // 
             // panelHeader
@@ -119,7 +108,7 @@
             cmbEstadoProveedor.ForeColor = Color.DimGray;
             cmbEstadoProveedor.ItemHeight = 30;
             cmbEstadoProveedor.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbEstadoProveedor.Location = new Point(526, 19);
+            cmbEstadoProveedor.Location = new Point(523, 18);
             cmbEstadoProveedor.Name = "cmbEstadoProveedor";
             cmbEstadoProveedor.ShadowDecoration.CustomizableEdges = customizableEdges2;
             cmbEstadoProveedor.Size = new Size(183, 36);
@@ -130,7 +119,7 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(455, 23);
+            guna2HtmlLabel2.Location = new Point(459, 27);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(58, 26);
             guna2HtmlLabel2.TabIndex = 7;
@@ -149,13 +138,13 @@
             txtBuscarProveedor.Font = new Font("Bahnschrift", 10F);
             txtBuscarProveedor.ForeColor = Color.DimGray;
             txtBuscarProveedor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBuscarProveedor.Location = new Point(227, 19);
+            txtBuscarProveedor.Location = new Point(227, 17);
             txtBuscarProveedor.Margin = new Padding(5);
             txtBuscarProveedor.Name = "txtBuscarProveedor";
             txtBuscarProveedor.PlaceholderText = "Nombre, código, número";
             txtBuscarProveedor.SelectedText = "";
             txtBuscarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtBuscarProveedor.Size = new Size(189, 36);
+            txtBuscarProveedor.Size = new Size(189, 37);
             txtBuscarProveedor.TabIndex = 4;
             // 
             // lblBuscar
@@ -163,7 +152,7 @@
             lblBuscar.BackColor = Color.Transparent;
             lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblBuscar.ForeColor = Color.Gainsboro;
-            lblBuscar.Location = new Point(158, 23);
+            lblBuscar.Location = new Point(158, 27);
             lblBuscar.Name = "lblBuscar";
             lblBuscar.Size = new Size(61, 26);
             lblBuscar.TabIndex = 3;
@@ -189,7 +178,7 @@
             // PanelProveedores
             // 
             PanelProveedores.BackColor = Color.Transparent;
-            PanelProveedores.Controls.Add(lblTotalProveedores);
+            PanelProveedores.Controls.Add(lblTotalProveedor);
             PanelProveedores.CustomizableEdges = customizableEdges6;
             PanelProveedores.Dock = DockStyle.Right;
             PanelProveedores.Location = new Point(932, 12);
@@ -200,18 +189,18 @@
             PanelProveedores.TabIndex = 1;
             PanelProveedores.UseTransparentBackground = true;
             // 
-            // lblTotalProveedores
+            // lblTotalProveedor
             // 
-            lblTotalProveedores.BackColor = Color.Transparent;
-            lblTotalProveedores.Dock = DockStyle.Right;
-            lblTotalProveedores.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTotalProveedores.ForeColor = Color.Gainsboro;
-            lblTotalProveedores.Location = new Point(43, 8);
-            lblTotalProveedores.Name = "lblTotalProveedores";
-            lblTotalProveedores.Size = new Size(146, 26);
-            lblTotalProveedores.TabIndex = 3;
-            lblTotalProveedores.Text = "N° de proveedores:";
-            lblTotalProveedores.TextAlignment = ContentAlignment.MiddleRight;
+            lblTotalProveedor.BackColor = Color.Transparent;
+            lblTotalProveedor.Dock = DockStyle.Right;
+            lblTotalProveedor.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTotalProveedor.ForeColor = Color.Gainsboro;
+            lblTotalProveedor.Location = new Point(43, 8);
+            lblTotalProveedor.Name = "lblTotalProveedor";
+            lblTotalProveedor.Size = new Size(146, 26);
+            lblTotalProveedor.TabIndex = 3;
+            lblTotalProveedor.Text = "N° de proveedores:";
+            lblTotalProveedor.TextAlignment = ContentAlignment.MiddleRight;
             // 
             // lblTitulo
             // 
@@ -303,27 +292,28 @@
             btnAgregarProveedor.TabIndex = 0;
             btnAgregarProveedor.Text = "Agregar";
             btnAgregarProveedor.TextOffset = new Point(-13, 22);
+            btnAgregarProveedor.Click += btnAgregarProveedor_Click;
             // 
-            // PanelDGVProveedores
+            // PanelDGVProveedor
             // 
-            PanelDGVProveedores.BackColor = Color.White;
-            PanelDGVProveedores.Controls.Add(dgvProveedores);
-            PanelDGVProveedores.CustomizableEdges = customizableEdges18;
-            PanelDGVProveedores.Dock = DockStyle.Fill;
-            PanelDGVProveedores.Location = new Point(0, 143);
-            PanelDGVProveedores.Name = "PanelDGVProveedores";
-            PanelDGVProveedores.Padding = new Padding(6);
-            PanelDGVProveedores.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            PanelDGVProveedores.Size = new Size(1145, 521);
-            PanelDGVProveedores.TabIndex = 4;
+            PanelDGVProveedor.BackColor = Color.White;
+            PanelDGVProveedor.Controls.Add(dgvProveedor);
+            PanelDGVProveedor.CustomizableEdges = customizableEdges18;
+            PanelDGVProveedor.Dock = DockStyle.Fill;
+            PanelDGVProveedor.Location = new Point(0, 143);
+            PanelDGVProveedor.Name = "PanelDGVProveedor";
+            PanelDGVProveedor.Padding = new Padding(6);
+            PanelDGVProveedor.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            PanelDGVProveedor.Size = new Size(1145, 521);
+            PanelDGVProveedor.TabIndex = 4;
             // 
-            // dgvProveedores
+            // dgvProveedor
             // 
-            dgvProveedores.AllowUserToAddRows = false;
-            dgvProveedores.AllowUserToDeleteRows = false;
+            dgvProveedor.AllowUserToAddRows = false;
+            dgvProveedor.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = Color.White;
             dataGridViewCellStyle1.Font = new Font("Bahnschrift Condensed", 10F);
-            dgvProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dgvProveedor.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
             dataGridViewCellStyle2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -331,10 +321,9 @@
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dgvProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dgvProveedores.ColumnHeadersHeight = 40;
-            dgvProveedores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgvProveedores.Columns.AddRange(new DataGridViewColumn[] { FotoProducto, codigo, nProducto, catProd, stockProducto, precioVentaProducto, costoProducto, gananciaProd, proveedorProducto, fechaIngreso, estadoProd });
+            dgvProveedor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dgvProveedor.ColumnHeadersHeight = 40;
+            dgvProveedor.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.White;
             dataGridViewCellStyle3.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -342,127 +331,45 @@
             dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dgvProveedores.DefaultCellStyle = dataGridViewCellStyle3;
-            dgvProveedores.Dock = DockStyle.Fill;
-            dgvProveedores.GridColor = Color.FromArgb(231, 229, 255);
-            dgvProveedores.Location = new Point(6, 6);
-            dgvProveedores.Name = "dgvProveedores";
-            dgvProveedores.ReadOnly = true;
-            dgvProveedores.RowHeadersVisible = false;
+            dgvProveedor.DefaultCellStyle = dataGridViewCellStyle3;
+            dgvProveedor.Dock = DockStyle.Fill;
+            dgvProveedor.GridColor = Color.FromArgb(231, 229, 255);
+            dgvProveedor.Location = new Point(6, 6);
+            dgvProveedor.Name = "dgvProveedor";
+            dgvProveedor.ReadOnly = true;
+            dgvProveedor.RowHeadersVisible = false;
             dataGridViewCellStyle4.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dgvProveedores.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            dgvProveedores.Size = new Size(1133, 509);
-            dgvProveedores.TabIndex = 0;
-            dgvProveedores.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dgvProveedores.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dgvProveedores.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dgvProveedores.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dgvProveedores.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dgvProveedores.ThemeStyle.BackColor = Color.White;
-            dgvProveedores.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dgvProveedores.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dgvProveedores.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dgvProveedores.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            dgvProveedores.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dgvProveedores.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgvProveedores.ThemeStyle.HeaderStyle.Height = 40;
-            dgvProveedores.ThemeStyle.ReadOnly = true;
-            dgvProveedores.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dgvProveedores.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dgvProveedores.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dgvProveedores.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dgvProveedores.ThemeStyle.RowsStyle.Height = 25;
-            dgvProveedores.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dgvProveedores.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
-            // FotoProducto
-            // 
-            FotoProducto.DataPropertyName = "Foto";
-            FotoProducto.HeaderText = "Fotografía";
-            FotoProducto.MinimumWidth = 100;
-            FotoProducto.Name = "FotoProducto";
-            FotoProducto.ReadOnly = true;
-            // 
-            // codigo
-            // 
-            codigo.DataPropertyName = "Codigo";
-            codigo.HeaderText = "Código";
-            codigo.Name = "codigo";
-            codigo.ReadOnly = true;
-            codigo.Resizable = DataGridViewTriState.True;
-            codigo.SortMode = DataGridViewColumnSortMode.NotSortable;
-            // 
-            // nProducto
-            // 
-            nProducto.DataPropertyName = "Nombre";
-            nProducto.HeaderText = "Nombre";
-            nProducto.Name = "nProducto";
-            nProducto.ReadOnly = true;
-            nProducto.Resizable = DataGridViewTriState.True;
-            nProducto.SortMode = DataGridViewColumnSortMode.NotSortable;
-            // 
-            // catProd
-            // 
-            catProd.DataPropertyName = "Categoria";
-            catProd.HeaderText = "Categoría";
-            catProd.Name = "catProd";
-            catProd.ReadOnly = true;
-            // 
-            // stockProducto
-            // 
-            stockProducto.DataPropertyName = "Stock";
-            stockProducto.HeaderText = "Stock";
-            stockProducto.Name = "stockProducto";
-            stockProducto.ReadOnly = true;
-            // 
-            // precioVentaProducto
-            // 
-            precioVentaProducto.DataPropertyName = "PrecioVenta";
-            precioVentaProducto.HeaderText = "Precio de venta";
-            precioVentaProducto.Name = "precioVentaProducto";
-            precioVentaProducto.ReadOnly = true;
-            // 
-            // costoProducto
-            // 
-            costoProducto.DataPropertyName = "Costo";
-            costoProducto.HeaderText = "Costo";
-            costoProducto.Name = "costoProducto";
-            costoProducto.ReadOnly = true;
-            // 
-            // gananciaProd
-            // 
-            gananciaProd.DataPropertyName = "Ganancia";
-            gananciaProd.HeaderText = "Ganancia";
-            gananciaProd.Name = "gananciaProd";
-            gananciaProd.ReadOnly = true;
-            // 
-            // proveedorProducto
-            // 
-            proveedorProducto.DataPropertyName = "Proveedor";
-            proveedorProducto.HeaderText = "Proveedor";
-            proveedorProducto.Name = "proveedorProducto";
-            proveedorProducto.ReadOnly = true;
-            // 
-            // fechaIngreso
-            // 
-            fechaIngreso.DataPropertyName = "FechaIngreso";
-            fechaIngreso.HeaderText = "F. de ingreso";
-            fechaIngreso.Name = "fechaIngreso";
-            fechaIngreso.ReadOnly = true;
-            // 
-            // estadoProd
-            // 
-            estadoProd.DataPropertyName = "Estado";
-            estadoProd.HeaderText = "Estado";
-            estadoProd.Name = "estadoProd";
-            estadoProd.ReadOnly = true;
+            dgvProveedor.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dgvProveedor.Size = new Size(1133, 509);
+            dgvProveedor.TabIndex = 0;
+            dgvProveedor.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dgvProveedor.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dgvProveedor.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dgvProveedor.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dgvProveedor.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dgvProveedor.ThemeStyle.BackColor = Color.White;
+            dgvProveedor.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dgvProveedor.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dgvProveedor.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dgvProveedor.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            dgvProveedor.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dgvProveedor.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dgvProveedor.ThemeStyle.HeaderStyle.Height = 40;
+            dgvProveedor.ThemeStyle.ReadOnly = true;
+            dgvProveedor.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dgvProveedor.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvProveedor.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dgvProveedor.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dgvProveedor.ThemeStyle.RowsStyle.Height = 25;
+            dgvProveedor.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dgvProveedor.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
             // ProveedoresUC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            Controls.Add(PanelDGVProveedores);
+            Controls.Add(PanelDGVProveedor);
             Controls.Add(PanelBotonesAccion);
             Controls.Add(panelHeader);
             Name = "ProveedoresUC";
@@ -472,8 +379,8 @@
             PanelProveedores.ResumeLayout(false);
             PanelProveedores.PerformLayout();
             PanelBotonesAccion.ResumeLayout(false);
-            PanelDGVProveedores.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvProveedores).EndInit();
+            PanelDGVProveedor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgvProveedor).EndInit();
             ResumeLayout(false);
         }
 
@@ -488,24 +395,13 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblBuscar;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
         private Guna.UI2.WinForms.Guna2Panel PanelProveedores;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalProveedores;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalProveedor;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTitulo;
         private Guna.UI2.WinForms.Guna2Panel PanelBotonesAccion;
         private Guna.UI2.WinForms.Guna2Button btnEliminarProveedor;
         private Guna.UI2.WinForms.Guna2Button btnEditarProveedor;
         private Guna.UI2.WinForms.Guna2Button btnAgregarProveedor;
-        private Guna.UI2.WinForms.Guna2Panel PanelDGVProveedores;
-        private Guna.UI2.WinForms.Guna2DataGridView dgvProveedores;
-        private DataGridViewImageColumn FotoProducto;
-        private DataGridViewTextBoxColumn codigo;
-        private DataGridViewTextBoxColumn nProducto;
-        private DataGridViewTextBoxColumn catProd;
-        private DataGridViewTextBoxColumn stockProducto;
-        private DataGridViewTextBoxColumn precioVentaProducto;
-        private DataGridViewTextBoxColumn costoProducto;
-        private DataGridViewTextBoxColumn gananciaProd;
-        private DataGridViewTextBoxColumn proveedorProducto;
-        private DataGridViewTextBoxColumn fechaIngreso;
-        private DataGridViewCheckBoxColumn estadoProd;
+        private Guna.UI2.WinForms.Guna2Panel PanelDGVProveedor;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvProveedor;
     }
 }

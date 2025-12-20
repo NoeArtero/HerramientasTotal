@@ -12,6 +12,7 @@ namespace HerramientasTotal.Models
         public int VentaId { get; set; }
 
         public ProductoRow Producto { get; set; } = new ProductoRow();
+        public int productoId { get; set; }
 
         public int Cantidad { get; set; }
         public decimal PrecioUnitario { get; set; }

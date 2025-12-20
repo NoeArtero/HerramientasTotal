@@ -13,13 +13,20 @@ namespace HerramientasTotal.Models
         public string Nombre { get; set; }
         public string Categoria { get; set; }
         public int Stock { get; set; }
+
+        public int StockMinimo { get; set; }
+        public int StockCritico { get; set; }
+
+
         public decimal PrecioVenta { get; set; }
         public decimal Costo { get; set; }
         public string Proveedor { get; set; } 
+        public int ProveedorId { get; set; }    
         public DateTime FechaIngreso { get; set; }
         public bool Estado { get; set; }
 
         public string EstadoStock { get; set; } 
+
 
         public decimal Ganancia => Math.Max(0, PrecioVenta - Costo);
         

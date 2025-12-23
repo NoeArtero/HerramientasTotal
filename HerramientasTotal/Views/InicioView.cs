@@ -190,5 +190,10 @@ namespace HerramientasTotal
         {
 
         }
+        private void btnPedidosClientes_Click(object sender, EventArgs e)
+        {
+            ShowView<ClientesUC>();          // tu UserControl de clientes
+            BotonSeleccionado(btnClientes);  // resalta el botón de menú
+        }
     }
 }

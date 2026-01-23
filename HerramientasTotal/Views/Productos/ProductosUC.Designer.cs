@@ -29,17 +29,21 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -56,16 +60,18 @@
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             errorProductos = new ErrorProvider(components);
             panelHeader = new Guna.UI2.WinForms.Guna2Panel();
-            cmbBuscarProveedor = new Guna.UI2.WinForms.Guna2ComboBox();
-            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            cmbCategoriaProducto = new Guna.UI2.WinForms.Guna2ComboBox();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            txtBuscarProd = new Guna.UI2.WinForms.Guna2TextBox();
+            panelBotones = new Guna.UI2.WinForms.Guna2Panel();
             lblBuscar = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            txtBuscarProd = new Guna.UI2.WinForms.Guna2TextBox();
+            cmbBuscarProveedor = new Guna.UI2.WinForms.Guna2ComboBox();
+            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            cmbCategoriaProducto = new Guna.UI2.WinForms.Guna2ComboBox();
+            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            panelTitulo = new Guna.UI2.WinForms.Guna2Panel();
+            lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             PanelArticulos = new Guna.UI2.WinForms.Guna2Panel();
             lblTotalProductos = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblHora = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblFecha = new Guna.UI2.WinForms.Guna2HtmlLabel();
             PanelBotonesAccion = new Guna.UI2.WinForms.Guna2Panel();
@@ -87,6 +93,8 @@
             estadoProd = new DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)errorProductos).BeginInit();
             panelHeader.SuspendLayout();
+            panelBotones.SuspendLayout();
+            panelTitulo.SuspendLayout();
             PanelArticulos.SuspendLayout();
             PanelBotonesAccion.SuspendLayout();
             PanelDGVProd.SuspendLayout();
@@ -99,17 +107,10 @@
             // 
             // panelHeader
             // 
-            panelHeader.AutoScroll = true;
-            panelHeader.Controls.Add(cmbBuscarProveedor);
-            panelHeader.Controls.Add(guna2HtmlLabel3);
-            panelHeader.Controls.Add(cmbCategoriaProducto);
-            panelHeader.Controls.Add(guna2HtmlLabel2);
-            panelHeader.Controls.Add(txtBuscarProd);
-            panelHeader.Controls.Add(lblBuscar);
-            panelHeader.Controls.Add(guna2Shapes1);
+            panelHeader.Controls.Add(panelBotones);
+            panelHeader.Controls.Add(panelTitulo);
             panelHeader.Controls.Add(PanelArticulos);
-            panelHeader.Controls.Add(lblTitulo);
-            panelHeader.CustomizableEdges = customizableEdges20;
+            panelHeader.CustomizableEdges = customizableEdges24;
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
@@ -118,78 +119,44 @@
             panelHeader.Padding = new Padding(18, 16, 18, 16);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
-            panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges25;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(1309, 93);
+            panelHeader.Size = new Size(1451, 93);
             panelHeader.TabIndex = 1;
             // 
-            // cmbBuscarProveedor
+            // panelBotones
             // 
-            cmbBuscarProveedor.BackColor = Color.Transparent;
-            cmbBuscarProveedor.CustomizableEdges = customizableEdges11;
-            cmbBuscarProveedor.DrawMode = DrawMode.OwnerDrawFixed;
-            cmbBuscarProveedor.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbBuscarProveedor.FocusedColor = Color.FromArgb(94, 148, 255);
-            cmbBuscarProveedor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            cmbBuscarProveedor.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cmbBuscarProveedor.ForeColor = Color.DimGray;
-            cmbBuscarProveedor.ItemHeight = 30;
-            cmbBuscarProveedor.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbBuscarProveedor.Location = new Point(866, 27);
-            cmbBuscarProveedor.Margin = new Padding(3, 4, 3, 4);
-            cmbBuscarProveedor.Name = "cmbBuscarProveedor";
-            cmbBuscarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            cmbBuscarProveedor.Size = new Size(209, 36);
-            cmbBuscarProveedor.TabIndex = 8;
+            panelBotones.BackColor = Color.Transparent;
+            panelBotones.Controls.Add(lblBuscar);
+            panelBotones.Controls.Add(txtBuscarProd);
+            panelBotones.Controls.Add(cmbBuscarProveedor);
+            panelBotones.Controls.Add(guna2HtmlLabel2);
+            panelBotones.Controls.Add(cmbCategoriaProducto);
+            panelBotones.Controls.Add(guna2HtmlLabel3);
+            panelBotones.CustomizableEdges = customizableEdges17;
+            panelBotones.Dock = DockStyle.Left;
+            panelBotones.Location = new Point(191, 16);
+            panelBotones.Name = "panelBotones";
+            panelBotones.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            panelBotones.Size = new Size(927, 61);
+            panelBotones.TabIndex = 10;
             // 
-            // guna2HtmlLabel3
+            // lblBuscar
             // 
-            guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel3.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel3.Location = new Point(750, 27);
-            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
-            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(110, 32);
-            guna2HtmlLabel3.TabIndex = 7;
-            guna2HtmlLabel3.Text = "Proveedor:";
-            guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
-            // 
-            // cmbCategoriaProducto
-            // 
-            cmbCategoriaProducto.BackColor = Color.Transparent;
-            cmbCategoriaProducto.CustomizableEdges = customizableEdges13;
-            cmbCategoriaProducto.DrawMode = DrawMode.OwnerDrawFixed;
-            cmbCategoriaProducto.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbCategoriaProducto.FocusedColor = Color.FromArgb(94, 148, 255);
-            cmbCategoriaProducto.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            cmbCategoriaProducto.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cmbCategoriaProducto.ForeColor = Color.DimGray;
-            cmbCategoriaProducto.ItemHeight = 30;
-            cmbCategoriaProducto.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbCategoriaProducto.Location = new Point(539, 27);
-            cmbCategoriaProducto.Margin = new Padding(3, 4, 3, 4);
-            cmbCategoriaProducto.Name = "cmbCategoriaProducto";
-            cmbCategoriaProducto.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            cmbCategoriaProducto.Size = new Size(209, 36);
-            cmbCategoriaProducto.TabIndex = 6;
-            // 
-            // guna2HtmlLabel2
-            // 
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(434, 27);
-            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(103, 32);
-            guna2HtmlLabel2.TabIndex = 5;
-            guna2HtmlLabel2.Text = "Categoría:";
-            guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
+            lblBuscar.BackColor = Color.Transparent;
+            lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblBuscar.ForeColor = Color.Gainsboro;
+            lblBuscar.Location = new Point(6, 14);
+            lblBuscar.Margin = new Padding(3, 4, 3, 4);
+            lblBuscar.Name = "lblBuscar";
+            lblBuscar.Size = new Size(76, 32);
+            lblBuscar.TabIndex = 3;
+            lblBuscar.Text = "Buscar: ";
+            lblBuscar.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // txtBuscarProd
             // 
-            txtBuscarProd.CustomizableEdges = customizableEdges15;
+            txtBuscarProd.CustomizableEdges = customizableEdges11;
             txtBuscarProd.DefaultText = "";
             txtBuscarProd.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtBuscarProd.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -199,40 +166,117 @@
             txtBuscarProd.Font = new Font("Bahnschrift", 10F);
             txtBuscarProd.ForeColor = Color.DimGray;
             txtBuscarProd.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBuscarProd.Location = new Point(252, 27);
+            txtBuscarProd.Location = new Point(81, 14);
             txtBuscarProd.Margin = new Padding(6, 7, 6, 7);
             txtBuscarProd.Name = "txtBuscarProd";
             txtBuscarProd.PlaceholderText = "Item, valor o código";
             txtBuscarProd.SelectedText = "";
-            txtBuscarProd.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            txtBuscarProd.Size = new Size(182, 36);
+            txtBuscarProd.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtBuscarProd.Size = new Size(182, 29);
             txtBuscarProd.TabIndex = 4;
             // 
-            // lblBuscar
+            // cmbBuscarProveedor
             // 
-            lblBuscar.BackColor = Color.Transparent;
-            lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblBuscar.ForeColor = Color.Gainsboro;
-            lblBuscar.Location = new Point(178, 27);
-            lblBuscar.Margin = new Padding(3, 4, 3, 4);
-            lblBuscar.Name = "lblBuscar";
-            lblBuscar.Size = new Size(76, 32);
-            lblBuscar.TabIndex = 3;
-            lblBuscar.Text = "Buscar: ";
-            lblBuscar.TextAlignment = ContentAlignment.MiddleCenter;
+            cmbBuscarProveedor.BackColor = Color.Transparent;
+            cmbBuscarProveedor.CustomizableEdges = customizableEdges13;
+            cmbBuscarProveedor.DrawMode = DrawMode.OwnerDrawFixed;
+            cmbBuscarProveedor.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbBuscarProveedor.FocusedColor = Color.FromArgb(94, 148, 255);
+            cmbBuscarProveedor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cmbBuscarProveedor.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbBuscarProveedor.ForeColor = Color.DimGray;
+            cmbBuscarProveedor.ItemHeight = 30;
+            cmbBuscarProveedor.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
+            cmbBuscarProveedor.Location = new Point(715, 14);
+            cmbBuscarProveedor.Margin = new Padding(3, 4, 3, 4);
+            cmbBuscarProveedor.Name = "cmbBuscarProveedor";
+            cmbBuscarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            cmbBuscarProveedor.Size = new Size(209, 36);
+            cmbBuscarProveedor.TabIndex = 8;
+            // 
+            // guna2HtmlLabel2
+            // 
+            guna2HtmlLabel2.BackColor = Color.Transparent;
+            guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel2.ForeColor = Color.Gainsboro;
+            guna2HtmlLabel2.Location = new Point(272, 14);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
+            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            guna2HtmlLabel2.Size = new Size(103, 32);
+            guna2HtmlLabel2.TabIndex = 5;
+            guna2HtmlLabel2.Text = "Categoría:";
+            guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
+            // 
+            // cmbCategoriaProducto
+            // 
+            cmbCategoriaProducto.BackColor = Color.Transparent;
+            cmbCategoriaProducto.CustomizableEdges = customizableEdges15;
+            cmbCategoriaProducto.DrawMode = DrawMode.OwnerDrawFixed;
+            cmbCategoriaProducto.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCategoriaProducto.FocusedColor = Color.FromArgb(94, 148, 255);
+            cmbCategoriaProducto.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cmbCategoriaProducto.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbCategoriaProducto.ForeColor = Color.DimGray;
+            cmbCategoriaProducto.ItemHeight = 30;
+            cmbCategoriaProducto.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
+            cmbCategoriaProducto.Location = new Point(381, 14);
+            cmbCategoriaProducto.Margin = new Padding(3, 4, 3, 4);
+            cmbCategoriaProducto.Name = "cmbCategoriaProducto";
+            cmbCategoriaProducto.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            cmbCategoriaProducto.Size = new Size(209, 36);
+            cmbCategoriaProducto.TabIndex = 6;
+            // 
+            // guna2HtmlLabel3
+            // 
+            guna2HtmlLabel3.BackColor = Color.Transparent;
+            guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel3.ForeColor = Color.Gainsboro;
+            guna2HtmlLabel3.Location = new Point(599, 14);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
+            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            guna2HtmlLabel3.Size = new Size(110, 32);
+            guna2HtmlLabel3.TabIndex = 7;
+            guna2HtmlLabel3.Text = "Proveedor:";
+            guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
+            // 
+            // panelTitulo
+            // 
+            panelTitulo.BackColor = Color.Transparent;
+            panelTitulo.Controls.Add(lblTitulo);
+            panelTitulo.Controls.Add(guna2Shapes1);
+            panelTitulo.CustomizableEdges = customizableEdges20;
+            panelTitulo.Dock = DockStyle.Left;
+            panelTitulo.Location = new Point(18, 16);
+            panelTitulo.Name = "panelTitulo";
+            panelTitulo.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            panelTitulo.Size = new Size(173, 61);
+            panelTitulo.TabIndex = 9;
+            // 
+            // lblTitulo
+            // 
+            lblTitulo.BackColor = Color.Transparent;
+            lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTitulo.ForeColor = Color.Gainsboro;
+            lblTitulo.Location = new Point(3, 5);
+            lblTitulo.Margin = new Padding(3, 4, 3, 4);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(137, 43);
+            lblTitulo.TabIndex = 0;
+            lblTitulo.Text = "Productos";
+            lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // guna2Shapes1
             // 
             guna2Shapes1.BackColor = Color.Transparent;
             guna2Shapes1.BorderColor = Color.White;
             guna2Shapes1.FillColor = Color.White;
-            guna2Shapes1.Location = new Point(150, 0);
+            guna2Shapes1.Location = new Point(146, -12);
             guna2Shapes1.Margin = new Padding(3, 4, 3, 4);
             guna2Shapes1.Name = "guna2Shapes1";
             guna2Shapes1.PolygonSides = 2;
             guna2Shapes1.PolygonSkip = 1;
             guna2Shapes1.Rotate = 0F;
-            guna2Shapes1.RoundedEdges = customizableEdges17;
+            guna2Shapes1.RoundedEdges = customizableEdges19;
             guna2Shapes1.Size = new Size(22, 93);
             guna2Shapes1.TabIndex = 2;
             guna2Shapes1.UseTransparentBackground = true;
@@ -242,13 +286,13 @@
             // 
             PanelArticulos.BackColor = Color.Transparent;
             PanelArticulos.Controls.Add(lblTotalProductos);
-            PanelArticulos.CustomizableEdges = customizableEdges18;
+            PanelArticulos.CustomizableEdges = customizableEdges22;
             PanelArticulos.Dock = DockStyle.Right;
-            PanelArticulos.Location = new Point(1066, 16);
+            PanelArticulos.Location = new Point(1208, 16);
             PanelArticulos.Margin = new Padding(3, 4, 3, 4);
             PanelArticulos.Name = "PanelArticulos";
             PanelArticulos.Padding = new Padding(0, 11, 9, 11);
-            PanelArticulos.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            PanelArticulos.ShadowDecoration.CustomizableEdges = customizableEdges23;
             PanelArticulos.Size = new Size(225, 61);
             PanelArticulos.TabIndex = 1;
             PanelArticulos.UseTransparentBackground = true;
@@ -266,19 +310,6 @@
             lblTotalProductos.TabIndex = 3;
             lblTotalProductos.Text = "N° de productos:";
             lblTotalProductos.TextAlignment = ContentAlignment.MiddleRight;
-            // 
-            // lblTitulo
-            // 
-            lblTitulo.BackColor = Color.Transparent;
-            lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(22, 27);
-            lblTitulo.Margin = new Padding(3, 4, 3, 4);
-            lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(137, 43);
-            lblTitulo.TabIndex = 0;
-            lblTitulo.Text = "Productos";
-            lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // lblHora
             // 
@@ -315,7 +346,7 @@
             PanelBotonesAccion.Margin = new Padding(3, 4, 3, 4);
             PanelBotonesAccion.Name = "PanelBotonesAccion";
             PanelBotonesAccion.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            PanelBotonesAccion.Size = new Size(1309, 97);
+            PanelBotonesAccion.Size = new Size(1451, 97);
             PanelBotonesAccion.TabIndex = 2;
             // 
             // btnEliminarProducto
@@ -399,7 +430,7 @@
             PanelDGVProd.Name = "PanelDGVProd";
             PanelDGVProd.Padding = new Padding(7, 8, 7, 8);
             PanelDGVProd.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            PanelDGVProd.Size = new Size(1309, 695);
+            PanelDGVProd.Size = new Size(1451, 695);
             PanelDGVProd.TabIndex = 3;
             // 
             // dgvProductos
@@ -439,7 +470,7 @@
             dataGridViewCellStyle4.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dgvProductos.RowsDefaultCellStyle = dataGridViewCellStyle4;
             dgvProductos.RowTemplate.Height = 25;
-            dgvProductos.Size = new Size(1295, 679);
+            dgvProductos.Size = new Size(1437, 679);
             dgvProductos.TabIndex = 0;
             dgvProductos.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvProductos.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -565,10 +596,13 @@
             Controls.Add(panelHeader);
             Margin = new Padding(3, 4, 3, 4);
             Name = "ProductosUC";
-            Size = new Size(1309, 885);
+            Size = new Size(1451, 885);
             ((System.ComponentModel.ISupportInitialize)errorProductos).EndInit();
             panelHeader.ResumeLayout(false);
-            panelHeader.PerformLayout();
+            panelBotones.ResumeLayout(false);
+            panelBotones.PerformLayout();
+            panelTitulo.ResumeLayout(false);
+            panelTitulo.PerformLayout();
             PanelArticulos.ResumeLayout(false);
             PanelArticulos.PerformLayout();
             PanelBotonesAccion.ResumeLayout(false);
@@ -610,5 +644,7 @@
         private DataGridViewTextBoxColumn proveedorProducto;
         private DataGridViewTextBoxColumn fechaIngreso;
         private DataGridViewCheckBoxColumn estadoProd;
+        private Guna.UI2.WinForms.Guna2Panel panelBotones;
+        private Guna.UI2.WinForms.Guna2Panel panelTitulo;
     }
 }

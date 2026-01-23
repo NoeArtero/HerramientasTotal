@@ -87,13 +87,14 @@
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
+            panelHeader.Margin = new Padding(3, 4, 3, 4);
             panelHeader.Name = "panelHeader";
-            panelHeader.Padding = new Padding(16, 12, 16, 12);
+            panelHeader.Padding = new Padding(18, 16, 18, 16);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
             panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges9;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(1145, 70);
+            panelHeader.Size = new Size(1309, 93);
             panelHeader.TabIndex = 2;
             // 
             // cmbEstadoProveedor
@@ -108,10 +109,11 @@
             cmbEstadoProveedor.ForeColor = Color.DimGray;
             cmbEstadoProveedor.ItemHeight = 30;
             cmbEstadoProveedor.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbEstadoProveedor.Location = new Point(523, 18);
+            cmbEstadoProveedor.Location = new Point(605, 34);
+            cmbEstadoProveedor.Margin = new Padding(3, 4, 3, 4);
             cmbEstadoProveedor.Name = "cmbEstadoProveedor";
             cmbEstadoProveedor.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            cmbEstadoProveedor.Size = new Size(183, 36);
+            cmbEstadoProveedor.Size = new Size(209, 36);
             cmbEstadoProveedor.TabIndex = 8;
             // 
             // guna2HtmlLabel2
@@ -119,9 +121,10 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(459, 27);
+            guna2HtmlLabel2.Location = new Point(525, 36);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(58, 26);
+            guna2HtmlLabel2.Size = new Size(74, 32);
             guna2HtmlLabel2.TabIndex = 7;
             guna2HtmlLabel2.Text = "Estado:";
             guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
@@ -138,13 +141,13 @@
             txtBuscarProveedor.Font = new Font("Bahnschrift", 10F);
             txtBuscarProveedor.ForeColor = Color.DimGray;
             txtBuscarProveedor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBuscarProveedor.Location = new Point(227, 17);
-            txtBuscarProveedor.Margin = new Padding(5);
+            txtBuscarProveedor.Location = new Point(300, 34);
+            txtBuscarProveedor.Margin = new Padding(6, 7, 6, 7);
             txtBuscarProveedor.Name = "txtBuscarProveedor";
             txtBuscarProveedor.PlaceholderText = "Nombre, código, número";
             txtBuscarProveedor.SelectedText = "";
             txtBuscarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtBuscarProveedor.Size = new Size(189, 37);
+            txtBuscarProveedor.Size = new Size(216, 36);
             txtBuscarProveedor.TabIndex = 4;
             // 
             // lblBuscar
@@ -152,9 +155,10 @@
             lblBuscar.BackColor = Color.Transparent;
             lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblBuscar.ForeColor = Color.Gainsboro;
-            lblBuscar.Location = new Point(158, 27);
+            lblBuscar.Location = new Point(215, 36);
+            lblBuscar.Margin = new Padding(3, 4, 3, 4);
             lblBuscar.Name = "lblBuscar";
-            lblBuscar.Size = new Size(61, 26);
+            lblBuscar.Size = new Size(76, 32);
             lblBuscar.TabIndex = 3;
             lblBuscar.Text = "Buscar: ";
             lblBuscar.TextAlignment = ContentAlignment.MiddleCenter;
@@ -164,13 +168,14 @@
             guna2Shapes1.BackColor = Color.Transparent;
             guna2Shapes1.BorderColor = Color.White;
             guna2Shapes1.FillColor = Color.White;
-            guna2Shapes1.Location = new Point(132, 0);
+            guna2Shapes1.Location = new Point(168, 0);
+            guna2Shapes1.Margin = new Padding(3, 4, 3, 4);
             guna2Shapes1.Name = "guna2Shapes1";
             guna2Shapes1.PolygonSides = 2;
             guna2Shapes1.PolygonSkip = 1;
             guna2Shapes1.Rotate = 0F;
             guna2Shapes1.RoundedEdges = customizableEdges5;
-            guna2Shapes1.Size = new Size(19, 70);
+            guna2Shapes1.Size = new Size(22, 93);
             guna2Shapes1.TabIndex = 2;
             guna2Shapes1.UseTransparentBackground = true;
             guna2Shapes1.Zoom = 80;
@@ -181,11 +186,12 @@
             PanelProveedores.Controls.Add(lblTotalProveedor);
             PanelProveedores.CustomizableEdges = customizableEdges6;
             PanelProveedores.Dock = DockStyle.Right;
-            PanelProveedores.Location = new Point(932, 12);
+            PanelProveedores.Location = new Point(1066, 16);
+            PanelProveedores.Margin = new Padding(3, 4, 3, 4);
             PanelProveedores.Name = "PanelProveedores";
-            PanelProveedores.Padding = new Padding(0, 8, 8, 8);
+            PanelProveedores.Padding = new Padding(0, 11, 9, 11);
             PanelProveedores.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            PanelProveedores.Size = new Size(197, 46);
+            PanelProveedores.Size = new Size(225, 61);
             PanelProveedores.TabIndex = 1;
             PanelProveedores.UseTransparentBackground = true;
             // 
@@ -195,9 +201,10 @@
             lblTotalProveedor.Dock = DockStyle.Right;
             lblTotalProveedor.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTotalProveedor.ForeColor = Color.Gainsboro;
-            lblTotalProveedor.Location = new Point(43, 8);
+            lblTotalProveedor.Location = new Point(26, 11);
+            lblTotalProveedor.Margin = new Padding(3, 4, 3, 4);
             lblTotalProveedor.Name = "lblTotalProveedor";
-            lblTotalProveedor.Size = new Size(146, 26);
+            lblTotalProveedor.Size = new Size(190, 39);
             lblTotalProveedor.TabIndex = 3;
             lblTotalProveedor.Text = "N° de proveedores:";
             lblTotalProveedor.TextAlignment = ContentAlignment.MiddleRight;
@@ -207,9 +214,10 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(3, 19);
+            lblTitulo.Location = new Point(3, 25);
+            lblTitulo.Margin = new Padding(3, 4, 3, 4);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(136, 35);
+            lblTitulo.Size = new Size(172, 43);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Proveedores";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
@@ -221,10 +229,11 @@
             PanelBotonesAccion.Controls.Add(btnAgregarProveedor);
             PanelBotonesAccion.CustomizableEdges = customizableEdges16;
             PanelBotonesAccion.Dock = DockStyle.Top;
-            PanelBotonesAccion.Location = new Point(0, 70);
+            PanelBotonesAccion.Location = new Point(0, 93);
+            PanelBotonesAccion.Margin = new Padding(3, 4, 3, 4);
             PanelBotonesAccion.Name = "PanelBotonesAccion";
             PanelBotonesAccion.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            PanelBotonesAccion.Size = new Size(1145, 73);
+            PanelBotonesAccion.Size = new Size(1309, 97);
             PanelBotonesAccion.TabIndex = 3;
             // 
             // btnEliminarProveedor
@@ -239,15 +248,16 @@
             btnEliminarProveedor.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEliminarProveedor.ForeColor = Color.Black;
             btnEliminarProveedor.Image = Properties.Resources.eliminarNEGRO;
-            btnEliminarProveedor.ImageOffset = new Point(12, -8);
+            btnEliminarProveedor.ImageOffset = new Point(14, -8);
             btnEliminarProveedor.ImageSize = new Size(47, 47);
-            btnEliminarProveedor.Location = new Point(672, 4);
+            btnEliminarProveedor.Location = new Point(768, 8);
+            btnEliminarProveedor.Margin = new Padding(3, 4, 3, 4);
             btnEliminarProveedor.Name = "btnEliminarProveedor";
             btnEliminarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges11;
-            btnEliminarProveedor.Size = new Size(74, 64);
+            btnEliminarProveedor.Size = new Size(86, 82);
             btnEliminarProveedor.TabIndex = 2;
             btnEliminarProveedor.Text = "Eliminar";
-            btnEliminarProveedor.TextOffset = new Point(-13, 22);
+            btnEliminarProveedor.TextOffset = new Point(-15, 25);
             // 
             // btnEditarProveedor
             // 
@@ -261,15 +271,16 @@
             btnEditarProveedor.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEditarProveedor.ForeColor = Color.Black;
             btnEditarProveedor.Image = Properties.Resources.editarNEGRO;
-            btnEditarProveedor.ImageOffset = new Point(10, -8);
+            btnEditarProveedor.ImageOffset = new Point(13, -8);
             btnEditarProveedor.ImageSize = new Size(47, 47);
-            btnEditarProveedor.Location = new Point(572, 4);
+            btnEditarProveedor.Location = new Point(654, 5);
+            btnEditarProveedor.Margin = new Padding(3, 4, 3, 4);
             btnEditarProveedor.Name = "btnEditarProveedor";
             btnEditarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            btnEditarProveedor.Size = new Size(73, 64);
+            btnEditarProveedor.Size = new Size(77, 85);
             btnEditarProveedor.TabIndex = 1;
             btnEditarProveedor.Text = "Editar";
-            btnEditarProveedor.TextOffset = new Point(-13, 22);
+            btnEditarProveedor.TextOffset = new Point(-11, 25);
             // 
             // btnAgregarProveedor
             // 
@@ -283,15 +294,16 @@
             btnAgregarProveedor.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnAgregarProveedor.ForeColor = Color.Black;
             btnAgregarProveedor.Image = Properties.Resources.agregarNEGRO1;
-            btnAgregarProveedor.ImageOffset = new Point(13, -7);
+            btnAgregarProveedor.ImageOffset = new Point(18, -7);
             btnAgregarProveedor.ImageSize = new Size(55, 55);
-            btnAgregarProveedor.Location = new Point(476, 4);
+            btnAgregarProveedor.Location = new Point(543, 5);
+            btnAgregarProveedor.Margin = new Padding(3, 4, 3, 4);
             btnAgregarProveedor.Name = "btnAgregarProveedor";
             btnAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            btnAgregarProveedor.Size = new Size(73, 64);
+            btnAgregarProveedor.Size = new Size(84, 85);
             btnAgregarProveedor.TabIndex = 0;
             btnAgregarProveedor.Text = "Agregar";
-            btnAgregarProveedor.TextOffset = new Point(-13, 22);
+            btnAgregarProveedor.TextOffset = new Point(-11, 25);
             btnAgregarProveedor.Click += btnAgregarProveedor_Click;
             // 
             // PanelDGVProveedor
@@ -300,11 +312,12 @@
             PanelDGVProveedor.Controls.Add(dgvProveedor);
             PanelDGVProveedor.CustomizableEdges = customizableEdges18;
             PanelDGVProveedor.Dock = DockStyle.Fill;
-            PanelDGVProveedor.Location = new Point(0, 143);
+            PanelDGVProveedor.Location = new Point(0, 190);
+            PanelDGVProveedor.Margin = new Padding(3, 4, 3, 4);
             PanelDGVProveedor.Name = "PanelDGVProveedor";
-            PanelDGVProveedor.Padding = new Padding(6);
+            PanelDGVProveedor.Padding = new Padding(7, 8, 7, 8);
             PanelDGVProveedor.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            PanelDGVProveedor.Size = new Size(1145, 521);
+            PanelDGVProveedor.Size = new Size(1309, 695);
             PanelDGVProveedor.TabIndex = 4;
             // 
             // dgvProveedor
@@ -334,13 +347,16 @@
             dgvProveedor.DefaultCellStyle = dataGridViewCellStyle3;
             dgvProveedor.Dock = DockStyle.Fill;
             dgvProveedor.GridColor = Color.FromArgb(231, 229, 255);
-            dgvProveedor.Location = new Point(6, 6);
+            dgvProveedor.Location = new Point(7, 8);
+            dgvProveedor.Margin = new Padding(3, 4, 3, 4);
             dgvProveedor.Name = "dgvProveedor";
             dgvProveedor.ReadOnly = true;
             dgvProveedor.RowHeadersVisible = false;
+            dgvProveedor.RowHeadersWidth = 51;
             dataGridViewCellStyle4.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dgvProveedor.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            dgvProveedor.Size = new Size(1133, 509);
+            dgvProveedor.RowTemplate.Height = 25;
+            dgvProveedor.Size = new Size(1295, 679);
             dgvProveedor.TabIndex = 0;
             dgvProveedor.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvProveedor.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -366,14 +382,15 @@
             // 
             // ProveedoresUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(PanelDGVProveedor);
             Controls.Add(PanelBotonesAccion);
             Controls.Add(panelHeader);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ProveedoresUC";
-            Size = new Size(1145, 664);
+            Size = new Size(1309, 885);
             panelHeader.ResumeLayout(false);
             panelHeader.PerformLayout();
             PanelProveedores.ResumeLayout(false);

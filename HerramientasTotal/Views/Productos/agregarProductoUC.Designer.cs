@@ -96,13 +96,14 @@
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
+            panelHeader.Margin = new Padding(3, 4, 3, 4);
             panelHeader.Name = "panelHeader";
-            panelHeader.Padding = new Padding(16, 12, 16, 12);
+            panelHeader.Padding = new Padding(18, 16, 18, 16);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
             panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges2;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(531, 70);
+            panelHeader.Size = new Size(607, 93);
             panelHeader.TabIndex = 2;
             // 
             // lblTitulo
@@ -110,9 +111,10 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(19, 20);
+            lblTitulo.Location = new Point(22, 27);
+            lblTitulo.Margin = new Padding(3, 4, 3, 4);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(189, 35);
+            lblTitulo.Size = new Size(238, 43);
             lblTitulo.TabIndex = 3;
             lblTitulo.Text = "Agregar producto";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
@@ -123,10 +125,11 @@
             imgAgregarProd.CustomizableEdges = customizableEdges3;
             imgAgregarProd.FillColor = Color.WhiteSmoke;
             imgAgregarProd.ImageRotate = 0F;
-            imgAgregarProd.Location = new Point(111, 76);
+            imgAgregarProd.Location = new Point(127, 101);
+            imgAgregarProd.Margin = new Padding(3, 4, 3, 4);
             imgAgregarProd.Name = "imgAgregarProd";
             imgAgregarProd.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            imgAgregarProd.Size = new Size(300, 200);
+            imgAgregarProd.Size = new Size(343, 266);
             imgAgregarProd.TabIndex = 3;
             imgAgregarProd.TabStop = false;
             // 
@@ -145,11 +148,11 @@
             btnProductos.ForeColor = Color.WhiteSmoke;
             btnProductos.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnProductos.ImageSize = new Size(25, 25);
-            btnProductos.Location = new Point(175, 279);
-            btnProductos.Margin = new Padding(55);
+            btnProductos.Location = new Point(200, 372);
+            btnProductos.Margin = new Padding(63, 73, 63, 73);
             btnProductos.Name = "btnProductos";
             btnProductos.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnProductos.Size = new Size(173, 30);
+            btnProductos.Size = new Size(198, 40);
             btnProductos.TabIndex = 24;
             btnProductos.Text = "Elegir imagen";
             btnProductos.Click += btnProductos_Click;
@@ -169,11 +172,11 @@
             btnAgregarProducto.ForeColor = Color.WhiteSmoke;
             btnAgregarProducto.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnAgregarProducto.ImageSize = new Size(25, 25);
-            btnAgregarProducto.Location = new Point(44, 601);
-            btnAgregarProducto.Margin = new Padding(55);
+            btnAgregarProducto.Location = new Point(50, 801);
+            btnAgregarProducto.Margin = new Padding(63, 73, 63, 73);
             btnAgregarProducto.Name = "btnAgregarProducto";
             btnAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnAgregarProducto.Size = new Size(173, 30);
+            btnAgregarProducto.Size = new Size(198, 40);
             btnAgregarProducto.TabIndex = 25;
             btnAgregarProducto.Text = "Agregar";
             btnAgregarProducto.Click += btnAgregarProducto_Click;
@@ -193,11 +196,11 @@
             btnCancelarAgregarProducto.ForeColor = Color.WhiteSmoke;
             btnCancelarAgregarProducto.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCancelarAgregarProducto.ImageSize = new Size(25, 25);
-            btnCancelarAgregarProducto.Location = new Point(305, 601);
-            btnCancelarAgregarProducto.Margin = new Padding(55);
+            btnCancelarAgregarProducto.Location = new Point(349, 801);
+            btnCancelarAgregarProducto.Margin = new Padding(63, 73, 63, 73);
             btnCancelarAgregarProducto.Name = "btnCancelarAgregarProducto";
             btnCancelarAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnCancelarAgregarProducto.Size = new Size(173, 30);
+            btnCancelarAgregarProducto.Size = new Size(198, 40);
             btnCancelarAgregarProducto.TabIndex = 26;
             btnCancelarAgregarProducto.Text = "Cancelar";
             btnCancelarAgregarProducto.Click += btnCancelarAgregarProducto_Click;
@@ -206,9 +209,10 @@
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel1.Location = new Point(3, 335);
+            guna2HtmlLabel1.Location = new Point(3, 447);
+            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(48, 21);
+            guna2HtmlLabel1.Size = new Size(57, 26);
             guna2HtmlLabel1.TabIndex = 27;
             guna2HtmlLabel1.Text = "Código:";
             // 
@@ -223,14 +227,14 @@
             txtCodigo.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtCodigo.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtCodigo.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtCodigo.Location = new Point(76, 327);
-            txtCodigo.Margin = new Padding(2, 3, 2, 3);
+            txtCodigo.Location = new Point(87, 436);
+            txtCodigo.Margin = new Padding(2, 4, 2, 4);
             txtCodigo.Name = "txtCodigo";
             txtCodigo.PlaceholderText = "";
             txtCodigo.ReadOnly = true;
             txtCodigo.SelectedText = "";
             txtCodigo.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            txtCodigo.Size = new Size(56, 36);
+            txtCodigo.Size = new Size(64, 48);
             txtCodigo.TabIndex = 28;
             // 
             // txtNombreProductoAgregar
@@ -244,22 +248,23 @@
             txtNombreProductoAgregar.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtNombreProductoAgregar.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtNombreProductoAgregar.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNombreProductoAgregar.Location = new Point(76, 369);
-            txtNombreProductoAgregar.Margin = new Padding(2, 3, 2, 3);
+            txtNombreProductoAgregar.Location = new Point(87, 492);
+            txtNombreProductoAgregar.Margin = new Padding(2, 4, 2, 4);
             txtNombreProductoAgregar.Name = "txtNombreProductoAgregar";
             txtNombreProductoAgregar.PlaceholderText = "";
             txtNombreProductoAgregar.SelectedText = "";
             txtNombreProductoAgregar.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            txtNombreProductoAgregar.Size = new Size(141, 36);
+            txtNombreProductoAgregar.Size = new Size(161, 48);
             txtNombreProductoAgregar.TabIndex = 30;
             // 
             // guna2HtmlLabel2
             // 
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel2.Location = new Point(3, 377);
+            guna2HtmlLabel2.Location = new Point(3, 503);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(55, 21);
+            guna2HtmlLabel2.Size = new Size(67, 26);
             guna2HtmlLabel2.TabIndex = 29;
             guna2HtmlLabel2.Text = "Nombre:";
             // 
@@ -267,9 +272,10 @@
             // 
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel3.Location = new Point(3, 418);
+            guna2HtmlLabel3.Location = new Point(3, 557);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(67, 21);
+            guna2HtmlLabel3.Size = new Size(79, 26);
             guna2HtmlLabel3.TabIndex = 32;
             guna2HtmlLabel3.Text = "Categoría:";
             // 
@@ -284,10 +290,11 @@
             cmbAgregarProductoCategoria.Font = new Font("Bahnschrift SemiCondensed", 10F);
             cmbAgregarProductoCategoria.ForeColor = Color.FromArgb(68, 88, 112);
             cmbAgregarProductoCategoria.ItemHeight = 30;
-            cmbAgregarProductoCategoria.Location = new Point(76, 411);
+            cmbAgregarProductoCategoria.Location = new Point(87, 548);
+            cmbAgregarProductoCategoria.Margin = new Padding(3, 4, 3, 4);
             cmbAgregarProductoCategoria.Name = "cmbAgregarProductoCategoria";
             cmbAgregarProductoCategoria.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            cmbAgregarProductoCategoria.Size = new Size(141, 36);
+            cmbAgregarProductoCategoria.Size = new Size(161, 36);
             cmbAgregarProductoCategoria.TabIndex = 34;
             // 
             // txtStockAgregarProducto
@@ -301,22 +308,23 @@
             txtStockAgregarProducto.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtStockAgregarProducto.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtStockAgregarProducto.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtStockAgregarProducto.Location = new Point(75, 453);
-            txtStockAgregarProducto.Margin = new Padding(2, 3, 2, 3);
+            txtStockAgregarProducto.Location = new Point(86, 604);
+            txtStockAgregarProducto.Margin = new Padding(2, 4, 2, 4);
             txtStockAgregarProducto.Name = "txtStockAgregarProducto";
             txtStockAgregarProducto.PlaceholderText = "";
             txtStockAgregarProducto.SelectedText = "";
             txtStockAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            txtStockAgregarProducto.Size = new Size(141, 36);
+            txtStockAgregarProducto.Size = new Size(161, 48);
             txtStockAgregarProducto.TabIndex = 36;
             // 
             // guna2HtmlLabel4
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel4.Location = new Point(2, 461);
+            guna2HtmlLabel4.Location = new Point(2, 615);
+            guna2HtmlLabel4.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(40, 21);
+            guna2HtmlLabel4.Size = new Size(50, 26);
             guna2HtmlLabel4.TabIndex = 35;
             guna2HtmlLabel4.Text = "Stock:";
             // 
@@ -331,22 +339,23 @@
             txtCostoAgregarProducto.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtCostoAgregarProducto.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtCostoAgregarProducto.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtCostoAgregarProducto.Location = new Point(337, 327);
-            txtCostoAgregarProducto.Margin = new Padding(2, 3, 2, 3);
+            txtCostoAgregarProducto.Location = new Point(385, 436);
+            txtCostoAgregarProducto.Margin = new Padding(2, 4, 2, 4);
             txtCostoAgregarProducto.Name = "txtCostoAgregarProducto";
             txtCostoAgregarProducto.PlaceholderText = "";
             txtCostoAgregarProducto.SelectedText = "";
             txtCostoAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            txtCostoAgregarProducto.Size = new Size(141, 36);
+            txtCostoAgregarProducto.Size = new Size(161, 48);
             txtCostoAgregarProducto.TabIndex = 38;
             // 
             // guna2HtmlLabel5
             // 
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel5.Location = new Point(232, 335);
+            guna2HtmlLabel5.Location = new Point(265, 447);
+            guna2HtmlLabel5.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(40, 21);
+            guna2HtmlLabel5.Size = new Size(49, 26);
             guna2HtmlLabel5.TabIndex = 37;
             guna2HtmlLabel5.Text = "Costo:";
             // 
@@ -361,22 +370,23 @@
             txtPrecioVentaAgregarProducto.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtPrecioVentaAgregarProducto.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtPrecioVentaAgregarProducto.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPrecioVentaAgregarProducto.Location = new Point(337, 369);
-            txtPrecioVentaAgregarProducto.Margin = new Padding(2, 3, 2, 3);
+            txtPrecioVentaAgregarProducto.Location = new Point(385, 492);
+            txtPrecioVentaAgregarProducto.Margin = new Padding(2, 4, 2, 4);
             txtPrecioVentaAgregarProducto.Name = "txtPrecioVentaAgregarProducto";
             txtPrecioVentaAgregarProducto.PlaceholderText = "";
             txtPrecioVentaAgregarProducto.SelectedText = "";
             txtPrecioVentaAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            txtPrecioVentaAgregarProducto.Size = new Size(141, 36);
+            txtPrecioVentaAgregarProducto.Size = new Size(161, 48);
             txtPrecioVentaAgregarProducto.TabIndex = 40;
             // 
             // guna2HtmlLabel6
             // 
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel6.Location = new Point(232, 377);
+            guna2HtmlLabel6.Location = new Point(265, 503);
+            guna2HtmlLabel6.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(103, 21);
+            guna2HtmlLabel6.Size = new Size(127, 26);
             guna2HtmlLabel6.TabIndex = 39;
             guna2HtmlLabel6.Text = "Precio de venta:";
             // 
@@ -391,23 +401,24 @@
             txtGananciaAgregarProducto.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtGananciaAgregarProducto.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtGananciaAgregarProducto.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtGananciaAgregarProducto.Location = new Point(337, 411);
-            txtGananciaAgregarProducto.Margin = new Padding(2, 3, 2, 3);
+            txtGananciaAgregarProducto.Location = new Point(385, 548);
+            txtGananciaAgregarProducto.Margin = new Padding(2, 4, 2, 4);
             txtGananciaAgregarProducto.Name = "txtGananciaAgregarProducto";
             txtGananciaAgregarProducto.PlaceholderText = "";
             txtGananciaAgregarProducto.ReadOnly = true;
             txtGananciaAgregarProducto.SelectedText = "";
             txtGananciaAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            txtGananciaAgregarProducto.Size = new Size(141, 36);
+            txtGananciaAgregarProducto.Size = new Size(161, 48);
             txtGananciaAgregarProducto.TabIndex = 42;
             // 
             // guna2HtmlLabel7
             // 
             guna2HtmlLabel7.BackColor = Color.Transparent;
             guna2HtmlLabel7.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel7.Location = new Point(232, 418);
+            guna2HtmlLabel7.Location = new Point(265, 557);
+            guna2HtmlLabel7.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            guna2HtmlLabel7.Size = new Size(66, 21);
+            guna2HtmlLabel7.Size = new Size(78, 26);
             guna2HtmlLabel7.TabIndex = 41;
             guna2HtmlLabel7.Text = "Ganancia:";
             // 
@@ -422,19 +433,21 @@
             cmbProveedorAgregarProducto.Font = new Font("Bahnschrift SemiCondensed", 10F);
             cmbProveedorAgregarProducto.ForeColor = Color.FromArgb(68, 88, 112);
             cmbProveedorAgregarProducto.ItemHeight = 30;
-            cmbProveedorAgregarProducto.Location = new Point(337, 453);
+            cmbProveedorAgregarProducto.Location = new Point(385, 604);
+            cmbProveedorAgregarProducto.Margin = new Padding(3, 4, 3, 4);
             cmbProveedorAgregarProducto.Name = "cmbProveedorAgregarProducto";
             cmbProveedorAgregarProducto.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            cmbProveedorAgregarProducto.Size = new Size(141, 36);
+            cmbProveedorAgregarProducto.Size = new Size(161, 36);
             cmbProveedorAgregarProducto.TabIndex = 44;
             // 
             // guna2HtmlLabel8
             // 
             guna2HtmlLabel8.BackColor = Color.Transparent;
             guna2HtmlLabel8.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel8.Location = new Point(232, 461);
+            guna2HtmlLabel8.Location = new Point(265, 615);
+            guna2HtmlLabel8.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(69, 21);
+            guna2HtmlLabel8.Size = new Size(86, 26);
             guna2HtmlLabel8.TabIndex = 43;
             guna2HtmlLabel8.Text = "Proveedor:";
             // 
@@ -446,9 +459,10 @@
             // 
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel9.Location = new Point(86, 522);
+            guna2HtmlLabel9.Location = new Point(98, 696);
+            guna2HtmlLabel9.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            guna2HtmlLabel9.Size = new Size(113, 21);
+            guna2HtmlLabel9.Size = new Size(137, 26);
             guna2HtmlLabel9.TabIndex = 45;
             guna2HtmlLabel9.Text = "Fecha de ingreso:";
             // 
@@ -460,18 +474,19 @@
             guna2DateTimePicker1.Font = new Font("Bahnschrift SemiCondensed", 10F);
             guna2DateTimePicker1.ForeColor = Color.WhiteSmoke;
             guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(202, 515);
+            guna2DateTimePicker1.Location = new Point(241, 685);
+            guna2DateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2DateTimePicker1.Size = new Size(225, 36);
+            guna2DateTimePicker1.Size = new Size(271, 48);
             guna2DateTimePicker1.TabIndex = 46;
             guna2DateTimePicker1.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
             // 
             // agregarProductoUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             BorderStyle = BorderStyle.FixedSingle;
@@ -498,8 +513,9 @@
             Controls.Add(btnProductos);
             Controls.Add(imgAgregarProd);
             Controls.Add(panelHeader);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "agregarProductoUC";
-            Size = new Size(531, 643);
+            Size = new Size(607, 857);
             panelHeader.ResumeLayout(false);
             panelHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)imgAgregarProd).EndInit();

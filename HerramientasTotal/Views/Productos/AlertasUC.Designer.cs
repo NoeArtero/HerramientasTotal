@@ -97,13 +97,14 @@
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
+            panelHeader.Margin = new Padding(3, 4, 3, 4);
             panelHeader.Name = "panelHeader";
-            panelHeader.Padding = new Padding(16, 12, 16, 12);
+            panelHeader.Padding = new Padding(18, 16, 18, 16);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
             panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges11;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(1145, 70);
+            panelHeader.Size = new Size(1309, 93);
             panelHeader.TabIndex = 2;
             // 
             // cmbFiltrarAlert
@@ -118,10 +119,11 @@
             cmbFiltrarAlert.ForeColor = Color.DimGray;
             cmbFiltrarAlert.ItemHeight = 30;
             cmbFiltrarAlert.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbFiltrarAlert.Location = new Point(943, 20);
+            cmbFiltrarAlert.Location = new Point(1078, 27);
+            cmbFiltrarAlert.Margin = new Padding(3, 4, 3, 4);
             cmbFiltrarAlert.Name = "cmbFiltrarAlert";
             cmbFiltrarAlert.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            cmbFiltrarAlert.Size = new Size(183, 36);
+            cmbFiltrarAlert.Size = new Size(209, 36);
             cmbFiltrarAlert.TabIndex = 10;
             // 
             // guna2HtmlLabel7
@@ -129,9 +131,10 @@
             guna2HtmlLabel7.BackColor = Color.Transparent;
             guna2HtmlLabel7.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel7.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel7.Location = new Point(879, 24);
+            guna2HtmlLabel7.Location = new Point(1005, 32);
+            guna2HtmlLabel7.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            guna2HtmlLabel7.Size = new Size(54, 26);
+            guna2HtmlLabel7.Size = new Size(70, 32);
             guna2HtmlLabel7.TabIndex = 9;
             guna2HtmlLabel7.Text = "Filtrar:";
             guna2HtmlLabel7.TextAlignment = ContentAlignment.MiddleCenter;
@@ -148,10 +151,11 @@
             cmbBuscarEstadoAlert.ForeColor = Color.DimGray;
             cmbBuscarEstadoAlert.ItemHeight = 30;
             cmbBuscarEstadoAlert.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbBuscarEstadoAlert.Location = new Point(682, 20);
+            cmbBuscarEstadoAlert.Location = new Point(779, 27);
+            cmbBuscarEstadoAlert.Margin = new Padding(3, 4, 3, 4);
             cmbBuscarEstadoAlert.Name = "cmbBuscarEstadoAlert";
             cmbBuscarEstadoAlert.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            cmbBuscarEstadoAlert.Size = new Size(183, 36);
+            cmbBuscarEstadoAlert.Size = new Size(209, 36);
             cmbBuscarEstadoAlert.TabIndex = 8;
             // 
             // guna2HtmlLabel3
@@ -159,9 +163,10 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel3.Location = new Point(618, 24);
+            guna2HtmlLabel3.Location = new Point(706, 32);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(58, 26);
+            guna2HtmlLabel3.Size = new Size(74, 32);
             guna2HtmlLabel3.TabIndex = 7;
             guna2HtmlLabel3.Text = "Estado:";
             guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
@@ -178,10 +183,11 @@
             cmbCategoriaAlert.ForeColor = Color.DimGray;
             cmbCategoriaAlert.ItemHeight = 30;
             cmbCategoriaAlert.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbCategoriaAlert.Location = new Point(429, 20);
+            cmbCategoriaAlert.Location = new Point(490, 27);
+            cmbCategoriaAlert.Margin = new Padding(3, 4, 3, 4);
             cmbCategoriaAlert.Name = "cmbCategoriaAlert";
             cmbCategoriaAlert.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            cmbCategoriaAlert.Size = new Size(183, 36);
+            cmbCategoriaAlert.Size = new Size(209, 36);
             cmbCategoriaAlert.TabIndex = 6;
             // 
             // guna2HtmlLabel2
@@ -189,9 +195,10 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(344, 24);
+            guna2HtmlLabel2.Location = new Point(393, 32);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(79, 26);
+            guna2HtmlLabel2.Size = new Size(103, 32);
             guna2HtmlLabel2.TabIndex = 5;
             guna2HtmlLabel2.Text = "Categoría:";
             guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
@@ -208,13 +215,13 @@
             txtBuscarAlert.Font = new Font("Bahnschrift", 10F);
             txtBuscarAlert.ForeColor = Color.DimGray;
             txtBuscarAlert.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBuscarAlert.Location = new Point(177, 20);
-            txtBuscarAlert.Margin = new Padding(5);
+            txtBuscarAlert.Location = new Point(202, 27);
+            txtBuscarAlert.Margin = new Padding(6, 7, 6, 7);
             txtBuscarAlert.Name = "txtBuscarAlert";
             txtBuscarAlert.PlaceholderText = "Item, valor o código";
             txtBuscarAlert.SelectedText = "";
             txtBuscarAlert.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtBuscarAlert.Size = new Size(159, 36);
+            txtBuscarAlert.Size = new Size(182, 36);
             txtBuscarAlert.TabIndex = 4;
             // 
             // lblBuscar
@@ -222,9 +229,10 @@
             lblBuscar.BackColor = Color.Transparent;
             lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblBuscar.ForeColor = Color.Gainsboro;
-            lblBuscar.Location = new Point(108, 24);
+            lblBuscar.Location = new Point(117, 31);
+            lblBuscar.Margin = new Padding(3, 4, 3, 4);
             lblBuscar.Name = "lblBuscar";
-            lblBuscar.Size = new Size(61, 26);
+            lblBuscar.Size = new Size(76, 32);
             lblBuscar.TabIndex = 3;
             lblBuscar.Text = "Buscar: ";
             lblBuscar.TextAlignment = ContentAlignment.MiddleCenter;
@@ -234,13 +242,14 @@
             guna2Shapes1.BackColor = Color.Transparent;
             guna2Shapes1.BorderColor = Color.White;
             guna2Shapes1.FillColor = Color.White;
-            guna2Shapes1.Location = new Point(89, 0);
+            guna2Shapes1.Location = new Point(102, 0);
+            guna2Shapes1.Margin = new Padding(3, 4, 3, 4);
             guna2Shapes1.Name = "guna2Shapes1";
             guna2Shapes1.PolygonSides = 2;
             guna2Shapes1.PolygonSkip = 1;
             guna2Shapes1.Rotate = 0F;
             guna2Shapes1.RoundedEdges = customizableEdges9;
-            guna2Shapes1.Size = new Size(19, 70);
+            guna2Shapes1.Size = new Size(22, 93);
             guna2Shapes1.TabIndex = 2;
             guna2Shapes1.UseTransparentBackground = true;
             guna2Shapes1.Zoom = 80;
@@ -250,15 +259,17 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(3, 15);
+            lblTitulo.Location = new Point(3, 20);
+            lblTitulo.Margin = new Padding(3, 4, 3, 4);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(80, 35);
+            lblTitulo.Size = new Size(100, 43);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Alertas";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // PanelEstados
             // 
+            PanelEstados.BackColor = Color.White;
             PanelEstados.Controls.Add(lblTotal);
             PanelEstados.Controls.Add(lblSuficiente);
             PanelEstados.Controls.Add(lblBajos);
@@ -266,10 +277,11 @@
             PanelEstados.Controls.Add(lblCriticos);
             PanelEstados.CustomizableEdges = customizableEdges12;
             PanelEstados.Dock = DockStyle.Top;
-            PanelEstados.Location = new Point(0, 70);
+            PanelEstados.Location = new Point(0, 93);
+            PanelEstados.Margin = new Padding(3, 4, 3, 4);
             PanelEstados.Name = "PanelEstados";
             PanelEstados.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            PanelEstados.Size = new Size(1145, 69);
+            PanelEstados.Size = new Size(1309, 92);
             PanelEstados.TabIndex = 3;
             // 
             // lblTotal
@@ -278,9 +290,10 @@
             lblTotal.BorderStyle = BorderStyle.FixedSingle;
             lblTotal.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTotal.ForeColor = Color.Gainsboro;
-            lblTotal.Location = new Point(799, 25);
+            lblTotal.Location = new Point(913, 33);
+            lblTotal.Margin = new Padding(3, 4, 3, 4);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(46, 28);
+            lblTotal.Size = new Size(58, 34);
             lblTotal.TabIndex = 11;
             lblTotal.Text = "Total:";
             lblTotal.TextAlignment = ContentAlignment.MiddleCenter;
@@ -291,9 +304,10 @@
             lblSuficiente.BorderStyle = BorderStyle.FixedSingle;
             lblSuficiente.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSuficiente.ForeColor = SystemColors.ControlDarkDark;
-            lblSuficiente.Location = new Point(166, 25);
+            lblSuficiente.Location = new Point(190, 33);
+            lblSuficiente.Margin = new Padding(3, 4, 3, 4);
             lblSuficiente.Name = "lblSuficiente";
-            lblSuficiente.Size = new Size(94, 28);
+            lblSuficiente.Size = new Size(119, 34);
             lblSuficiente.TabIndex = 12;
             lblSuficiente.Text = "Suficientes:";
             lblSuficiente.TextAlignment = ContentAlignment.TopCenter;
@@ -304,9 +318,10 @@
             lblBajos.BorderStyle = BorderStyle.FixedSingle;
             lblBajos.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblBajos.ForeColor = SystemColors.ControlDarkDark;
-            lblBajos.Location = new Point(355, 25);
+            lblBajos.Location = new Point(406, 33);
+            lblBajos.Margin = new Padding(3, 4, 3, 4);
             lblBajos.Name = "lblBajos";
-            lblBajos.Size = new Size(51, 28);
+            lblBajos.Size = new Size(64, 34);
             lblBajos.TabIndex = 11;
             lblBajos.Text = "Bajos:";
             lblBajos.TextAlignment = ContentAlignment.TopCenter;
@@ -317,9 +332,10 @@
             lblAgotados.BorderStyle = BorderStyle.FixedSingle;
             lblAgotados.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAgotados.ForeColor = SystemColors.ControlDarkDark;
-            lblAgotados.Location = new Point(640, 25);
+            lblAgotados.Location = new Point(731, 33);
+            lblAgotados.Margin = new Padding(3, 4, 3, 4);
             lblAgotados.Name = "lblAgotados";
-            lblAgotados.Size = new Size(79, 28);
+            lblAgotados.Size = new Size(102, 34);
             lblAgotados.TabIndex = 9;
             lblAgotados.Text = "Agotados:";
             lblAgotados.TextAlignment = ContentAlignment.MiddleCenter;
@@ -330,9 +346,10 @@
             lblCriticos.BorderStyle = BorderStyle.FixedSingle;
             lblCriticos.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblCriticos.ForeColor = SystemColors.ControlDarkDark;
-            lblCriticos.Location = new Point(487, 25);
+            lblCriticos.Location = new Point(557, 33);
+            lblCriticos.Margin = new Padding(3, 4, 3, 4);
             lblCriticos.Name = "lblCriticos";
-            lblCriticos.Size = new Size(66, 28);
+            lblCriticos.Size = new Size(85, 34);
             lblCriticos.TabIndex = 10;
             lblCriticos.Text = "Criticos:";
             lblCriticos.TextAlignment = ContentAlignment.TopCenter;
@@ -342,10 +359,11 @@
             guna2Panel2.Controls.Add(dgvProductosAlert);
             guna2Panel2.CustomizableEdges = customizableEdges14;
             guna2Panel2.Dock = DockStyle.Fill;
-            guna2Panel2.Location = new Point(0, 139);
+            guna2Panel2.Location = new Point(0, 185);
+            guna2Panel2.Margin = new Padding(3, 4, 3, 4);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            guna2Panel2.Size = new Size(1145, 525);
+            guna2Panel2.Size = new Size(1309, 700);
             guna2Panel2.TabIndex = 4;
             // 
             // dgvProductosAlert
@@ -377,12 +395,15 @@
             dgvProductosAlert.Dock = DockStyle.Fill;
             dgvProductosAlert.GridColor = Color.FromArgb(231, 229, 255);
             dgvProductosAlert.Location = new Point(0, 0);
+            dgvProductosAlert.Margin = new Padding(3, 4, 3, 4);
             dgvProductosAlert.Name = "dgvProductosAlert";
             dgvProductosAlert.ReadOnly = true;
             dgvProductosAlert.RowHeadersVisible = false;
+            dgvProductosAlert.RowHeadersWidth = 51;
             dataGridViewCellStyle4.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dgvProductosAlert.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            dgvProductosAlert.Size = new Size(1145, 525);
+            dgvProductosAlert.RowTemplate.Height = 25;
+            dgvProductosAlert.Size = new Size(1309, 700);
             dgvProductosAlert.TabIndex = 1;
             dgvProductosAlert.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvProductosAlert.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -419,6 +440,7 @@
             // 
             codigo.DataPropertyName = "Codigo";
             codigo.HeaderText = "Código";
+            codigo.MinimumWidth = 6;
             codigo.Name = "codigo";
             codigo.ReadOnly = true;
             codigo.Resizable = DataGridViewTriState.True;
@@ -428,6 +450,7 @@
             // 
             nProducto.DataPropertyName = "Nombre";
             nProducto.HeaderText = "Nombre";
+            nProducto.MinimumWidth = 6;
             nProducto.Name = "nProducto";
             nProducto.ReadOnly = true;
             nProducto.Resizable = DataGridViewTriState.True;
@@ -437,6 +460,7 @@
             // 
             catProd.DataPropertyName = "Categoria";
             catProd.HeaderText = "Categoría";
+            catProd.MinimumWidth = 6;
             catProd.Name = "catProd";
             catProd.ReadOnly = true;
             // 
@@ -444,6 +468,7 @@
             // 
             stockProducto.DataPropertyName = "Stock";
             stockProducto.HeaderText = "Stock";
+            stockProducto.MinimumWidth = 6;
             stockProducto.Name = "stockProducto";
             stockProducto.ReadOnly = true;
             // 
@@ -451,6 +476,7 @@
             // 
             proveedorProducto.DataPropertyName = "Proveedor";
             proveedorProducto.HeaderText = "Proveedor";
+            proveedorProducto.MinimumWidth = 6;
             proveedorProducto.Name = "proveedorProducto";
             proveedorProducto.ReadOnly = true;
             // 
@@ -458,6 +484,7 @@
             // 
             fechaIngreso.DataPropertyName = "FechaIngreso";
             fechaIngreso.HeaderText = "F. de ingreso";
+            fechaIngreso.MinimumWidth = 6;
             fechaIngreso.Name = "fechaIngreso";
             fechaIngreso.ReadOnly = true;
             // 
@@ -465,18 +492,20 @@
             // 
             Estado.DataPropertyName = "EstadoStock";
             Estado.HeaderText = "Estado";
+            Estado.MinimumWidth = 6;
             Estado.Name = "Estado";
             Estado.ReadOnly = true;
             // 
             // AlertasUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(guna2Panel2);
             Controls.Add(PanelEstados);
             Controls.Add(panelHeader);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AlertasUC";
-            Size = new Size(1145, 664);
+            Size = new Size(1309, 885);
             panelHeader.ResumeLayout(false);
             panelHeader.PerformLayout();
             PanelEstados.ResumeLayout(false);

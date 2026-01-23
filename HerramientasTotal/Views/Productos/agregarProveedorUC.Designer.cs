@@ -88,12 +88,13 @@
             dtpIngresoProveedorAgregar.Font = new Font("Bahnschrift SemiCondensed", 10F);
             dtpIngresoProveedorAgregar.ForeColor = Color.WhiteSmoke;
             dtpIngresoProveedorAgregar.Format = DateTimePickerFormat.Long;
-            dtpIngresoProveedorAgregar.Location = new Point(342, 417);
+            dtpIngresoProveedorAgregar.Location = new Point(425, 556);
+            dtpIngresoProveedorAgregar.Margin = new Padding(3, 4, 3, 4);
             dtpIngresoProveedorAgregar.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpIngresoProveedorAgregar.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpIngresoProveedorAgregar.Name = "dtpIngresoProveedorAgregar";
             dtpIngresoProveedorAgregar.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            dtpIngresoProveedorAgregar.Size = new Size(201, 36);
+            dtpIngresoProveedorAgregar.Size = new Size(222, 48);
             dtpIngresoProveedorAgregar.TabIndex = 69;
             dtpIngresoProveedorAgregar.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
             // 
@@ -105,9 +106,10 @@
             // 
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel9.Location = new Point(223, 425);
+            guna2HtmlLabel9.Location = new Point(255, 567);
+            guna2HtmlLabel9.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            guna2HtmlLabel9.Size = new Size(113, 21);
+            guna2HtmlLabel9.Size = new Size(137, 26);
             guna2HtmlLabel9.TabIndex = 68;
             guna2HtmlLabel9.Text = "Fecha de ingreso:";
             // 
@@ -122,19 +124,21 @@
             cmbEstadoAgregarProveedor.Font = new Font("Bahnschrift SemiCondensed", 10F);
             cmbEstadoAgregarProveedor.ForeColor = Color.FromArgb(68, 88, 112);
             cmbEstadoAgregarProveedor.ItemHeight = 30;
-            cmbEstadoAgregarProveedor.Location = new Point(362, 375);
+            cmbEstadoAgregarProveedor.Location = new Point(425, 501);
+            cmbEstadoAgregarProveedor.Margin = new Padding(3, 4, 3, 4);
             cmbEstadoAgregarProveedor.Name = "cmbEstadoAgregarProveedor";
             cmbEstadoAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            cmbEstadoAgregarProveedor.Size = new Size(181, 36);
+            cmbEstadoAgregarProveedor.Size = new Size(222, 36);
             cmbEstadoAgregarProveedor.TabIndex = 67;
             // 
             // guna2HtmlLabel8
             // 
             guna2HtmlLabel8.BackColor = Color.Transparent;
             guna2HtmlLabel8.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel8.Location = new Point(222, 383);
+            guna2HtmlLabel8.Location = new Point(254, 511);
+            guna2HtmlLabel8.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(49, 21);
+            guna2HtmlLabel8.Size = new Size(58, 26);
             guna2HtmlLabel8.TabIndex = 66;
             guna2HtmlLabel8.Text = "Estado:";
             // 
@@ -149,22 +153,23 @@
             txtPersonaContactoAgregarProveedor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtPersonaContactoAgregarProveedor.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtPersonaContactoAgregarProveedor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPersonaContactoAgregarProveedor.Location = new Point(362, 333);
-            txtPersonaContactoAgregarProveedor.Margin = new Padding(2, 3, 2, 3);
+            txtPersonaContactoAgregarProveedor.Location = new Point(425, 444);
+            txtPersonaContactoAgregarProveedor.Margin = new Padding(2, 4, 2, 4);
             txtPersonaContactoAgregarProveedor.Name = "txtPersonaContactoAgregarProveedor";
             txtPersonaContactoAgregarProveedor.PlaceholderText = "";
             txtPersonaContactoAgregarProveedor.SelectedText = "";
             txtPersonaContactoAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            txtPersonaContactoAgregarProveedor.Size = new Size(181, 36);
+            txtPersonaContactoAgregarProveedor.Size = new Size(222, 48);
             txtPersonaContactoAgregarProveedor.TabIndex = 63;
             // 
             // guna2HtmlLabel6
             // 
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel6.Location = new Point(223, 341);
+            guna2HtmlLabel6.Location = new Point(255, 455);
+            guna2HtmlLabel6.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(134, 21);
+            guna2HtmlLabel6.Size = new Size(165, 26);
             guna2HtmlLabel6.TabIndex = 62;
             guna2HtmlLabel6.Text = "Persona de contacto:";
             // 
@@ -179,22 +184,23 @@
             txtDireccionAgregarProveedor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtDireccionAgregarProveedor.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtDireccionAgregarProveedor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtDireccionAgregarProveedor.Location = new Point(76, 459);
-            txtDireccionAgregarProveedor.Margin = new Padding(2, 3, 2, 3);
+            txtDireccionAgregarProveedor.Location = new Point(87, 612);
+            txtDireccionAgregarProveedor.Margin = new Padding(2, 4, 2, 4);
             txtDireccionAgregarProveedor.Name = "txtDireccionAgregarProveedor";
             txtDireccionAgregarProveedor.PlaceholderText = "";
             txtDireccionAgregarProveedor.SelectedText = "";
             txtDireccionAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtDireccionAgregarProveedor.Size = new Size(141, 36);
+            txtDireccionAgregarProveedor.Size = new Size(161, 48);
             txtDireccionAgregarProveedor.TabIndex = 61;
             // 
             // guna2HtmlLabel5
             // 
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel5.Location = new Point(3, 467);
+            guna2HtmlLabel5.Location = new Point(3, 623);
+            guna2HtmlLabel5.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(65, 21);
+            guna2HtmlLabel5.Size = new Size(79, 26);
             guna2HtmlLabel5.TabIndex = 60;
             guna2HtmlLabel5.Text = "Dirección:";
             // 
@@ -202,9 +208,10 @@
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel4.Location = new Point(3, 425);
+            guna2HtmlLabel4.Location = new Point(3, 567);
+            guna2HtmlLabel4.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(58, 21);
+            guna2HtmlLabel4.Size = new Size(72, 26);
             guna2HtmlLabel4.TabIndex = 58;
             guna2HtmlLabel4.Text = "Telefono:";
             // 
@@ -219,22 +226,23 @@
             txtNombreProveedorAgregar.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtNombreProveedorAgregar.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtNombreProveedorAgregar.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNombreProveedorAgregar.Location = new Point(76, 375);
-            txtNombreProveedorAgregar.Margin = new Padding(2, 3, 2, 3);
+            txtNombreProveedorAgregar.Location = new Point(87, 500);
+            txtNombreProveedorAgregar.Margin = new Padding(2, 4, 2, 4);
             txtNombreProveedorAgregar.Name = "txtNombreProveedorAgregar";
             txtNombreProveedorAgregar.PlaceholderText = "";
             txtNombreProveedorAgregar.SelectedText = "";
             txtNombreProveedorAgregar.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            txtNombreProveedorAgregar.Size = new Size(141, 36);
+            txtNombreProveedorAgregar.Size = new Size(161, 48);
             txtNombreProveedorAgregar.TabIndex = 55;
             // 
             // guna2HtmlLabel2
             // 
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel2.Location = new Point(3, 383);
+            guna2HtmlLabel2.Location = new Point(3, 511);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(55, 21);
+            guna2HtmlLabel2.Size = new Size(67, 26);
             guna2HtmlLabel2.TabIndex = 54;
             guna2HtmlLabel2.Text = "Nombre:";
             // 
@@ -249,23 +257,24 @@
             txtCodigoProveedor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtCodigoProveedor.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtCodigoProveedor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtCodigoProveedor.Location = new Point(76, 333);
-            txtCodigoProveedor.Margin = new Padding(2, 3, 2, 3);
+            txtCodigoProveedor.Location = new Point(87, 444);
+            txtCodigoProveedor.Margin = new Padding(2, 4, 2, 4);
             txtCodigoProveedor.Name = "txtCodigoProveedor";
             txtCodigoProveedor.PlaceholderText = "";
             txtCodigoProveedor.ReadOnly = true;
             txtCodigoProveedor.SelectedText = "";
             txtCodigoProveedor.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            txtCodigoProveedor.Size = new Size(56, 36);
+            txtCodigoProveedor.Size = new Size(64, 48);
             txtCodigoProveedor.TabIndex = 53;
             // 
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel1.Location = new Point(3, 341);
+            guna2HtmlLabel1.Location = new Point(3, 455);
+            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(48, 21);
+            guna2HtmlLabel1.Size = new Size(57, 26);
             guna2HtmlLabel1.TabIndex = 52;
             guna2HtmlLabel1.Text = "Código:";
             // 
@@ -284,11 +293,11 @@
             btnCancelarAgregarProveedor.ForeColor = Color.WhiteSmoke;
             btnCancelarAgregarProveedor.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnCancelarAgregarProveedor.ImageSize = new Size(25, 25);
-            btnCancelarAgregarProveedor.Location = new Point(313, 607);
-            btnCancelarAgregarProveedor.Margin = new Padding(55);
+            btnCancelarAgregarProveedor.Location = new Point(358, 809);
+            btnCancelarAgregarProveedor.Margin = new Padding(63, 73, 63, 73);
             btnCancelarAgregarProveedor.Name = "btnCancelarAgregarProveedor";
             btnCancelarAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnCancelarAgregarProveedor.Size = new Size(173, 30);
+            btnCancelarAgregarProveedor.Size = new Size(198, 40);
             btnCancelarAgregarProveedor.TabIndex = 51;
             btnCancelarAgregarProveedor.Text = "Cancelar";
             btnCancelarAgregarProveedor.Click += btnCancelarAgregarProveedor_Click;
@@ -308,11 +317,11 @@
             btnAgregarProveedor.ForeColor = Color.WhiteSmoke;
             btnAgregarProveedor.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnAgregarProveedor.ImageSize = new Size(25, 25);
-            btnAgregarProveedor.Location = new Point(52, 607);
-            btnAgregarProveedor.Margin = new Padding(55);
+            btnAgregarProveedor.Location = new Point(59, 809);
+            btnAgregarProveedor.Margin = new Padding(63, 73, 63, 73);
             btnAgregarProveedor.Name = "btnAgregarProveedor";
             btnAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnAgregarProveedor.Size = new Size(173, 30);
+            btnAgregarProveedor.Size = new Size(198, 40);
             btnAgregarProveedor.TabIndex = 50;
             btnAgregarProveedor.Text = "Agregar";
             btnAgregarProveedor.Click += btnAgregarProveedor_Click;
@@ -332,11 +341,11 @@
             btnElegirImagenProveedor.ForeColor = Color.WhiteSmoke;
             btnElegirImagenProveedor.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             btnElegirImagenProveedor.ImageSize = new Size(25, 25);
-            btnElegirImagenProveedor.Location = new Point(191, 285);
-            btnElegirImagenProveedor.Margin = new Padding(55);
+            btnElegirImagenProveedor.Location = new Point(218, 380);
+            btnElegirImagenProveedor.Margin = new Padding(63, 73, 63, 73);
             btnElegirImagenProveedor.Name = "btnElegirImagenProveedor";
             btnElegirImagenProveedor.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnElegirImagenProveedor.Size = new Size(173, 30);
+            btnElegirImagenProveedor.Size = new Size(198, 40);
             btnElegirImagenProveedor.TabIndex = 49;
             btnElegirImagenProveedor.Text = "Elegir imagen";
             btnElegirImagenProveedor.Click += btnElegirImagenProveedor_Click;
@@ -347,10 +356,11 @@
             imgAgregarProveedor.CustomizableEdges = customizableEdges21;
             imgAgregarProveedor.FillColor = Color.WhiteSmoke;
             imgAgregarProveedor.ImageRotate = 0F;
-            imgAgregarProveedor.Location = new Point(127, 82);
+            imgAgregarProveedor.Location = new Point(145, 109);
+            imgAgregarProveedor.Margin = new Padding(3, 4, 3, 4);
             imgAgregarProveedor.Name = "imgAgregarProveedor";
             imgAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            imgAgregarProveedor.Size = new Size(300, 200);
+            imgAgregarProveedor.Size = new Size(343, 266);
             imgAgregarProveedor.TabIndex = 48;
             imgAgregarProveedor.TabStop = false;
             // 
@@ -359,9 +369,10 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(35, 32);
+            lblTitulo.Location = new Point(40, 43);
+            lblTitulo.Margin = new Padding(3, 4, 3, 4);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(204, 35);
+            lblTitulo.Size = new Size(257, 43);
             lblTitulo.TabIndex = 3;
             lblTitulo.Text = "Agregar proveedor";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
@@ -374,13 +385,14 @@
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
+            panelHeader.Margin = new Padding(3, 4, 3, 4);
             panelHeader.Name = "panelHeader";
-            panelHeader.Padding = new Padding(16, 12, 16, 12);
+            panelHeader.Padding = new Padding(18, 16, 18, 16);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
             panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges24;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(544, 70);
+            panelHeader.Size = new Size(686, 93);
             panelHeader.TabIndex = 47;
             // 
             // txtNumeroAgregarProveedor
@@ -394,18 +406,18 @@
             txtNumeroAgregarProveedor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtNumeroAgregarProveedor.Font = new Font("Bahnschrift SemiCondensed", 10F);
             txtNumeroAgregarProveedor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNumeroAgregarProveedor.Location = new Point(76, 417);
-            txtNumeroAgregarProveedor.Margin = new Padding(2, 3, 2, 3);
+            txtNumeroAgregarProveedor.Location = new Point(87, 556);
+            txtNumeroAgregarProveedor.Margin = new Padding(2, 4, 2, 4);
             txtNumeroAgregarProveedor.Name = "txtNumeroAgregarProveedor";
             txtNumeroAgregarProveedor.PlaceholderText = "";
             txtNumeroAgregarProveedor.SelectedText = "";
             txtNumeroAgregarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            txtNumeroAgregarProveedor.Size = new Size(141, 36);
+            txtNumeroAgregarProveedor.Size = new Size(161, 48);
             txtNumeroAgregarProveedor.TabIndex = 59;
             // 
             // agregarProveedorUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             BorderStyle = BorderStyle.FixedSingle;
@@ -428,8 +440,9 @@
             Controls.Add(btnElegirImagenProveedor);
             Controls.Add(imgAgregarProveedor);
             Controls.Add(panelHeader);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "agregarProveedorUC";
-            Size = new Size(544, 641);
+            Size = new Size(686, 855);
             ((System.ComponentModel.ISupportInitialize)errorAgregarProveedor).EndInit();
             ((System.ComponentModel.ISupportInitialize)imgAgregarProveedor).EndInit();
             panelHeader.ResumeLayout(false);

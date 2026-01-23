@@ -135,7 +135,7 @@
             cmbBuscarProveedor.ForeColor = Color.DimGray;
             cmbBuscarProveedor.ItemHeight = 30;
             cmbBuscarProveedor.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbBuscarProveedor.Location = new Point(849, 27);
+            cmbBuscarProveedor.Location = new Point(866, 27);
             cmbBuscarProveedor.Margin = new Padding(3, 4, 3, 4);
             cmbBuscarProveedor.Name = "cmbBuscarProveedor";
             cmbBuscarProveedor.ShadowDecoration.CustomizableEdges = customizableEdges12;
@@ -147,7 +147,7 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel3.Location = new Point(750, 32);
+            guna2HtmlLabel3.Location = new Point(750, 27);
             guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             guna2HtmlLabel3.Size = new Size(110, 32);
@@ -167,7 +167,7 @@
             cmbCategoriaProducto.ForeColor = Color.DimGray;
             cmbCategoriaProducto.ItemHeight = 30;
             cmbCategoriaProducto.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbCategoriaProducto.Location = new Point(527, 27);
+            cmbCategoriaProducto.Location = new Point(539, 27);
             cmbCategoriaProducto.Margin = new Padding(3, 4, 3, 4);
             cmbCategoriaProducto.Name = "cmbCategoriaProducto";
             cmbCategoriaProducto.ShadowDecoration.CustomizableEdges = customizableEdges14;
@@ -179,7 +179,7 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(430, 32);
+            guna2HtmlLabel2.Location = new Point(434, 27);
             guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(103, 32);
@@ -199,13 +199,13 @@
             txtBuscarProd.Font = new Font("Bahnschrift", 10F);
             txtBuscarProd.ForeColor = Color.DimGray;
             txtBuscarProd.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBuscarProd.Location = new Point(239, 32);
+            txtBuscarProd.Location = new Point(252, 27);
             txtBuscarProd.Margin = new Padding(6, 7, 6, 7);
             txtBuscarProd.Name = "txtBuscarProd";
             txtBuscarProd.PlaceholderText = "Item, valor o código";
             txtBuscarProd.SelectedText = "";
             txtBuscarProd.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            txtBuscarProd.Size = new Size(182, 40);
+            txtBuscarProd.Size = new Size(182, 36);
             txtBuscarProd.TabIndex = 4;
             // 
             // lblBuscar
@@ -213,7 +213,7 @@
             lblBuscar.BackColor = Color.Transparent;
             lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblBuscar.ForeColor = Color.Gainsboro;
-            lblBuscar.Location = new Point(167, 32);
+            lblBuscar.Location = new Point(178, 27);
             lblBuscar.Margin = new Padding(3, 4, 3, 4);
             lblBuscar.Name = "lblBuscar";
             lblBuscar.Size = new Size(76, 32);
@@ -226,7 +226,7 @@
             guna2Shapes1.BackColor = Color.Transparent;
             guna2Shapes1.BorderColor = Color.White;
             guna2Shapes1.FillColor = Color.White;
-            guna2Shapes1.Location = new Point(138, 0);
+            guna2Shapes1.Location = new Point(150, 0);
             guna2Shapes1.Margin = new Padding(3, 4, 3, 4);
             guna2Shapes1.Name = "guna2Shapes1";
             guna2Shapes1.PolygonSides = 2;
@@ -336,10 +336,10 @@
             btnEliminarProducto.Margin = new Padding(3, 4, 3, 4);
             btnEliminarProducto.Name = "btnEliminarProducto";
             btnEliminarProducto.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnEliminarProducto.Size = new Size(85, 85);
+            btnEliminarProducto.Size = new Size(92, 85);
             btnEliminarProducto.TabIndex = 2;
             btnEliminarProducto.Text = "Eliminar";
-            btnEliminarProducto.TextOffset = new Point(-13, 22);
+            btnEliminarProducto.TextOffset = new Point(-15, 25);
             // 
             // btnEditarProducto
             // 
@@ -362,7 +362,7 @@
             btnEditarProducto.Size = new Size(83, 85);
             btnEditarProducto.TabIndex = 1;
             btnEditarProducto.Text = "Editar";
-            btnEditarProducto.TextOffset = new Point(-13, 22);
+            btnEditarProducto.TextOffset = new Point(-14, 25);
             // 
             // btnAgregarProducto
             // 
@@ -385,7 +385,7 @@
             btnAgregarProducto.Size = new Size(83, 85);
             btnAgregarProducto.TabIndex = 0;
             btnAgregarProducto.Text = "Agregar";
-            btnAgregarProducto.TextOffset = new Point(-13, 22);
+            btnAgregarProducto.TextOffset = new Point(-15, 25);
             btnAgregarProducto.Click += btnAgregarProducto_Click;
             // 
             // PanelDGVProd

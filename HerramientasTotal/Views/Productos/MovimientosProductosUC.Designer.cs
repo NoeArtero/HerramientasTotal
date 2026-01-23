@@ -85,10 +85,11 @@
             PanelBotonesAccion.Controls.Add(guna2HtmlLabel9);
             PanelBotonesAccion.CustomizableEdges = customizableEdges5;
             PanelBotonesAccion.Dock = DockStyle.Top;
-            PanelBotonesAccion.Location = new Point(0, 70);
+            PanelBotonesAccion.Location = new Point(0, 93);
+            PanelBotonesAccion.Margin = new Padding(3, 4, 3, 4);
             PanelBotonesAccion.Name = "PanelBotonesAccion";
             PanelBotonesAccion.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            PanelBotonesAccion.Size = new Size(948, 73);
+            PanelBotonesAccion.Size = new Size(1339, 97);
             PanelBotonesAccion.TabIndex = 4;
             // 
             // guna2DateTimePicker2
@@ -99,12 +100,13 @@
             guna2DateTimePicker2.Font = new Font("Bahnschrift SemiCondensed", 10F);
             guna2DateTimePicker2.ForeColor = Color.WhiteSmoke;
             guna2DateTimePicker2.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker2.Location = new Point(523, 20);
+            guna2DateTimePicker2.Location = new Point(598, 27);
+            guna2DateTimePicker2.Margin = new Padding(3, 4, 3, 4);
             guna2DateTimePicker2.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             guna2DateTimePicker2.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             guna2DateTimePicker2.Name = "guna2DateTimePicker2";
             guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2DateTimePicker2.Size = new Size(225, 36);
+            guna2DateTimePicker2.Size = new Size(257, 48);
             guna2DateTimePicker2.TabIndex = 50;
             guna2DateTimePicker2.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
             // 
@@ -112,9 +114,10 @@
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel4.Location = new Point(474, 27);
+            guna2HtmlLabel4.Location = new Point(542, 36);
+            guna2HtmlLabel4.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(43, 21);
+            guna2HtmlLabel4.Size = new Size(50, 26);
             guna2HtmlLabel4.TabIndex = 49;
             guna2HtmlLabel4.Text = "Hasta:";
             // 
@@ -126,12 +129,13 @@
             guna2DateTimePicker1.Font = new Font("Bahnschrift SemiCondensed", 10F);
             guna2DateTimePicker1.ForeColor = Color.WhiteSmoke;
             guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(215, 20);
+            guna2DateTimePicker1.Location = new Point(246, 27);
+            guna2DateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2DateTimePicker1.Size = new Size(225, 36);
+            guna2DateTimePicker1.Size = new Size(257, 48);
             guna2DateTimePicker1.TabIndex = 48;
             guna2DateTimePicker1.Value = new DateTime(2025, 12, 2, 12, 21, 30, 3);
             // 
@@ -139,9 +143,10 @@
             // 
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel9.Location = new Point(165, 27);
+            guna2HtmlLabel9.Location = new Point(189, 36);
+            guna2HtmlLabel9.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            guna2HtmlLabel9.Size = new Size(44, 21);
+            guna2HtmlLabel9.Size = new Size(53, 26);
             guna2HtmlLabel9.TabIndex = 47;
             guna2HtmlLabel9.Text = "Desde:";
             // 
@@ -160,13 +165,14 @@
             panelHeader.Dock = DockStyle.Top;
             panelHeader.FillColor = Color.FromArgb(28, 30, 68);
             panelHeader.Location = new Point(0, 0);
+            panelHeader.Margin = new Padding(3, 4, 3, 4);
             panelHeader.Name = "panelHeader";
-            panelHeader.Padding = new Padding(16, 12, 16, 12);
+            panelHeader.Padding = new Padding(18, 16, 18, 16);
             panelHeader.ShadowDecoration.BorderRadius = 5;
             panelHeader.ShadowDecoration.Color = Color.FromArgb(29, 27, 52);
             panelHeader.ShadowDecoration.CustomizableEdges = customizableEdges15;
             panelHeader.ShadowDecoration.Depth = 5;
-            panelHeader.Size = new Size(948, 70);
+            panelHeader.Size = new Size(1339, 93);
             panelHeader.TabIndex = 3;
             // 
             // cmbBuscarProveedorMovimiento
@@ -181,10 +187,11 @@
             cmbBuscarProveedorMovimiento.ForeColor = Color.DimGray;
             cmbBuscarProveedorMovimiento.ItemHeight = 30;
             cmbBuscarProveedorMovimiento.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbBuscarProveedorMovimiento.Location = new Point(740, 20);
+            cmbBuscarProveedorMovimiento.Location = new Point(950, 31);
+            cmbBuscarProveedorMovimiento.Margin = new Padding(3, 4, 3, 4);
             cmbBuscarProveedorMovimiento.Name = "cmbBuscarProveedorMovimiento";
             cmbBuscarProveedorMovimiento.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            cmbBuscarProveedorMovimiento.Size = new Size(183, 36);
+            cmbBuscarProveedorMovimiento.Size = new Size(209, 36);
             cmbBuscarProveedorMovimiento.TabIndex = 8;
             // 
             // guna2HtmlLabel3
@@ -192,9 +199,10 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel3.Location = new Point(651, 26);
+            guna2HtmlLabel3.Location = new Point(834, 35);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(86, 26);
+            guna2HtmlLabel3.Size = new Size(110, 32);
             guna2HtmlLabel3.TabIndex = 7;
             guna2HtmlLabel3.Text = "Proveedor:";
             guna2HtmlLabel3.TextAlignment = ContentAlignment.MiddleCenter;
@@ -211,10 +219,11 @@
             cmbCategoriaProductoMovimientos.ForeColor = Color.DimGray;
             cmbCategoriaProductoMovimientos.ItemHeight = 30;
             cmbCategoriaProductoMovimientos.ItemsAppearance.SelectedBackColor = Color.FromArgb(224, 224, 224);
-            cmbCategoriaProductoMovimientos.Location = new Point(463, 20);
+            cmbCategoriaProductoMovimientos.Location = new Point(615, 31);
+            cmbCategoriaProductoMovimientos.Margin = new Padding(3, 4, 3, 4);
             cmbCategoriaProductoMovimientos.Name = "cmbCategoriaProductoMovimientos";
             cmbCategoriaProductoMovimientos.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            cmbCategoriaProductoMovimientos.Size = new Size(183, 36);
+            cmbCategoriaProductoMovimientos.Size = new Size(209, 36);
             cmbCategoriaProductoMovimientos.TabIndex = 6;
             // 
             // guna2HtmlLabel2
@@ -222,9 +231,10 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.Gainsboro;
-            guna2HtmlLabel2.Location = new Point(382, 26);
+            guna2HtmlLabel2.Location = new Point(508, 35);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(79, 26);
+            guna2HtmlLabel2.Size = new Size(103, 32);
             guna2HtmlLabel2.TabIndex = 5;
             guna2HtmlLabel2.Text = "Categoría:";
             guna2HtmlLabel2.TextAlignment = ContentAlignment.MiddleCenter;
@@ -241,13 +251,13 @@
             txtBuscarProdMovimientos.Font = new Font("Bahnschrift", 10F);
             txtBuscarProdMovimientos.ForeColor = Color.DimGray;
             txtBuscarProdMovimientos.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBuscarProdMovimientos.Location = new Point(215, 20);
-            txtBuscarProdMovimientos.Margin = new Padding(5);
+            txtBuscarProdMovimientos.Location = new Point(317, 31);
+            txtBuscarProdMovimientos.Margin = new Padding(6, 7, 6, 7);
             txtBuscarProdMovimientos.Name = "txtBuscarProdMovimientos";
             txtBuscarProdMovimientos.PlaceholderText = "Item, valor o código";
             txtBuscarProdMovimientos.SelectedText = "";
             txtBuscarProdMovimientos.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            txtBuscarProdMovimientos.Size = new Size(159, 36);
+            txtBuscarProdMovimientos.Size = new Size(182, 36);
             txtBuscarProdMovimientos.TabIndex = 4;
             // 
             // lblBuscar
@@ -255,9 +265,10 @@
             lblBuscar.BackColor = Color.Transparent;
             lblBuscar.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblBuscar.ForeColor = Color.Gainsboro;
-            lblBuscar.Location = new Point(152, 26);
+            lblBuscar.Location = new Point(239, 35);
+            lblBuscar.Margin = new Padding(3, 4, 3, 4);
             lblBuscar.Name = "lblBuscar";
-            lblBuscar.Size = new Size(61, 26);
+            lblBuscar.Size = new Size(76, 32);
             lblBuscar.TabIndex = 3;
             lblBuscar.Text = "Buscar: ";
             lblBuscar.TextAlignment = ContentAlignment.MiddleCenter;
@@ -267,13 +278,14 @@
             guna2Shapes1.BackColor = Color.Transparent;
             guna2Shapes1.BorderColor = Color.White;
             guna2Shapes1.FillColor = Color.White;
-            guna2Shapes1.Location = new Point(134, 0);
+            guna2Shapes1.Location = new Point(183, 0);
+            guna2Shapes1.Margin = new Padding(3, 4, 3, 4);
             guna2Shapes1.Name = "guna2Shapes1";
             guna2Shapes1.PolygonSides = 2;
             guna2Shapes1.PolygonSkip = 1;
             guna2Shapes1.Rotate = 0F;
             guna2Shapes1.RoundedEdges = customizableEdges13;
-            guna2Shapes1.Size = new Size(19, 70);
+            guna2Shapes1.Size = new Size(22, 93);
             guna2Shapes1.TabIndex = 2;
             guna2Shapes1.UseTransparentBackground = true;
             guna2Shapes1.Zoom = 80;
@@ -283,9 +295,10 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Bahnschrift SemiCondensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.Gainsboro;
-            lblTitulo.Location = new Point(5, 18);
+            lblTitulo.Location = new Point(6, 24);
+            lblTitulo.Margin = new Padding(3, 4, 3, 4);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(134, 35);
+            lblTitulo.Size = new Size(171, 43);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "Movimientos";
             lblTitulo.TextAlignment = ContentAlignment.MiddleCenter;
@@ -318,13 +331,16 @@
             dgvProductosMovimientos.DefaultCellStyle = dataGridViewCellStyle3;
             dgvProductosMovimientos.Dock = DockStyle.Fill;
             dgvProductosMovimientos.GridColor = Color.FromArgb(231, 229, 255);
-            dgvProductosMovimientos.Location = new Point(0, 143);
+            dgvProductosMovimientos.Location = new Point(0, 190);
+            dgvProductosMovimientos.Margin = new Padding(3, 4, 3, 4);
             dgvProductosMovimientos.Name = "dgvProductosMovimientos";
             dgvProductosMovimientos.ReadOnly = true;
             dgvProductosMovimientos.RowHeadersVisible = false;
+            dgvProductosMovimientos.RowHeadersWidth = 51;
             dataGridViewCellStyle4.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dgvProductosMovimientos.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            dgvProductosMovimientos.Size = new Size(948, 521);
+            dgvProductosMovimientos.RowTemplate.Height = 25;
+            dgvProductosMovimientos.Size = new Size(1339, 695);
             dgvProductosMovimientos.TabIndex = 5;
             dgvProductosMovimientos.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvProductosMovimientos.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -360,6 +376,7 @@
             // 
             codigo.DataPropertyName = "Codigo";
             codigo.HeaderText = "Código";
+            codigo.MinimumWidth = 6;
             codigo.Name = "codigo";
             codigo.ReadOnly = true;
             codigo.Resizable = DataGridViewTriState.True;
@@ -369,6 +386,7 @@
             // 
             nProducto.DataPropertyName = "Nombre";
             nProducto.HeaderText = "Nombre";
+            nProducto.MinimumWidth = 6;
             nProducto.Name = "nProducto";
             nProducto.ReadOnly = true;
             nProducto.Resizable = DataGridViewTriState.True;
@@ -378,6 +396,7 @@
             // 
             catProd.DataPropertyName = "Categoria";
             catProd.HeaderText = "Categoría";
+            catProd.MinimumWidth = 6;
             catProd.Name = "catProd";
             catProd.ReadOnly = true;
             // 
@@ -385,6 +404,7 @@
             // 
             cantidadProducto.DataPropertyName = "Cantidad";
             cantidadProducto.HeaderText = "Cantidad";
+            cantidadProducto.MinimumWidth = 6;
             cantidadProducto.Name = "cantidadProducto";
             cantidadProducto.ReadOnly = true;
             // 
@@ -392,6 +412,7 @@
             // 
             costoProducto.DataPropertyName = "costo";
             costoProducto.HeaderText = "Costo";
+            costoProducto.MinimumWidth = 6;
             costoProducto.Name = "costoProducto";
             costoProducto.ReadOnly = true;
             // 
@@ -399,6 +420,7 @@
             // 
             gananciaProd.DataPropertyName = "Ganancia";
             gananciaProd.HeaderText = "Ganancia";
+            gananciaProd.MinimumWidth = 6;
             gananciaProd.Name = "gananciaProd";
             gananciaProd.ReadOnly = true;
             // 
@@ -406,6 +428,7 @@
             // 
             proveedorProducto.DataPropertyName = "Proveedor";
             proveedorProducto.HeaderText = "Proveedor";
+            proveedorProducto.MinimumWidth = 6;
             proveedorProducto.Name = "proveedorProducto";
             proveedorProducto.ReadOnly = true;
             // 
@@ -413,24 +436,27 @@
             // 
             fechaIngreso.DataPropertyName = "FechaIngreso";
             fechaIngreso.HeaderText = "F. de ingreso";
+            fechaIngreso.MinimumWidth = 6;
             fechaIngreso.Name = "fechaIngreso";
             fechaIngreso.ReadOnly = true;
             // 
             // FechaSalidaProd
             // 
             FechaSalidaProd.HeaderText = "F. de salida";
+            FechaSalidaProd.MinimumWidth = 6;
             FechaSalidaProd.Name = "FechaSalidaProd";
             FechaSalidaProd.ReadOnly = true;
             // 
             // MovimientosProductosUC
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(dgvProductosMovimientos);
             Controls.Add(PanelBotonesAccion);
             Controls.Add(panelHeader);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MovimientosProductosUC";
-            Size = new Size(948, 664);
+            Size = new Size(1339, 885);
             PanelBotonesAccion.ResumeLayout(false);
             PanelBotonesAccion.PerformLayout();
             panelHeader.ResumeLayout(false);

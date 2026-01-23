@@ -5,6 +5,7 @@ using HerramientasTotal.Views;
 using HerramientasTotal.Views.Productos;
 using HerramientasTotal.Extras;
 using HerramientasTotal.Views.Ingresos;
+using HerramientasTotal.Views.Ventas;
 
 
 namespace HerramientasTotal
@@ -171,8 +172,7 @@ namespace HerramientasTotal
             BotonSeleccionado(btnIngresos);
         }
 
-        private void guna2GradientButton6_Click(object sender, EventArgs e)
-        { }
+        
 
         private void btnAlertasStock_Click(object sender, EventArgs e)
         {
@@ -186,14 +186,18 @@ namespace HerramientasTotal
             BotonSeleccionado(btnProveedores);
         }
 
-        private void ViewHost_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
+        
         private void btnPedidosClientes_Click(object sender, EventArgs e)
         {
-            ShowView<ClientesUC>();          // tu UserControl de clientes
-            BotonSeleccionado(btnClientes);  // resalta el botón de menú
+            ShowView<ClientesUC>();          
+            BotonSeleccionado(btnClientes); 
+        }
+
+        private void guna2GradientButton5_Click(object sender, EventArgs e)
+        {
+            ShowView<ProductosVentaUC>();
+            BotonSeleccionado(btnVentasProductos);
         }
     }
 }

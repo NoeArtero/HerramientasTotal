@@ -28,6 +28,7 @@ namespace HerramientasTotal.Views
 
             components?.Add(clockTimer);
 
+            
 
 
             //SOLO SIGNIFICATIVO (AÚN NO ES OFICIAL QUE ESTE ES EL CÓDIGO)

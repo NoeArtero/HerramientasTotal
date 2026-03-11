@@ -75,7 +75,6 @@
             // 
             // panelHeader
             // 
-            panelHeader.AutoScroll = true;
             panelHeader.Controls.Add(cmbEstadoProveedor);
             panelHeader.Controls.Add(guna2HtmlLabel2);
             panelHeader.Controls.Add(txtBuscarProveedor);
@@ -204,7 +203,7 @@
             lblTotalProveedor.Location = new Point(26, 11);
             lblTotalProveedor.Margin = new Padding(3, 4, 3, 4);
             lblTotalProveedor.Name = "lblTotalProveedor";
-            lblTotalProveedor.Size = new Size(190, 39);
+            lblTotalProveedor.Size = new Size(190, 32);
             lblTotalProveedor.TabIndex = 3;
             lblTotalProveedor.Text = "N° de proveedores:";
             lblTotalProveedor.TextAlignment = ContentAlignment.MiddleRight;
